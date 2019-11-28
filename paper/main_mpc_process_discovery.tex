@@ -1,0 +1,147 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{paralist}
+\usepackage{subfig} 
+\usepackage{etoolbox}
+
+
+\hypersetup{
+	pdftoolbar=true,        % show Acrobat?s toolbar?
+	pdfmenubar=true,        % show Acrobat?s menu?
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Complex Event Processing under Constrained Resources},    % title
+	pdfauthor={},     % author
+	pdfsubject={},   % subject of the document
+	pdfcreator={},   % creator of the document
+	pdfproducer={}, % producer of the document
+	pdfkeywords={}, % list of keywords
+	pdfnewwindow=true,      % links in new window
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=Brown,          % color of internal links (change box color
+	%with
+	%linkbordercolor)
+	citecolor=OliveGreen,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=NavyBlue           % color of external links
+}
+
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$-$}
+
+\renewcommand*\sectionautorefname{Section}
+\renewcommand*\subsectionautorefname{Section}
+\renewcommand*\subsubsectionautorefname{Section}
+
+
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+	\apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Secure Multi-Party Computation for Inter-Organizational Process Mining}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Gamal Elkoumy\inst{1} \and
+Stephan A. Fahrenkrog-Petersen\inst{2}\and
+Marlon Dumas\inst{1} \and\\ Peeter Laud\inst{3} \and Alisa Pankova\inst{3} \and 
+Matthias Weildich\inst{2}}
+%
+\authorrunning{G. Elkoumy et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{University of Tartu, Tartu, Estonia \\
+	\email{\{gamal.elkoumy,marlon.dumas\}@ut.ee} \and
+Humboldt-Universität zu Berlin,  Berlin, Germany
+\email{\{fahrenks,weidlima\}@hu-berlin.de} \and 
+Cybernetica, Tartu, Estonia\\
+\email{\{peeter.laud,alisa.pankova\}@cyber.ee}
+}
+
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Process mining is a family of techniques for analysing business processes based 
+on event logs extracted from information systems. Mainstream process mining 
+tools are designed for intra-organizational settings, insofar as they assume 
+that an event log is available for processing as a whole. The use of such tools 
+for inter-organizational process analysis is hampered by the fact that such 
+processes involve independent parties who are unwilling to, or sometimes 
+legally prevented from, sharing detailed event logs with each other. In this 
+setting, this paper proposes an approach for constructing and querying a common 
+type of artefact used for process mining, namely the time-annotated 
+directly-follows graph~(DFG), over multiple event logs belonging to different 
+parties, in such a way that the parties do not share the event logs with each 
+other. The proposal leverages an existing platform for 
+secure multi-party computation, namely Sharemind. 
+%The paper shows that a direct 
+%implementation of a DFG construction algorithm in Sharemind suffers from 
+%scalability issues. 
+%To tackle this shortcoming, the paper proposes a 
+%divide-and-conquer approach, 
+%wherein the log is broken down into sub-logs that are processed in a 
+%map-reduce 
+%style. 
+Since a direct 
+implementation of DFG construction in Sharemind suffers from 
+scalability issues, the paper proposes to rely on vectorization of 
+event logs and to employ a divide-and-conquer scheme for parallel 
+processing of sub-logs. 
+The paper reports on an experimental evaluation that tests the 
+scalability of the approach on real-life logs.
+
+%processes involve independent, and sometimes mutually untrusted parties, which 
+%are not willing to openly share all their business process execution data with 
+%others.
+%a query engine that has unfettered access to the enterprise system databases.
+%tools for process mining assume that the tool has unfettered access to the entire event log. 
+
+\keywords{Process Mining  \and Privacy \and Secure Multi-Party Computation}
+\end{abstract}
+%
+%
+%
+\input{introduction}
+\input{related_work}
+\input{approach}
+\input{evaluation}
+
+\section{Conclusion}
+\label{sec:conclusion}
+This paper introduces a framework for inter-organizational process mining based on secure multi-party computation. Our approach enables organizations to perform process mining on shared business processes with revealing only the number of traces per log, the number of unique events and the maximum number of events per a trace. To ensure a scalable execution of the secure multi-party computation we introduce techniques based on vectorization and divide-and-conquer. Our evaluation on real world event logs shows that these technique improve the performance of the secure multi-party computation and scale up under different characteristics of event logs.
+
+Several directions for future research arise such as combining our approach with privacy guarantees like differential privacy to comply with stronger privacy requirements. Additionally, it could be explored how an adversarial input can be prohibited from gaining knowledge by manipulating the secure multi-party computation with false input data.
+
+ \bibliographystyle{splncs04}
+ \bibliography{bib_mpc_process_discovery}
+
+\end{document}

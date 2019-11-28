@@ -1,0 +1,270 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{Aalst16}
+van~der Aalst, W.M.P.: Process Mining - Data Science in Action, Second Edition.
+  Springer (2016). \doi{10.1007/978-3-662-49851-4},
+  \url{https://doi.org/10.1007/978-3-662-49851-4}
+
+\bibitem{van2011intra}
+van~der Aalst, W.M.: Intra-and inter-organizational process mining: Discovering
+  processes within and between organizations. In: IFIP Working Conference on
+  The Practice of Enterprise Modeling. pp. 1--11. Springer (2011)
+
+\bibitem{aksu2016cross}
+Aksu, {\"U}., Schunselaar, D.M., Reijers, H.A.: A cross-organizational process
+  mining framework for obtaining insights from software products: Accurate
+  comparison challenges. In: 2016 IEEE 18th Conference on Business Informatics
+  (CBI). vol.~1, pp. 153--162. IEEE (2016)
+
+\bibitem{DBLP:conf/ccs/ArakiFLNO16}
+Araki, T., Furukawa, J., Lindell, Y., Nof, A., Ohara, K.: High-throughput
+  semi-honest secure three-party computation with an honest majority. In:
+  Weippl, E.R., Katzenbeisser, S., Kruegel, C., Myers, A.C., Halevi, S. (eds.)
+  Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and
+  Communications Security, Vienna, Austria, October 24-28, 2016. pp. 805--817.
+  {ACM} (2016). \doi{10.1145/2976749.2978331},
+  \url{https://doi.org/10.1145/2976749.2978331}
+
+\bibitem{archer2018keys}
+Archer, D.W., Bogdanov, D., Lindell, Y., Kamm, L., Nielsen, K., Pagter, J.I.,
+  Smart, N.P., Wright, R.N.: From keys to databases—real-world applications
+  of secure multi-party computation. The Computer Journal  \textbf{61}(12),
+  1749--1771 (2018)
+
+\bibitem{elpaas2019}
+Bauer, M., Fahrenkrog{-}Petersen, S.A., Koschmider, A., Mannhardt, F., van~der
+  Aa, H., Weidlich, M.: Elpaas: Event log privacy as a service. In: Proceedings
+  of the Dissertation Award, Doctoral Consortium, and Demonstration Track at
+  {BPM} 2019 co-located with 17th International Conference on Business Process
+  Management, {BPM} 2019, Vienna, Austria, September 1-6, 2019. pp. 159--163
+  (2019)
+
+\bibitem{blakley1979safeguarding}
+Blakley, G.R., et~al.: Safeguarding cryptographic keys. In: Proceedings of the
+  national computer conference. vol.~48 (1979)
+
+\bibitem{bogdanov2014domain}
+Bogdanov, D., Laud, P., Randmets, J.: Domain-polymorphic programming of
+  privacy-preserving applications. In: Proceedings of the Ninth Workshop on
+  Programming Languages and Analysis for Security. p.~53. ACM (2014)
+
+\bibitem{DBLP:conf/nordsec/BogdanovLT14}
+Bogdanov, D., Laur, S., Talviste, R.: A practical analysis of oblivious sorting
+  algorithms for secure multi-party computation. In: Bernsmed, K.,
+  Fischer{-}H{\"{u}}bner, S. (eds.) Secure {IT} Systems - 19th Nordic
+  Conference, NordSec 2014, Troms{\o}, Norway, October 15-17, 2014,
+  Proceedings. Lecture Notes in Computer Science, vol.~8788, pp. 59--74.
+  Springer (2014). \doi{10.1007/978-3-319-11599-3\_4},
+  \url{https://doi.org/10.1007/978-3-319-11599-3\_4}
+
+\bibitem{bogdanov2014practical}
+Bogdanov, D., Laur, S., Talviste, R.: A practical analysis of oblivious sorting
+  algorithms for secure multi-party computation. In: Nordic Conference on
+  Secure IT Systems. pp. 59--74. Springer (2014)
+
+\bibitem{bogdanov2008sharemind}
+Bogdanov, D., Laur, S., Willemson, J.: Sharemind: A framework for fast
+  privacy-preserving computations. In: European Symposium on Research in
+  Computer Security. pp. 192--206. Springer (2008)
+
+\bibitem{DBLP:journals/ijisec/BogdanovNTW12}
+Bogdanov, D., Niitsoo, M., Toft, T., Willemson, J.: High-performance secure
+  multi-party computation for data mining applications. Int. J. Inf. Sec.
+  \textbf{11}(6),  403--418 (2012). \doi{10.1007/s10207-012-0177-2},
+  \url{https://doi.org/10.1007/s10207-012-0177-2}
+
+\bibitem{borkowski2017event}
+Borkowski, M., Fdhila, W., Nardelli, M., Rinderle-Ma, S., Schulte, S.:
+  Event-based failure prediction in distributed business processes. Information
+  Systems  (2017)
+
+\bibitem{buijs2011towards}
+Buijs, J.C., van Dongen, B.F., van~der Aalst, W.M.: Towards
+  cross-organizational process mining in collections of process models and
+  their executions. In: International Conference on Business Process
+  Management. pp. 2--13. Springer (2011)
+
+\bibitem{burattin2015toward}
+Burattin, A., Conti, M., Turato, D.: Toward an anonymous process mining. In:
+  2015 3rd International Conference on Future Internet of Things and Cloud. pp.
+  58--63. IEEE (2015)
+
+\bibitem{CCD}
+Chaum, D., Cr{\'{e}}peau, C., Damg{\aa}rd, I.: Multiparty unconditionally
+  secure protocols (extended abstract). In: Simon, J. (ed.) Proceedings of the
+  20th Annual {ACM} Symposium on Theory of Computing, May 2-4, 1988, Chicago,
+  Illinois, {USA}. pp. 11--19. {ACM} (1988). \doi{10.1145/62212.62214},
+  \url{https://doi.org/10.1145/62212.62214}
+
+\bibitem{DBLP:conf/eurocrypt/CramerDN01}
+Cramer, R., Damg{\aa}rd, I., Nielsen, J.B.: Multiparty computation from
+  threshold homomorphic encryption. In: Pfitzmann, B. (ed.) Advances in
+  Cryptology - {EUROCRYPT} 2001, International Conference on the Theory and
+  Application of Cryptographic Techniques, Innsbruck, Austria, May 6-10, 2001,
+  Proceeding. Lecture Notes in Computer Science, vol.~2045, pp. 280--299.
+  Springer (2001). \doi{10.1007/3-540-44987-6\_18},
+  \url{https://doi.org/10.1007/3-540-44987-6\_18}
+
+\bibitem{DBLP:conf/crypto/DamgardPSZ12}
+Damg{\aa}rd, I., Pastro, V., Smart, N.P., Zakarias, S.: Multiparty computation
+  from somewhat homomorphic encryption. In: Safavi{-}Naini, R., Canetti, R.
+  (eds.) Advances in Cryptology - {CRYPTO} 2012 - 32nd Annual Cryptology
+  Conference, Santa Barbara, CA, USA, August 19-23, 2012. Proceedings. Lecture
+  Notes in Computer Science, vol.~7417, pp. 643--662. Springer (2012).
+  \doi{10.1007/978-3-642-32009-5\_38},
+  \url{https://doi.org/10.1007/978-3-642-32009-5\_38}
+
+\bibitem{elgamal1985public}
+ElGamal, T.: A public key cryptosystem and a signature scheme based on discrete
+  logarithms. IEEE transactions on information theory  \textbf{31}(4),
+  469--472 (1985)
+
+\bibitem{caise/Fahrenkrog-Petersen19}
+Fahrenkrog{-}Petersen, S.A.: Providing privacy guarantees in process mining.
+  In: (CAiSE Doctoral Consortium 2019), Rome, Italy, June 3-7, 2019. pp. 23--30
+  (2019)
+
+\bibitem{icpm/Fahrenkrog-Petersen19}
+Fahrenkrog{-}Petersen, S.A., van~der Aa, H., Weidlich, M.: {PRETSA:} event log
+  sanitization for privacy-aware process discovery. In: International
+  Conference on Process Mining, {ICPM} 2019, Aachen, Germany, June 24-26, 2019.
+  pp.~1--8 (2019)
+
+\bibitem{GRR}
+Gennaro, R., Rabin, M.O., Rabin, T.: Simplified {VSS} and fast-track multiparty
+  computations with applications to threshold cryptography. In: Coan, B.A.,
+  Afek, Y. (eds.) Proceedings of the Seventeenth Annual {ACM} Symposium on
+  Principles of Distributed Computing, {PODC} '98, Puerto Vallarta, Mexico,
+  June 28 - July 2, 1998. pp. 101--111. {ACM} (1998).
+  \doi{10.1145/277697.277716}, \url{https://doi.org/10.1145/277697.277716}
+
+\bibitem{DBLP:conf/stoc/Gentry09}
+Gentry, C.: Fully homomorphic encryption using ideal lattices. In:
+  Mitzenmacher, M. (ed.) Proceedings of the 41st Annual {ACM} Symposium on
+  Theory of Computing, {STOC} 2009, Bethesda, MD, USA, May 31 - June 2, 2009.
+  pp. 169--178. {ACM} (2009). \doi{10.1145/1536414.1536440},
+  \url{https://doi.org/10.1145/1536414.1536440}
+
+\bibitem{GMW}
+Goldreich, O., Micali, S., Wigderson, A.: How to play any mental game or {A}
+  completeness theorem for protocols with honest majority. In: Aho, A.V. (ed.)
+  Proceedings of the 19th Annual {ACM} Symposium on Theory of Computing, 1987,
+  New York, New York, {USA}. pp. 218--229. {ACM} (1987).
+  \doi{10.1145/28395.28420}, \url{https://doi.org/10.1145/28395.28420}
+
+\bibitem{Kamm-thesis}
+Kamm, L.: Privacy-preserving statistical analysis using secure multi-party
+  computation. Ph.D. thesis, University of Tartu (2015)
+
+\bibitem{kerik2016optimizing}
+Kerik, L., Laud, P., Randmets, J.: Optimizing mpc for robust and scalable
+  integer and floating-point arithmetic. In: International Conference on
+  Financial Cryptography and Data Security. pp. 271--287. Springer (2016)
+
+\bibitem{laud2017privacy}
+Laud, P., Pankova, A.: Privacy-preserving frequent itemset mining for sparse
+  and dense data. In: Nordic Conference on Secure IT Systems. pp. 139--155.
+  Springer (2017)
+
+\bibitem{li2007t}
+Li, N., Li, T., Venkatasubramanian, S.: t-closeness: Privacy beyond k-anonymity
+  and l-diversity. In: 2007 IEEE 23rd International Conference on Data
+  Engineering. pp. 106--115. IEEE (2007)
+
+\bibitem{Liu19}
+Liu, C., Duan, H., Zeng, Q., Zhou, M., Lu, F., Cheng, J.: Towards comprehensive
+  support for privacy preservation cross-organization business process mining.
+  {IEEE} Trans. Services Computing  \textbf{12}(4),  639--653 (2019).
+  \doi{10.1109/TSC.2016.2617331},
+  \url{https://doi.org/10.1109/TSC.2016.2617331}
+
+\bibitem{MannhardtKBWM19}
+Mannhardt, F., Koschmider, A., Baracaldo, N., Weidlich, M., Michael, J.:
+  Privacy-preserving process mining - differential privacy for event logs.
+  Business {\&} Information Systems Engineering  \textbf{61}(5),  595--614
+  (2019)
+
+\bibitem{mannhardt2018privacy}
+Mannhardt, F., Petersen, S.A., Oliveira, M.F.: Privacy challenges for process
+  mining in human-centered industrial environments. In: 2018 14th International
+  Conference on Intelligent Environments (IE). pp. 64--71. IEEE (2018)
+
+\bibitem{paillier1999public}
+Paillier, P.: Public-key cryptosystems based on composite degree residuosity
+  classes. In: International Conference on the Theory and Applications of
+  Cryptographic Techniques. pp. 223--238. Springer (1999)
+
+\bibitem{pika2019towards}
+Pika, A., Wynn, M.T., Budiono, S., ter Hofstede, A.H., van~der Aalst, W.M.,
+  Reijers, H.A.: Towards privacy-preserving process mining in healthcare
+  (2019)
+
+\bibitem{rafiei2019role}
+Rafiei, M., van~der Aalst, W.M.: Mining roles from event logs while preserving
+  privacy. In: International Conference on Business Process Management. pp.
+  685--697. Springer (2019)
+
+\bibitem{simpda/RafieiWA18}
+Rafiei, M., von Waldthausen, L., van~der Aalst, W.M.P.: Ensuring
+  confidentiality in process mining. In: Proceedings of the 8th International
+  Symposium on Data-driven Process Discovery and Analysis {(SIMPDA} 2018),
+  Seville, Spain, December 13-14, 2018. pp. 3--17 (2018)
+
+\bibitem{schmidberger2009ground}
+Schmidberger, S., Bals, L., Hartmann, E., Jahns, C.: Ground handling services
+  at european hub airports: development of a performance measurement system for
+  benchmarking. International Journal of Production Economics  \textbf{117}(1),
+   104--116 (2009)
+
+\bibitem{schulz2004facilitating}
+Schulz, K.A., Orlowska, M.E.: Facilitating cross-organisational workflows with
+  a workflow view approach. Data \& Knowledge Engineering  \textbf{51}(1),
+  109--147 (2004)
+
+\bibitem{shamir1979share}
+Shamir, A.: How to share a secret. Communications of the ACM  \textbf{22}(11),
+  612--613 (1979)
+
+\bibitem{sweeney2002k}
+Sweeney, L.: k-anonymity: A model for protecting privacy. International Journal
+  of Uncertainty, Fuzziness and Knowledge-Based Systems  \textbf{10}(05),
+  557--570 (2002)
+
+\bibitem{tillem2016privacy}
+Tillem, G., Erkin, Z., Lagendijk, R.L.: Privacy-preserving alpha algorithm for
+  software analysis. In: 37th WIC Symposium on Information Theory in the
+  Benelux/6th WIC/IEEE SP Symposium on Information Theory and Signal Processing
+  in the Benelux (2016)
+
+\bibitem{tillem2017mining}
+Tillem, G., Erkin, Z., Lagendijk, R.L.: Mining encrypted software logs using
+  alpha algorithm. In: SECRYPT. pp. 267--274 (2017)
+
+\bibitem{van2010configurable}
+Van Der~Aalst, W.M.: Configurable services in the cloud: Supporting variability
+  while enabling cross-organizational process mining. In: OTM Confederated
+  International Conferences" On the Move to Meaningful Internet Systems". pp.
+  8--25. Springer (2010)
+
+\bibitem{DBLP:journals/csur/WagnerE18}
+Wagner, I., Eckhoff, D.: Technical privacy metrics: {A} systematic survey.
+  {ACM} Comput. Surv.  \textbf{51}(3),  57:1--57:38 (2018).
+  \doi{10.1145/3168389}, \url{https://doi.org/10.1145/3168389}
+
+\bibitem{yao1982protocols}
+Yao, A.C.: Protocols for secure computations. In: 23rd annual symposium on
+  foundations of computer science (sfcs 1982). pp. 160--164. IEEE (1982)
+
+\bibitem{yao1986generate}
+Yao, A.C.C.: How to generate and exchange secrets. In: 27th Annual Symposium on
+  Foundations of Computer Science (sfcs 1986). pp. 162--167. IEEE (1986)
+
+\bibitem{zeng2013cross}
+Zeng, Q., Sun, S.X., Duan, H., Liu, C., Wang, H.: Cross-organizational
+  collaborative workflow mining from a multi-source log. Decision support
+  systems  \textbf{54}(3),  1280--1301 (2013)
+
+\end{thebibliography}

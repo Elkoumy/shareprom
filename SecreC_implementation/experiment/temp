@@ -1,0 +1,29 @@
+Adding local address: fe80::202:c903:51:65ca
+Linux Cooked Socket link detected
+Adding local address: fe80::202:c903:51:65c9
+Linux Cooked Socket link detected
+Adding local address: 172.17.77.40
+Adding local address: fe80::ea39:35ff:feb6:17e1
+Ethernet link detected
+Adding local address: fe80::ea39:35ff:feb6:17e0
+Ethernet link detected
+
+Refreshing:
+sharemind-server/390
+Refreshing:
+sharemind-server/5974/0	5893.6	3138.02
+ssh/10489/1000	0.0257812	0.118359
+ssh/10491/1000	0.0257812	0.0996094
+sshd: debian@pts/2/2356/1000	0.0929687	
+Refreshing:
+sharemind-server/3992/0	5360.31	8515.39
+sshd: debian@notty/6074/1000	0.571484	0.107813
+sharemind-serv
+Refreshing:
+sharemind-server/5974/0	12181.9	5981.5
+ssh/10489/1000	0.0386719	0.171094
+ssh/10491/1000	0.0386719	0.142969
+sshd: debian@pts/2/2356/1000	0.405469	0.09375
+sharemind-runscript/10495/0	0	0.0257812
+sharemind-server/2371/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
