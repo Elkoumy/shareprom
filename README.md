@@ -24,22 +24,22 @@ The proposed approach assume the following:
 * To use the parallel chunks, the data should include padding. The padding makes all the traces have the same length as the maximum length of traces of each party. 
 
 Also, you can find preprocessing and data examples examples in python in the following directory:
-'''
+```
 shareprom/data_and_preprocessing/
-'''
+```
 
 ## Running The System
 The system runs as a client application on top of sharemind. You can submit your job using the following command:
-'sudo sharemind-runscript job_name.sb'
+```sudo sharemind-runscript job_name.sb```
 
 ## Experiment Setup
 To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package nethogs to measure the communication overhead as mentioned in the following link:
 https://github.com/raboof/nethogs
 
 To run the experiment, use the shell script file:
-'''
+```
 shareprom/SecreC_implementation/experiment/experiment.sh
-'''
+```
 
 
 ## References
