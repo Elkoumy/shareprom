@@ -12,8 +12,7 @@ The implementation of the system is in SecreC [2], a C++-like language that runs
 
 You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
 
-Or, you can install sharemind on your own environment using the following installation guid:
-https://docs.sharemind.cyber.ee/2019.03/installation/application-server
+Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guid](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications)
 
 
 
@@ -30,7 +29,9 @@ shareprom/data_and_preprocessing/
 
 ## Running The System
 The system runs as a client application on top of sharemind. You can submit your job using the following command:
-```sudo sharemind-runscript job_name.sb```
+```
+sudo sharemind-runscript job_name.sb
+```
 
 ## Experiment Setup
 To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package nethogs to measure the communication overhead as mentioned in the following link:
