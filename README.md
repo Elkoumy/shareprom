@@ -12,10 +12,15 @@ The implementation of the system is in SecreC [2], a C++-like language that runs
 
 You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
 
-Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guid](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications)
+Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guid](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications).After the instraction on the guides run the following command on the three servers to doneload the package ```sudo apt-get install libsharemind-mod-shared3pdev-ctrl```:
 
-
-
+```
+sudo apt-get install libsharemind-mod-shared3pdev-ctrl
+```
+And on the client's machine to enabling running the script using clients:
+```
+sudo apt-get install sharemind-runscript
+```
 ## Data Format
 The proposed approach assume the following:
 * The data of partyA and partyB are loaded to the servers separately, each event log is in a separate file.
