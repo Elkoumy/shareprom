@@ -12,7 +12,7 @@ The implementation of the system is in SecreC [2], a C++ like language that runs
 
 You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
 
-Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications).After the instraction on the guides run the following command on the three servers to download the package ```libsharemind-mod-shared3pdev-ctrl```:
+Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications). After the instraction on the guides run the following command on the three servers to download the package ```libsharemind-mod-shared3pdev-ctrl```:
 
 ```
 sudo apt-get install libsharemind-mod-shared3pdev-ctrl
