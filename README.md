@@ -17,9 +17,12 @@ Furthermore, to run the application, the following sharemind packages should be 
 * scc 
 * secrec-stdlib
 
-To perform the profiling of the applications, you need to configure the servers and enable profiling property "Profiler=on"
-The installation and configuration of sharemind server and client could be found on the link: 
+You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
+
+Or, you can install sharemind on your own environment using the following installation guid:
 https://docs.sharemind.cyber.ee/2019.03/installation/application-server
+
+
 
 ## Data Format
 The proposed approach assume the following:
@@ -35,7 +38,7 @@ The system runs as a client application on top of sharemind. You can submit your
 'sudo sharemind-runscript job_name.sb'
 
 ## Experiment Setup
-To be able to run the experiment, you need to make sure that profiling is enabled in sharemind as mentioned above, and install the package nethogs as mentioned in the following link:
+To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package nethogs to measure the communication overhead as mentioned in the following link:
 https://github.com/raboof/nethogs
 
 To run the experiment, use the shell script file:
