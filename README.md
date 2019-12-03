@@ -9,13 +9,6 @@ The implementation of the system is in SecreC [2], a C++-like language that runs
 * Installation of sharemind client, that could be either on one of the 3 servers or a separate machine. Also, we need to share the key of the client on the 3 servers so they can trust the client applications.
 * All the importing process of the CSV files should be performed using sharemind csv-importer.
 * The installation of linux package apt-transport-https
-Furthermore, to run the application, the following sharemind packages should be installed:
-* sharemind-server 
-* libsharemind-mod-algorithms 
-* libsharemind-mod-shared3pdev or libsharemind-mod-shared3p
-* libsharemind-mod-tabledb-hdf5 
-* scc 
-* secrec-stdlib
 
 You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
 
@@ -31,7 +24,9 @@ The proposed approach assume the following:
 * To use the parallel chunks, the data should include padding. The padding makes all the traces have the same length as the maximum length of traces of each party. 
 
 Also, you can find preprocessing and data examples examples in python in the following directory:
-'shareprom/data_and_preprocessing/'
+'''
+shareprom/data_and_preprocessing/
+'''
 
 ## Running The System
 The system runs as a client application on top of sharemind. You can submit your job using the following command:
@@ -42,7 +37,9 @@ To be able to run the experiment, you need to make sure that profiling is enable
 https://github.com/raboof/nethogs
 
 To run the experiment, use the shell script file:
-'shareprom/SecreC_implementation/experiment/experiment.sh'
+'''
+shareprom/SecreC_implementation/experiment/experiment.sh
+'''
 
 
 ## References
