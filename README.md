@@ -34,8 +34,7 @@ sudo sharemind-runscript job_name.sb
 ```
 
 ## Experiment Setup
-To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package nethogs to measure the communication overhead as mentioned in the following link:
-https://github.com/raboof/nethogs
+To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package [nethogs](https://github.com/raboof/nethogs)
 
 To run the experiment, use the shell script file:
 ```
