@@ -18,17 +18,30 @@ Furthermore, to run the application, the following sharemind packages should be 
 * secrec-stdlib
 
 To perform the profiling of the applications, you need to configure the servers and enable profiling property "Profiler=on"
+The installation and configuration of sharemind server and client could be found on the link: 
+https://docs.sharemind.cyber.ee/2019.03/installation/application-server
 
-## Installation instructions
+## Data Format
+The proposed approach assume the following:
+* The data of partyA and partyB are loaded to the servers separately, each event log is in a separate file.
+* To use the Outer product approach, the data should label the events in binary representation (0100), with each bit in a separate column.
+* To use the parallel chunks, the data should include padding. The padding makes all the traces have the same length as the maximum length of traces of each party. 
+
+Also, you can find preprocessing and data examples examples in python in the following directory:
+'shareprom/data_and_preprocessing/'
+
+## Running The System
+The system runs as a client application on top of sharemind. You can submit your job using the following command:
+'sudo sharemind-runscript job_name.sb'
+
+## Experiment Setup
+To be able to run the experiment, you need to make sure that profiling is enabled in sharemind as mentioned above, and install the package nethogs as mentioned in the following link:
+https://github.com/raboof/nethogs
+
+To run the experiment, use the shell script file:
+'shareprom/SecreC_implementation/experiment/experiment.sh'
 
 
-## Configuration
-
-## Usage
-
-
-
-
-##References
+## References
 [1] Archer, David W., et al. "From Keys to Databases—Real-World Applications of Secure Multi-Party Computation." The Computer Journal 61.12 (2018): 1749-1771.
 [2] Bogdanov, Dan, Peeter Laud, and Jaak Randmets. "Domain-polymorphic language for privacy-preserving applications." Proceedings of the First ACM workshop on Language support for privacy-enhancing technologies. ACM, 2013.
