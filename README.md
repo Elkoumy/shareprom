@@ -7,7 +7,7 @@ This repository contains scripts for the implementation of Shareprom and for per
 The implementation of the system is in SecreC [2], a C++ like language that runs on top of Sharemind. The following are the required environmental setup for running the system:
 * The installation of sharemind servers on 3 servers and the key authentication between the servers so they can communicate securely.
 * Installation of sharemind client, that could be either on one of the 3 servers or a separate machine. Also, we need to share the key of the client on the 3 servers so they can trust the client applications.
-* All the importing process of the CSV files should be performed using sharemind csv-importer.
+* All the importing process of the CSV files should be performed using sharemind csv-importer. The CSV importer is only available for Academic and industrial licenses and we use our Academic license.
 * The installation of linux package apt-transport-https
 
 You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
