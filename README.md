@@ -4,7 +4,7 @@ This repository contains the source code of ShareProm, a Secure Multi-party comp
 This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. 
 
 To cite the project, you can use the following form:
-'''
+```
 @misc{elkoumy2019secure,
     title={Secure Multi-Party Computation for Inter-Organizational Process Mining},
     author={Gamal Elkoumy and Stephan A. Fahrenkrog-Petersen and Marlon Dumas and Peeter Laud and Alisa Pankova and Matthias Weildich},
@@ -13,7 +13,7 @@ To cite the project, you can use the following form:
     archivePrefix={arXiv},
     primaryClass={cs.CR}
 }
-'''
+```
 ## System Requirement
 The implementation of the system is in SecreC [2], a C++ like language that runs on top of Sharemind. The following are the required environmental setup for running the system:
 * The installation of sharemind servers on 3 servers and the key authentication between the servers so they can communicate securely.
