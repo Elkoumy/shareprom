@@ -1,7 +1,7 @@
 # ShareProm
 This repository contains the source code of ShareProm, a Secure Multi-party computation system for Inter-organizational Process Mining. The system is still under development. A research publication is pending for the system by [Gamal Elkoumy](https://scholar.google.com/citations?user=Y1ze0vQAAAAJ&hl=en&oi=ao), [Stephan A. Fahrenkrog-Peterson](https://scholar.google.com/citations?user=Le-1B90AAAAJ&hl=en&oi=sra), [Marlon Dumas](https://scholar.google.com/citations?user=9lIttRkAAAAJ&hl=en&oi=ao) , [Peeter Laud](https://scholar.google.com/citations?user=3hc5DR8AAAAJ&hl=en&oi=ao), [Alisa Pankova](https://scholar.google.com/citations?user=KG2eH5sAAAAJ&hl=en&oi=ao) and [Matthias Weldich](https://scholar.google.com/citations?user=P_9a7I0AAAAJ&hl=en).
 
-This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. 
+This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. The system architecture and evaluation experiments are presented in the [paper](https://arxiv.org/abs/1912.01855)
 
 To cite the project, you can use the following form:
 ```
@@ -21,7 +21,7 @@ The implementation of the system is in SecreC [2], a C++ like language that runs
 * All the importing process of the CSV files should be performed using sharemind csv-importer. The CSV importer is only available for Academic and industrial licenses and we use our Academic license.
 * The installation of linux package apt-transport-https
 
-You can download a pre-installed sharemind virtual machine from this link for free from sharemind's [website](https://sharemind.cyber.ee/).
+You can download a pre-installed sharemind virtual machine for free from sharemind's [website](https://sharemind.cyber.ee/).
 
 Or, you can install sharemind on your own environment using [sharemind server installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/application-server) and [client installation guide](https://docs.sharemind.cyber.ee/2019.03/installation/client-applications). After the instraction on the guides run the following command on the three servers to download the package ```libsharemind-mod-shared3pdev-ctrl```:
 
@@ -38,7 +38,7 @@ The proposed approach assume the following:
 * To use the Outer product approach, the data should label the events in binary representation (0100), with each bit in a separate column.
 * To use the parallel chunks, the data should include padding. The padding makes all the traces have the same length as the maximum length of traces of each party. 
 
-Also, you can find preprocessing and data examples examples in python in the following directory:
+Also, you can find preprocessing and data examples in python in the following directory:
 ```
 shareprom/data_and_preprocessing/
 ```
