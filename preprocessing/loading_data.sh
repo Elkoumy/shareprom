@@ -20,11 +20,11 @@
 #sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/sharemind/datasets/reduced_party_B_CreditRequirement_MPC.csv --model /home/debian/sharemind/Github/SecureMPCBPM/data_and_preprocessing/reduced_credit_model_party_B.xml
 
 
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model.xml
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/party_A_CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model_party_A.xml
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/party_B_CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model_party_B.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/party_A_CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model_party_A.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/party_B_CCC19_MPC.csv --model /home/debian/shareprom/shareprom/models/CCC19_model_party_B.xml
 
 
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model.xml
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/party_A_BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model_party_A.xml
-sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/party_B_BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model_party_B.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/party_A_BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model_party_A.xml
+sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/shareprom/data/party_B_BPI13_MPC.csv --model /home/debian/shareprom/shareprom/models/bpi13_model_party_B.xml
