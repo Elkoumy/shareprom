@@ -71,12 +71,12 @@ data = pd.read_csv(file, nrows=traces_per_file*(173+65))
 #
 #data.to_csv(target_file, index=0)
 #
-#for line in reversed(list(open(file))):
-#    s=line.rstrip()
-#    s=s.split(',')
-#    print('traffic')
-#    print(s[0])
-#    break
+for line in reversed(list(open(file))):
+    s=line.rstrip()
+    s=s.split(',')
+    print('traffic')
+    print(s[0])
+    break
 #
 #
 #

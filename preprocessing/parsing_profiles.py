@@ -118,4 +118,6 @@ aggregated_result_comm=result.groupby(['server','dataset','chunks']).sum().reset
 aggregated_result_comm.received=aggregated_result_comm.received/1048576/ no_of_iteration
 aggregated_result_comm.sent=aggregated_result_comm.sent/1048576/no_of_iteration
 
+aggregated_result_comm["total"]=(aggregated_result_comm.sent+aggregated_result_comm.sent)/2
+
 aggregated_result_comm.to_csv(os.path.join(reslult_folder,'communiation_result3.csv'),index=0)

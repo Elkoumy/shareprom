@@ -36,12 +36,33 @@ import pandas as pd
 #
 #output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\BPI_Challenge_2017_3_columns.csv",index=0)
 #
+#
+#data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CreditRequirement.csv")
+#
+#output=pd.DataFrame()
+#output['case']=data1['case:concept:name']
+#output['event']=data1['concept:name']
+#output['completeTime']=data1['time:timestamp']
+#
+#output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CreditRequirement_3_columns.csv",index=0)
+#
 
-data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CreditRequirement.csv")
+#
+#data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CCC19.csv")
+#
+#output=pd.DataFrame()
+#output['case']=data1['case:concept:name']
+#output['event']=data1['ACTIVITY']
+#output['completeTime']=data1['time:timestamp']
+#
+#output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CCC19_3_columns.csv",index=0)
+
+
+data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\BPI_2013.csv")
 
 output=pd.DataFrame()
 output['case']=data1['case:concept:name']
-output['event']=data1['concept:name']
+output['event']=data1['lifecycle:transition']
 output['completeTime']=data1['time:timestamp']
 
-output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CreditRequirement_3_columns.csv",index=0)
+output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\BPI_2013_3_columns.csv",index=0)
