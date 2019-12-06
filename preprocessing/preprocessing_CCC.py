@@ -144,6 +144,10 @@ party_B= party_B.sort_values(by=['case', 'completeTime'])
 
 name="CCC19"
 
+del data['event']
+del party_A['event']
+del party_B['event']
+
 data.to_csv(os.path.join(output_dir,name+"_MPC.csv"), index=0)
 party_A.to_csv(os.path.join(output_dir,"party_A_"+name+"_MPC.csv"),index=0)
 party_B.to_csv(os.path.join(output_dir,"party_B_"+name+"_MPC.csv"), index=0)    
