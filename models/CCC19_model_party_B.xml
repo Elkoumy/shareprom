@@ -1,4 +1,4 @@
-<table name="ccc_party_B" dataSource="DS1" 
+<table name="CCC19_party_B" dataSource="DS1" 
  handler="import-script.sb"> 
  <column key="true" type="primitive">
     <source name="case" type="uint32"/>

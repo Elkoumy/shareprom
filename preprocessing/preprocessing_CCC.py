@@ -30,7 +30,7 @@ def generate_rows(s):
 
 
 input_dir=r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets"
-output_dir=r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets"
+output_dir=os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'data'))
 
 file_name= "CCC19_3_columns"
 input_file= os.path.join(input_dir,file_name+".csv")
@@ -142,11 +142,11 @@ party_B= party_B.append(padded_value , ignore_index=True)
 party_B= party_B.sort_values(by=['case', 'completeTime'])
 
 
+name="CCC19"
 
-
-data.to_csv(os.path.join(output_dir,file_name+"_MPC.csv"), index=0)
-party_A.to_csv(os.path.join(output_dir,"party_A_"+file_name+"_MPC.csv"),index=0)
-party_B.to_csv(os.path.join(output_dir,"party_B_"+file_name+"_MPC.csv"), index=0)    
+data.to_csv(os.path.join(output_dir,name+"_MPC.csv"), index=0)
+party_A.to_csv(os.path.join(output_dir,"party_A_"+name+"_MPC.csv"),index=0)
+party_B.to_csv(os.path.join(output_dir,"party_B_"+name+"_MPC.csv"), index=0)    
 
 
 ''' generating xml model '''''
@@ -154,7 +154,7 @@ party_B.to_csv(os.path.join(output_dir,"party_B_"+file_name+"_MPC.csv"), index=0
 models_dir=os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'models'))
 
 s=""
-name="ccc"
+
 s+="\" dataSource=\"DS1\" \n handler=\"import-script.sb\"> \n <column key=\"true\" type=\"primitive\">\n    <source name=\"case\" type=\"uint32\"/>\n    <target name=\"case\" type=\"uint32\"/>\n  </column>\n  <column key=\"false\" type=\"primitive\">\n<source name=\"completeTime\" type=\"uint32\"/>\n    <target name=\"completeTime\" type=\"uint32\"/>\n  </column>"
   
 for i in range(0,bits_size):
