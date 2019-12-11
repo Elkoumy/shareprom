@@ -60,8 +60,6 @@ return result;
 
 
 pd_shared3p uint64 [[3]]  DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count){
-
-//void DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count){
 print("************ DFG_calculation **************");
 
 
@@ -161,8 +159,9 @@ result[:,:,1]=result_time;
 endSection(id_combine);
 
 return result;
-//return 0;
+
 }
+
 
 void main() {
 
@@ -174,9 +173,9 @@ uint32 section_prep = newSectionType("preprocessing");
 uint32 id_prep = startSection(section_prep,1::uint64);
 
     string ds = "DS1"; // Data source name
-    string tbl = "eventlog"; // Table name
-    string tbl_party_A="eventlog_party_A";
-    string tbl_party_B="eventlog_party_B";
+    string tbl = "BPI13"; // Table name
+    string tbl_party_A="BPI13_party_A";
+    string tbl_party_B="BPI13_party_B";
 
     // Open database before running operations on it
     tdbOpenConnection(ds);
@@ -197,6 +196,9 @@ uint32 id_prep = startSection(section_prep,1::uint64);
     pd_shared3p uint8 [[1]] b6_A = tdbReadColumn(ds, tbl_party_A, "b6");
 
 
+
+    print("************ Reading party B the events **************");
+
     // reading party B columns
     pd_shared3p uint32 [[1]] case_B = tdbReadColumn(ds, tbl_party_B, "case");
     pd_shared3p uint32 [[1]] completeTime_B = tdbReadColumn(ds, tbl_party_B, "completeTime");
@@ -212,115 +214,71 @@ uint32 id_prep = startSection(section_prep,1::uint64);
     pd_shared3p uint8 [[1]] b6_B = tdbReadColumn(ds, tbl_party_B, "b6");
 
 
+
+
+
+
     /*
         Based on our assumption the followig values are shared between the 2 parties:
             * the number of unique events, which will be used for the number of bits.
             * the maximum number of events per a trace, which will be used for the chunk calculations
     */
     uint unique_events= 7;
-    uint event_per_case_A = 4;
-    uint event_per_case_B = 2;
+    uint event_per_case_A = 27;
+    uint event_per_case_B = 12;
     uint event_per_case = event_per_case_A+event_per_case_B;
     uint size_A=size(case_A);
     uint size_B=size(case_B);
-
+    uint total_count=size(case_A)+size(case_B);
     uint column_count= 2+unique_events; // 2 (trace, completeTime) columns + 7 bits (event)
-    uint64 no_of_cases= size_A/event_per_case_A;
-    uint ini_no_of_chunks= 7;
-    uint no_of_chunks = 0;
-    if (no_of_cases % ini_no_of_chunks==0){
 
-        no_of_chunks= ini_no_of_chunks;
-    }else{
-        no_of_chunks= ini_no_of_chunks-1;
-       }
-// 1,2,4,5,10,20,100
+    uint no_of_chunks = 4; // 1,2,4,5,10,20,100
 //   appending the two logs in a 2D array
+pd_shared3p uint64[[2]] data(total_count,column_count);
+pd_shared3p uint64[[3]] data_chunk (no_of_chunks,total_count/no_of_chunks,column_count);
 
+uint64 no_of_cases= size_A/event_per_case_A;
 uint64 bound = no_of_cases/no_of_chunks*no_of_chunks;
-uint64 bound_A = bound*event_per_case_A;
-uint64 bound_B = bound*event_per_case_B;
-
-
-
 
 
 //data[:size(case_A),0]= mySetSlice((uint64)case_A,data[:size(case_A),0],0::uint,size(case_A));
 
-uint chunk_size_A= bound_A/no_of_chunks;
-uint chunk_size_B= bound_B/no_of_chunks;
 
 
-uint total_count=(chunk_size_A + chunk_size_B)* ini_no_of_chunks;
-//case_A=case_A[:bound-1,:];
+uint chunk_size_A= size_A/no_of_chunks;
+uint chunk_size_B= size_B/no_of_chunks;
 
-pd_shared3p uint64[[2]] data(total_count,column_count);
-pd_shared3p uint64[[3]] data_chunk (ini_no_of_chunks,chunk_size_A+chunk_size_B,column_count);
-
-data_chunk[:no_of_chunks,:chunk_size_A,0] =myReshape((uint64) case_A[0:bound_A],no_of_chunks,chunk_size_A);
+    print("************ Reshaping party A**************");
+data_chunk[:,:chunk_size_A,0] =myReshape((uint64) case_A,no_of_chunks,size_A/no_of_chunks);
 //data[:size_A,1] = event_A;
-data_chunk[:no_of_chunks,:chunk_size_A,1] =myReshape((uint64) completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,2] =myReshape((uint64) b0_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,3] =myReshape((uint64) b1_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,4] =myReshape((uint64) b2_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,5] =myReshape((uint64) b3_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,6] =myReshape((uint64) b4_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,7] =myReshape((uint64) b5_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,8] =myReshape((uint64) b6_A[0:bound_A],no_of_chunks,chunk_size_A);
-
-print("size till the end: ", size(case_A[bound_A:]));
-print("size_A - bound_A: ", size_A-bound_A);
-////**********************
-if (no_of_chunks == ini_no_of_chunks)
-    {data_chunk[no_of_chunks,:size_A-bound_A,0] =(uint64) case_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,1] =(uint64) completeTime_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,2] =(uint64) b0_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,3] =(uint64) b1_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,4] =(uint64) b2_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,5] =(uint64) b3_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,6] =(uint64) b4_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,7] =(uint64) b5_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,8] =(uint64) b6_A[bound_A:];
-}
+data_chunk[:,:chunk_size_A,1] =myReshape((uint64) completeTime_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,2] =myReshape((uint64) b0_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,3] =myReshape((uint64) b1_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,4] =myReshape((uint64) b2_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,5] =myReshape((uint64) b3_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,6] =myReshape((uint64) b4_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,7] =myReshape((uint64) b5_A,no_of_chunks,size_A/no_of_chunks);
+data_chunk[:,:chunk_size_A,8] =myReshape((uint64) b6_A,no_of_chunks,size_A/no_of_chunks);
 
 
+    print("************ Reshaping party B **************");
 
-data_chunk[:no_of_chunks,chunk_size_A:,0] =myReshape((uint64) case_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,1] =myReshape((uint64) completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,2] =myReshape((uint64) b0_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,3] =myReshape((uint64) b1_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,4] =myReshape((uint64) b2_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,5] =myReshape((uint64) b3_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,6] =myReshape((uint64) b4_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,7] =myReshape((uint64) b5_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,8] =myReshape((uint64) b6_B[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:,chunk_size_A:,0] =myReshape((uint64) case_B,no_of_chunks,size_B/no_of_chunks);
+//data[size_A:,1] = event_B;
+data_chunk[:,chunk_size_A:,1] =myReshape((uint64) completeTime_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,2] =myReshape((uint64) b0_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,3] =myReshape((uint64) b1_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,4] =myReshape((uint64) b2_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,5] =myReshape((uint64) b3_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,6] =myReshape((uint64) b4_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,7] =myReshape((uint64) b5_B,no_of_chunks,size_B/no_of_chunks);
+data_chunk[:,chunk_size_A:,8] =myReshape((uint64) b6_B,no_of_chunks,size_B/no_of_chunks);
 
 
-////******************************
-if (no_of_chunks == ini_no_of_chunks){
-    data_chunk[6,size_A-bound_A:size_B-bound_B,0] =(uint64) case_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,1] =(uint64) completeTime_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,2] =(uint64) b0_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,3] =(uint64) b1_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,4] =(uint64) b2_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,5] =(uint64) b3_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,6] =(uint64) b4_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,7] =(uint64) b5_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,8] =(uint64) b6_B[bound_B:];
-}
+
 
 ////************* subsetting the data temporary
 ////data = data[0:500,:];
-
-
-//for(uint i=0; i<shape(data_chunk)[0]; i++){
-//    for(uint j =0; j < shape(data_chunk)[1] ; j++){
-
-//        print("(", 0,",", j , ")=(", declassify(data_chunk[0,j,0]),",",declassify(data_chunk[0,j,1]), ")");
-//    }
-
-//}
-
 
 
 uint data_size= size(data[:,0]);
@@ -328,12 +286,12 @@ uint data_size= size(data[:,0]);
 endSection(id_prep);
 
 
-//pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
-DFG_calculation(data_chunk,total_count,column_count);
+pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
+
 
 endSection(id_full);
 
-//print_DFG(declassify(DFG_matrix));
+print_DFG(declassify(DFG_matrix));
 
 
 // closing connection
