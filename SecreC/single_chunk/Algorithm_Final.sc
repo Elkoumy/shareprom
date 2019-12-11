@@ -145,13 +145,22 @@ uint32 id_full = startSection(section,1::uint64);
 uint32 section_prep = newSectionType("preprocessing");
 uint32 id_prep = startSection(section_prep,1::uint64);
 
+// input argument of the program
     string ds = "DS1"; // Data source name
     string tbl = "eventlog"; // Table name
-    string tbl_party_A="eventlog_party_A";
-    string tbl_party_B="eventlog_party_B";
 
+    uint ini_no_of_chunks= 8;
+    uint event_per_case_A = 4;
+    uint event_per_case_B = 2;
+
+    string tbl_party_A=tbl+"_party_A";
+    string tbl_party_B=tbl+"_party_B";
     // Open database before running operations on it
     tdbOpenConnection(ds);
+
+    // getting the number of unique events for the number of bits
+    uint unique_events= (tdbGetColumnCount(ds, tbl_party_A)+1)/2-3;
+
 
     print("************ Reading the events **************");
 
@@ -159,66 +168,41 @@ uint32 id_prep = startSection(section_prep,1::uint64);
     pd_shared3p uint32 [[1]] case_A = tdbReadColumn(ds, tbl_party_A, "case");
     pd_shared3p uint32 [[1]] completeTime_A = tdbReadColumn(ds, tbl_party_A, "completeTime");
 
-    // reading bits
-    pd_shared3p uint8 [[1]] b0_A = tdbReadColumn(ds, tbl_party_A, "b0");
-    pd_shared3p uint8 [[1]] b1_A = tdbReadColumn(ds, tbl_party_A, "b1");
-    pd_shared3p uint8 [[1]] b2_A = tdbReadColumn(ds, tbl_party_A, "b2");
-    pd_shared3p uint8 [[1]] b3_A = tdbReadColumn(ds, tbl_party_A, "b3");
-    pd_shared3p uint8 [[1]] b4_A = tdbReadColumn(ds, tbl_party_A, "b4");
-    pd_shared3p uint8 [[1]] b5_A = tdbReadColumn(ds, tbl_party_A, "b5");
-    pd_shared3p uint8 [[1]] b6_A = tdbReadColumn(ds, tbl_party_A, "b6");
-
 
     // reading party B columns
     pd_shared3p uint32 [[1]] case_B = tdbReadColumn(ds, tbl_party_B, "case");
     pd_shared3p uint32 [[1]] completeTime_B = tdbReadColumn(ds, tbl_party_B, "completeTime");
 
-
-    // reading bits
-    string s = tostring(1::uint);
-//int x=(uint33)10;
-//string s = "string"+(uint64)(1)  ;
-//    print(s);
-//pd_shared3p uint8 [[1]] b0_B = tdbReadColumn(ds, tbl_party_B, "b"+tostring(0));
-    pd_shared3p uint8 [[1]] b0_B = tdbReadColumn(ds, tbl_party_B, "b0");
-    pd_shared3p uint8 [[1]] b1_B = tdbReadColumn(ds, tbl_party_B, "b1");
-    pd_shared3p uint8 [[1]] b2_B = tdbReadColumn(ds, tbl_party_B, "b2");
-    pd_shared3p uint8 [[1]] b3_B = tdbReadColumn(ds, tbl_party_B, "b3");
-    pd_shared3p uint8 [[1]] b4_B = tdbReadColumn(ds, tbl_party_B, "b4");
-    pd_shared3p uint8 [[1]] b5_B = tdbReadColumn(ds, tbl_party_B, "b5");
-    pd_shared3p uint8 [[1]] b6_B = tdbReadColumn(ds, tbl_party_B, "b6");
+/*
+    Based on our assumption the followig values are shared between the 2 parties:
+        * the number of unique events, which will be used for the number of bits.
+        * the maximum number of events per a trace, which will be used for the chunk calculations
+*/
 
 
-    /*
-        Based on our assumption the followig values are shared between the 2 parties:
-            * the number of unique events, which will be used for the number of bits.
-            * the maximum number of events per a trace, which will be used for the chunk calculations
-    */
-    uint unique_events= 7;
-    uint event_per_case_A = 4;
-    uint event_per_case_B = 2;
-    uint event_per_case = event_per_case_A+event_per_case_B;
-    uint size_A=size(case_A);
-    uint size_B=size(case_B);
 
-    uint column_count= 2+unique_events; // 2 (trace, completeTime) columns + 7 bits (event)
-    uint64 no_of_cases= size_A/event_per_case_A;
-    uint ini_no_of_chunks= 7;
-    uint no_of_chunks = 0;
+uint event_per_case = event_per_case_A+event_per_case_B;
+uint size_A=size(case_A);
+uint size_B=size(case_B);
+
+uint column_count= 2+unique_events; // 2 (trace, completeTime) columns + 7 bits (event)
+uint64 no_of_cases= size_A/event_per_case_A;
+
+
+
+
+uint no_of_chunks = 0;
     if (no_of_cases % ini_no_of_chunks==0){
 
         no_of_chunks= ini_no_of_chunks;
     }else{
         no_of_chunks= ini_no_of_chunks-1;
        }
-// 1,2,4,5,10,20,100
-//   appending the two logs in a 2D array
+
 
 uint64 bound = no_of_cases/no_of_chunks*no_of_chunks;
 uint64 bound_A = bound*event_per_case_A;
 uint64 bound_B = bound*event_per_case_B;
-
-
 
 
 
@@ -227,13 +211,14 @@ uint64 bound_B = bound*event_per_case_B;
 uint chunk_size_A= bound_A/no_of_chunks;
 uint chunk_size_B= bound_B/no_of_chunks;
 
-
 uint total_count=(chunk_size_A + chunk_size_B)* ini_no_of_chunks;
-//case_A=case_A[:bound-1,:];
-
-pd_shared3p uint64[[2]] data(total_count,column_count);
 pd_shared3p uint64[[3]] data_chunk (ini_no_of_chunks,chunk_size_A+chunk_size_B,column_count);
 
+
+
+//*****************************************************
+// inserting party_A columns into the dataset
+//*****************************************************
 data_chunk[:no_of_chunks,:chunk_size_A,0] =myReshape((uint64) case_A[0:bound_A],no_of_chunks,chunk_size_A);
 data_chunk[:no_of_chunks,:chunk_size_A,1] =myReshape((uint64) completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
 for (uint i =0; i<unique_events; i++)
@@ -244,7 +229,7 @@ data_chunk[:no_of_chunks,:chunk_size_A,i+2] =myReshape((uint64)temp[0:bound_A],n
 
 
 //********************** in case of size is not divisable of chunks
-if (no_of_chunks == ini_no_of_chunks)
+if (no_of_chunks != ini_no_of_chunks)
     {data_chunk[no_of_chunks,:size_A-bound_A,0] =(uint64) case_A[bound_A:];
     data_chunk[no_of_chunks,:size_A-bound_A,1] =(uint64) completeTime_A[bound_A:];
 
@@ -257,7 +242,9 @@ if (no_of_chunks == ini_no_of_chunks)
 
 
 
-
+//*****************************************************
+// inserting party_B columns into the dataset
+//*****************************************************
 
 data_chunk[:no_of_chunks,chunk_size_A:,0] =myReshape((uint64) case_B[0:bound_B],no_of_chunks,chunk_size_B);
 data_chunk[:no_of_chunks,chunk_size_A:,1] =myReshape((uint64) completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
@@ -267,25 +254,25 @@ pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, "b"+tostring(i));
 data_chunk[:no_of_chunks,chunk_size_A:,i+2] =myReshape((uint64)temp[0:bound_B],no_of_chunks,chunk_size_B);
 }
 
-//******************************
-if (no_of_chunks == ini_no_of_chunks){
-    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,0] =(uint64) case_B[bound_B:];
-    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,1] =(uint64) completeTime_B[bound_B:];
+
+
+//********************** in case of size is not divisable of chunks
+if (no_of_chunks != ini_no_of_chunks){
+
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,0] =(uint64) case_B[bound_B:];
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,1] =(uint64) completeTime_B[bound_B:];
 
     for (uint i =0; i<unique_events; i++)
     {
     pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, "b"+tostring(i));
-    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,i+2] =(uint64)temp[bound_B:];
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,i+2] =(uint64)temp[bound_B:];
     }
 }
 
+//**************************************************************************
 
-
-
-uint data_size= size(data[:,0]);
 
 endSection(id_prep);
-
 
 pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
 
