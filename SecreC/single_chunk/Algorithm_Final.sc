@@ -29,34 +29,6 @@ for(uint i=0; i<shape(DFG_matrix)[0]; i++){
 
 
 
-//************** element wise DFG **************
-
-pd_shared3p uint64 [[3]]  DFG_elementwise( pd_shared3p uint64[[1]]tid ,pd_shared3p uint64[[1]]tid2, pd_shared3p uint64[[2]]event ,pd_shared3p uint64[[2]]event2 , pd_shared3p uint64 [[1]] subtraction){
-
-uint data_size = size(subtraction);
-pd_shared3p uint64 [[2]] result_time(shape(event)[1], shape(event)[1])=0;
-pd_shared3p uint64 [[2]] result_freq(shape(event)[1], shape(event)[1])=0;
-
-pd_shared3p bool [[1]] b = (tid == tid2);
-pd_shared3p uint64 [[2]] bb=  myTranspose(reshape(copyBlock((uint)b,shape(event)[1]),shape(event)[1], shape(event)[0]  ));
-pd_shared3p uint64 [[2]] subtractionCopies=  myTranspose(reshape(copyBlock((uint)subtraction,shape(event)[1]* shape(event)[1]),shape(event)[1] *shape(event)[1], shape(event)[0]  ));
-pd_shared3p uint64[[2]] M = outerProduct(event * bb, event2);
-
-pd_shared3p uint64 [[2]]temp_time = M* subtractionCopies;
-pd_shared3p uint64 [[1]] time_sum =  colSums(temp_time);
-pd_shared3p uint64 [[1]] freq_sum = colSums(M);
-
-result_time = reshape( time_sum, shape(event)[1], shape(event)[1]) ;
-result_freq= reshape( freq_sum, shape(event)[1], shape(event)[1]);
-
-pd_shared3p uint64 [[3]] result(shape(event)[1], shape(event)[1],2);
-result[:,:,0]=result_freq;
-result[:,:,1]=result_time;
-return result;
-
-}
-
-
 
 
 pd_shared3p uint64 [[3]]  DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count){
@@ -203,6 +175,11 @@ uint32 id_prep = startSection(section_prep,1::uint64);
 
 
     // reading bits
+    string s = tostring(1::uint);
+//int x=(uint33)10;
+//string s = "string"+(uint64)(1)  ;
+//    print(s);
+//pd_shared3p uint8 [[1]] b0_B = tdbReadColumn(ds, tbl_party_B, "b"+tostring(0));
     pd_shared3p uint8 [[1]] b0_B = tdbReadColumn(ds, tbl_party_B, "b0");
     pd_shared3p uint8 [[1]] b1_B = tdbReadColumn(ds, tbl_party_B, "b1");
     pd_shared3p uint8 [[1]] b2_B = tdbReadColumn(ds, tbl_party_B, "b2");
@@ -258,68 +235,50 @@ pd_shared3p uint64[[2]] data(total_count,column_count);
 pd_shared3p uint64[[3]] data_chunk (ini_no_of_chunks,chunk_size_A+chunk_size_B,column_count);
 
 data_chunk[:no_of_chunks,:chunk_size_A,0] =myReshape((uint64) case_A[0:bound_A],no_of_chunks,chunk_size_A);
-//data[:size_A,1] = event_A;
 data_chunk[:no_of_chunks,:chunk_size_A,1] =myReshape((uint64) completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,2] =myReshape((uint64) b0_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,3] =myReshape((uint64) b1_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,4] =myReshape((uint64) b2_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,5] =myReshape((uint64) b3_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,6] =myReshape((uint64) b4_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,7] =myReshape((uint64) b5_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,8] =myReshape((uint64) b6_A[0:bound_A],no_of_chunks,chunk_size_A);
+for (uint i =0; i<unique_events; i++)
+{
+pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_A, "b"+tostring(i));
+data_chunk[:no_of_chunks,:chunk_size_A,i+2] =myReshape((uint64)temp[0:bound_A],no_of_chunks,chunk_size_A);
+}
 
-print("size till the end: ", size(case_A[bound_A:]));
-print("size_A - bound_A: ", size_A-bound_A);
-////**********************
+
+//********************** in case of size is not divisable of chunks
 if (no_of_chunks == ini_no_of_chunks)
     {data_chunk[no_of_chunks,:size_A-bound_A,0] =(uint64) case_A[bound_A:];
     data_chunk[no_of_chunks,:size_A-bound_A,1] =(uint64) completeTime_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,2] =(uint64) b0_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,3] =(uint64) b1_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,4] =(uint64) b2_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,5] =(uint64) b3_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,6] =(uint64) b4_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,7] =(uint64) b5_A[bound_A:];
-    data_chunk[no_of_chunks,:size_A-bound_A,8] =(uint64) b6_A[bound_A:];
+
+    for (uint i =0; i<unique_events; i++)
+    {
+    pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_A, "b"+tostring(i));
+    data_chunk[no_of_chunks,:size_A-bound_A,i+2] =(uint64)temp[bound_A:];
+    }
 }
+
+
 
 
 
 data_chunk[:no_of_chunks,chunk_size_A:,0] =myReshape((uint64) case_B[0:bound_B],no_of_chunks,chunk_size_B);
 data_chunk[:no_of_chunks,chunk_size_A:,1] =myReshape((uint64) completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,2] =myReshape((uint64) b0_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,3] =myReshape((uint64) b1_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,4] =myReshape((uint64) b2_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,5] =myReshape((uint64) b3_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,6] =myReshape((uint64) b4_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,7] =myReshape((uint64) b5_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,8] =myReshape((uint64) b6_B[0:bound_B],no_of_chunks,chunk_size_B);
-
-
-////******************************
-if (no_of_chunks == ini_no_of_chunks){
-    data_chunk[6,size_A-bound_A:size_B-bound_B,0] =(uint64) case_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,1] =(uint64) completeTime_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,2] =(uint64) b0_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,3] =(uint64) b1_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,4] =(uint64) b2_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,5] =(uint64) b3_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,6] =(uint64) b4_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,7] =(uint64) b5_B[bound_B:];
-    data_chunk[6,size_A-bound_A:size_B-bound_B,8] =(uint64) b6_B[bound_B:];
+for (uint i =0; i<unique_events; i++)
+{
+pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, "b"+tostring(i));
+data_chunk[:no_of_chunks,chunk_size_A:,i+2] =myReshape((uint64)temp[0:bound_B],no_of_chunks,chunk_size_B);
 }
 
-////************* subsetting the data temporary
-////data = data[0:500,:];
+//******************************
+if (no_of_chunks == ini_no_of_chunks){
+    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,0] =(uint64) case_B[bound_B:];
+    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,1] =(uint64) completeTime_B[bound_B:];
 
+    for (uint i =0; i<unique_events; i++)
+    {
+    pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, "b"+tostring(i));
+    data_chunk[no_of_chunks,size_A-bound_A:size_B-bound_B,i+2] =(uint64)temp[bound_B:];
+    }
+}
 
-//for(uint i=0; i<shape(data_chunk)[0]; i++){
-//    for(uint j =0; j < shape(data_chunk)[1] ; j++){
-
-//        print("(", 0,",", j , ")=(", declassify(data_chunk[0,j,0]),",",declassify(data_chunk[0,j,1]), ")");
-//    }
-
-//}
 
 
 
@@ -328,12 +287,11 @@ uint data_size= size(data[:,0]);
 endSection(id_prep);
 
 
-//pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
-DFG_calculation(data_chunk,total_count,column_count);
+pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
 
 endSection(id_full);
 
-//print_DFG(declassify(DFG_matrix));
+print_DFG(declassify(DFG_matrix));
 
 
 // closing connection
