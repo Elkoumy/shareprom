@@ -58,7 +58,7 @@ shareprom/SecreC_implementation/experiment/experiment.sh
 ```
 
 ## Running Demo on Open VM
-As mentioned above, to run the full system, you need to have Academic license. To make it easier for the reader, we prepared a demo that present our work and could run on the Sharemind's open VM.
+As mentioned above, to run the full system, you need to have Academic license. To make it easier for the reader, we prepared a demo that presents our work and could run on the Sharemind's open VM.
 
 #### Instructions to open the demo on the Open sharemind VM:
 * Get and install the virtual machine from [sharemind's website](https://sharemind.cyber.ee/)
