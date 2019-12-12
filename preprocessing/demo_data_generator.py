@@ -76,7 +76,7 @@ script4+=  "}"
 table_name="demo_party_A"
 output=script1+" load_party_A"+script2+table_name+script3+insertion_A+script4
 
-text_file = open(os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'SecreC\\single_chunk\\demo_party_A_data.sc'), "w")
+text_file = open(os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'demo\\demo_party_A_data.sc'), "w")
 text_file.write(output)
 text_file.close()
 
@@ -84,6 +84,6 @@ text_file.close()
 table_name="demo_party_B"
 output=script1+" load_party_B"+script2+table_name+script3+insertion_B+script4
 
-text_file = open(os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'SecreC\\single_chunk\\demo_party_B_data.sc'), "w")
+text_file = open(os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'demo\\demo_party_B_data.sc'), "w")
 text_file.write(output)
 text_file.close()
