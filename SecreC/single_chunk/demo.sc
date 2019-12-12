@@ -15,9 +15,6 @@ import demo_party_A_data;
 import demo_party_B_data;
 // *********************
 
-//domain pd_shared3p shared3p;
-
-
 
 void main() {
 //load_party_A();
@@ -140,40 +137,29 @@ data_chunk[:no_of_chunks,chunk_size_A:,i] =myReshape(temp[0:bound_B],no_of_chunk
 }
 
 
-print("shape data_chunk: ", shape(data_chunk)[0]);
-print("shape data_chunk: ", shape(data_chunk)[1]);
-print("shape data_chunk: ", shape(data_chunk)[2]);
-
-print("no_of chunks : ",no_of_chunks);
-print("par2 :", size_A-bound_A);
-print("par3 :", size_A-bound_A+size_B-bound_B);
-print("size A ", size_A);
-print("bound a :", bound_A);
-print("size B ", size_B);
-print("bound b :", bound_B);
 //********************** in case of size is not divisable of chunks
-//if (no_of_chunks != ini_no_of_chunks){
+if (no_of_chunks != ini_no_of_chunks){
 
-//    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,0] =case_B[bound_B:];
-////    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,1] =completeTime_B[bound_B:];
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,0] =case_B[bound_B:];
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,1] =completeTime_B[bound_B:];
 
-////    for (uint i =2; i<unique_events+2; i++)
-////    {
-////    pd_shared3p uint64 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, i);
-////    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,i] =temp[bound_B:];
-////    }
-//}
+    for (uint i =2; i<unique_events+2; i++)
+    {
+    pd_shared3p uint64 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, i);
+    data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,i] =temp[bound_B:];
+    }
+}
 
 ////**************************************************************************
 
 
-//endSection(id_prep);
+endSection(id_prep);
 
-//pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
+pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
 
-//endSection(id_full);
+endSection(id_full);
 
-//print_DFG(declassify(DFG_matrix));
+print_DFG(declassify(DFG_matrix));
 
 
 // closing connection
