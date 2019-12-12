@@ -57,6 +57,15 @@ To run the experiment, use the shell script file:
 shareprom/SecreC_implementation/experiment/experiment.sh
 ```
 
+## Running Demo on Open VM
+As mentioned above, to run the full system, you need to have Academic license. To make it easier for the reader, we prepared a demo that present our work and could run on the Sharemind's open VM.
+
+#### Instructions to open the demo on the Open sharemind VM:
+* Get and install the virtual machine from [sharemind's website](https://sharemind.cyber.ee/)
+* Run the Virtual Machine, download our GitHub repository to your VM, and Open the QT Creator
+* You need to run the 3 computing servers on the machine. You can do that from `QT Creator > Tools > External > Sharemind SDK > start Sharemind`
+* Now, you need to open the demo file in your editor. You can do that from `QT Creator > File > Open File or Project > Redirect to the demo folder > select demo.sc`
+* To run the script, from `QT Creator > Tools > External > Sharemind SDK > Run SecreC`.
 
 ## References
 [1] Archer, David W., et al. "From Keys to Databases—Real-World Applications of Secure Multi-Party Computation." The Computer Journal 61.12 (2018): 1749-1771.
