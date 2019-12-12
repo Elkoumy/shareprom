@@ -32,9 +32,9 @@ uint32 id_prep = startSection(section_prep,1::uint64);
 //    uint event_per_case_A = 27;
 //    uint event_per_case_B = 12;
     string tbl = argument("TBL"); // Table name
-    uint ini_no_of_chunks= argument("CHUNKS");
-    uint event_per_case_A = argument("EVENTA");
-    uint event_per_case_B = argument("EVENTB");
+ pd_shared3p   uint ini_no_of_chunks= argument("CHUNKS");
+    pd_shared3p uint event_per_case_A = argument("EVENTA");
+pd_shared3p    uint event_per_case_B = argument("EVENTB");
 
     string tbl_party_A=tbl+"_party_A";
     string tbl_party_B=tbl+"_party_B";
