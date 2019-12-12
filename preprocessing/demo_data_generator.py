@@ -67,7 +67,7 @@ script2+="string ds = \"DS1\";\n"
 script2+=" string tbl = \""
 script3="\";\n "
 script3+=" tdbOpenConnection(ds);\n"
-
+script3+="\n"
 script3+=" if (tdbTableExists(ds, tbl)) {\n"
 script3+="     print(\"Deleting existing table: \", tbl);\n"
 script3+="     tdbTableDelete(ds, tbl);\n"

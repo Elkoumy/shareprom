@@ -6,6 +6,7 @@ void  load_party_A() {
 string ds = "DS1";
  string tbl = "demo_party_A";
   tdbOpenConnection(ds);
+
  if (tdbTableExists(ds, tbl)) {
      print("Deleting existing table: ", tbl);
      tdbTableDelete(ds, tbl);
