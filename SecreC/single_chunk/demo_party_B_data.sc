@@ -2,10 +2,9 @@ import shared3p;
 import shared3p_table_database;
 import stdlib;
 import table_database;
-domain pd_shared3p shared3p;
 void  load_party_B() {
 string ds = "DS1";
- string tbl = "loan_party_B";
+ string tbl = "demo_party_B";
   tdbOpenConnection(ds);
  if (tdbTableExists(ds, tbl)) {
      print("Deleting existing table: ", tbl);
@@ -16,8 +15,6 @@ string ds = "DS1";
  pd_shared3p uint vtype;
  tdbTableCreate(ds, tbl, vtype, ncols);
  pd_shared3p uint [[1]] row(ncols);
-row={case,completeTime,b0,b1,b2,b3,b4,b5,b6};
-tdbInsertRow(ds, tbl, row);
 row={0,0,0,0,0,0,0,0,1};
 tdbInsertRow(ds, tbl, row);
 row={0,481,0,0,0,0,0,1,0};
