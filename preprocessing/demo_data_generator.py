@@ -10,11 +10,9 @@ import os
 data_dir=os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'data')
 
 #reading party A Data
-f=open(data_dir+"//party_A_Loan_Process_MPC.csv")
+
 insertion_A=""
-header_A=f.readline().strip('\n').split(',')
-f.close()    
-header_A.pop(2)
+
 
 idx=0
 for line in open(data_dir+"//party_A_Loan_Process_MPC.csv"):
@@ -33,14 +31,7 @@ for line in open(data_dir+"//party_A_Loan_Process_MPC.csv"):
 
 
 #reading party B Data
-f=open(data_dir+"//party_B_Loan_Process_MPC.csv")
-
 insertion_B=""
-
-header_B=f.readline().strip('\n').split(',')
-header_B.pop(2)
-f.close() 
-
 idx=0
 for line in open(data_dir+"//party_B_Loan_Process_MPC.csv"):
     line=line.strip('\n').split(',')
@@ -91,7 +82,7 @@ text_file.close()
 
 
 table_name="demo_party_B"
-output=script1+" load_party_B"+script2+table_name+script3+insertion_A+script4
+output=script1+" load_party_B"+script2+table_name+script3+insertion_B+script4
 
 text_file = open(os.path.join(  os.path.dirname(os.path.dirname(__file__)) ,'SecreC\\single_chunk\\demo_party_B_data.sc'), "w")
 text_file.write(output)
