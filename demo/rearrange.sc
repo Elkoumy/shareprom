@@ -439,28 +439,28 @@ D T[[4]] partialReshape (D T[[N]] X, T1 _m, T2 _n, T3 _o, T4 _p){
 
 //equivalent of stdlib 'reshape'
 //template <domain D, type T, type T1, dim N>
-//D T[[1]] myReshape (D T[[N]] X, T1 _m){
+//D T[[1]] _Reshape (D T[[N]] X, T1 _m){
 //    uint m = (uint)(_m);
 //    assert(size(X) == m);
 //    return partialReshape(X, m);
 //}
 
 //template <domain D, type T, type T1, type T2, dim N>
-//D T[[2]] myReshape (D T[[N]] X, T1 _m, T2 _n){
+//D T[[2]] _Reshape (D T[[N]] X, T1 _m, T2 _n){
 //    uint m = (uint)(_m); uint n = (uint)(_n);
 //    assert(size(X) == m * n);
 //    return partialReshape(X, m, n);
 //}
 
 //template <domain D, type T, type T1, type T2, type T3, dim N>
-//D T[[3]] myReshape (D T[[N]] X, T1 _m, T2 _n, T3 _o){
+//D T[[3]] _Reshape (D T[[N]] X, T1 _m, T2 _n, T3 _o){
 //    uint m = (uint)(_m); uint n = (uint)(_n); uint o = (uint)(_o);
 //    assert(size(X) == m * n * o);
 //    return partialReshape(X, m, n, o);
 //}
 
 //template <domain D, type T, type T1, type T2, type T3, type T4, dim N>
-//D T[[4]] myReshape (D T[[N]] X, T1 _m, T2 _n, T3 _o, T4 _p){
+//D T[[4]] _Reshape (D T[[N]] X, T1 _m, T2 _n, T3 _o, T4 _p){
 //    uint m = (uint)(_m); uint n = (uint)(_n); uint o = (uint)(_o); uint p = (uint)(_p);
 //    assert(size(X) == m * n * o * p);
 //    return partialReshape(X, m, n, o, p);
@@ -493,7 +493,7 @@ uint [[1]] slice_indices(uint m, uint lb1, uint ub1, uint lb2, uint ub2) {
 
 ////equivalent of matrix.sc 'transpose'
 //template <domain D, type T>
-//D T[[2]] myTranspose(D T[[2]] X) {
+//D T[[2]] _Transpose(D T[[2]] X) {
 //    uint[[1]] s = shape(X);
 
 //    uint [[1]] source (size(X));
@@ -512,7 +512,7 @@ uint [[1]] slice_indices(uint m, uint lb1, uint ub1, uint lb2, uint ub2) {
 
 ////this swaps the 2nd and the 3rd coordinates (transposes in parallel)
 //template <domain D, type T>
-//D T[[3]] myTransposePar(D T[[3]] X) {
+//D T[[3]] _TransposePar(D T[[3]] X) {
 //    uint [[1]] s = shape(X);
 
 //    uint [[1]] source (size(X));

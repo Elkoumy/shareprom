@@ -49,7 +49,7 @@ endSection(id_chunk);
 uint32 section_reshaping = newSectionType("reshaping");
 uint32 id_reshaping = startSection(section_reshaping,2::uint64);
 pd_shared3p uint64[[2]] data(total_count,column_count);
-data=myReshape(data_chunk, shape(data)[0], shape(data)[1]);
+data=_Reshape(data_chunk, shape(data)[0], shape(data)[1]);
 uint data_size_1= size(data[:,0]);
 endSection(id_reshaping);
 print("************* after reshaping ***********");
@@ -83,12 +83,12 @@ print("************ my transpose bb **************");
 
 uint32 section_transpose = newSectionType("transpose");
 uint32 id_traspose = startSection(section_transpose,1::uint64);
-pd_shared3p uint64 [[2]] bb=  myTranspose(myReshape(copyBlock((uint)b,shape(event)[1]),shape(event)[1], shape(event)[0]  ));
+pd_shared3p uint64 [[2]] bb=  _Transpose(_Reshape(copyBlock((uint)b,shape(event)[1]),shape(event)[1], shape(event)[0]  ));
 endSection(id_traspose);
 
 print("************ my transpose  subtractionCopies**************");
 id_traspose = startSection(section_transpose,2::uint64);
-pd_shared3p uint64 [[2]] subtractionCopies=  myTranspose(myReshape(copyBlock((uint)subtraction,shape(event)[1]* shape(event)[1]),shape(event)[1] *shape(event)[1], shape(event)[0]  ));
+pd_shared3p uint64 [[2]] subtractionCopies=  _Transpose(_Reshape(copyBlock((uint)subtraction,shape(event)[1]* shape(event)[1]),shape(event)[1] *shape(event)[1], shape(event)[0]  ));
 endSection(id_traspose);
 
 print("************ outerProduct**************");
@@ -106,11 +106,11 @@ endSection(id_mat);
 print("************ first colSums **************");
 uint32 section_colSums = newSectionType("colSums");
 uint32 id_colSums = startSection(section_colSums,1::uint64);
-pd_shared3p uint64 [[1]] time_sum =  myColSums(temp_time);
+pd_shared3p uint64 [[1]] time_sum =  _ColSums(temp_time);
 endSection(id_colSums);
 print("************ second colSums **************");
 id_colSums = startSection(section_colSums,2::uint64);
-pd_shared3p uint64 [[1]] freq_sum = myColSums(M);
+pd_shared3p uint64 [[1]] freq_sum = _ColSums(M);
 endSection(id_colSums);
 
 
@@ -118,8 +118,8 @@ uint32 section_combine= newSectionType("combine");
 uint32 id_combine= startSection(section_combine,1::uint64);
 
 print("************ Final Reshaping**************");
-result_time = myReshape( time_sum, shape(event)[1], shape(event)[1]) ;
-result_freq= myReshape( freq_sum, shape(event)[1], shape(event)[1]);
+result_time = _Reshape( time_sum, shape(event)[1], shape(event)[1]) ;
+result_freq= _Reshape( freq_sum, shape(event)[1], shape(event)[1]);
 
 pd_shared3p uint64 [[3]] result(shape(event)[1], shape(event)[1],2);
 

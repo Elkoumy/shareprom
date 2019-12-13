@@ -94,12 +94,12 @@ pd_shared3p uint64[[3]] data_chunk (ini_no_of_chunks,chunk_size_A+chunk_size_B,c
 //*****************************************************
 // inserting party_A columns into the dataset
 //*****************************************************
-data_chunk[:no_of_chunks,:chunk_size_A,0] =myReshape((uint64) case_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,1] =myReshape((uint64) completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,0] =_Reshape((uint64) case_A[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,1] =_Reshape((uint64) completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
 for (uint i =0; i<unique_events; i++)
 {
 pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_A, "b"+tostring(i));
-data_chunk[:no_of_chunks,:chunk_size_A,i+2] =myReshape((uint64)temp[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,i+2] =_Reshape((uint64)temp[0:bound_A],no_of_chunks,chunk_size_A);
 }
 
 
@@ -122,12 +122,12 @@ data_chunk[no_of_chunks,:size_A-bound_A,i+2] =(uint64)temp[bound_A:];
 // inserting party_B columns into the dataset
 //*****************************************************
 
-data_chunk[:no_of_chunks,chunk_size_A:,0] =myReshape((uint64) case_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,1] =myReshape((uint64) completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,0] =_Reshape((uint64) case_B[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,1] =_Reshape((uint64) completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
 for (uint i =0; i<unique_events; i++)
 {
 pd_shared3p uint8 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, "b"+tostring(i));
-data_chunk[:no_of_chunks,chunk_size_A:,i+2] =myReshape((uint64)temp[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,i+2] =_Reshape((uint64)temp[0:bound_B],no_of_chunks,chunk_size_B);
 }
 
 

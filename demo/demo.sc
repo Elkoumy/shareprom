@@ -98,12 +98,12 @@ pd_shared3p uint64[[3]] data_chunk (ini_no_of_chunks,chunk_size_A+chunk_size_B,c
 //*****************************************************
 // inserting party_A columns into the dataset
 //*****************************************************
-data_chunk[:no_of_chunks,:chunk_size_A,0] =myReshape( case_A[0:bound_A],no_of_chunks,chunk_size_A);
-data_chunk[:no_of_chunks,:chunk_size_A,1] =myReshape( completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,0] =_Reshape( case_A[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,1] =_Reshape( completeTime_A[0:bound_A],no_of_chunks,chunk_size_A);
 for (uint i =2; i<unique_events+2; i++)
 {
 pd_shared3p uint64 [[1]] temp =  tdbReadColumn(ds, tbl_party_A, (uint)i);
-data_chunk[:no_of_chunks,:chunk_size_A,i] =myReshape(temp[0:bound_A],no_of_chunks,chunk_size_A);
+data_chunk[:no_of_chunks,:chunk_size_A,i] =_Reshape(temp[0:bound_A],no_of_chunks,chunk_size_A);
 }
 
 
@@ -125,12 +125,12 @@ if (no_of_chunks != ini_no_of_chunks)
 //// inserting party_B columns into the dataset
 ////*****************************************************
 
-data_chunk[:no_of_chunks,chunk_size_A:,0] =myReshape( case_B[0:bound_B],no_of_chunks,chunk_size_B);
-data_chunk[:no_of_chunks,chunk_size_A:,1] =myReshape( completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,0] =_Reshape( case_B[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,1] =_Reshape( completeTime_B[0:bound_B],no_of_chunks,chunk_size_B);
 for (uint i =2; i<unique_events+2; i++)
 {
 pd_shared3p uint64 [[1]] temp =  tdbReadColumn(ds, tbl_party_B, (uint)i);
-data_chunk[:no_of_chunks,chunk_size_A:,i] =myReshape(temp[0:bound_B],no_of_chunks,chunk_size_B);
+data_chunk[:no_of_chunks,chunk_size_A:,i] =_Reshape(temp[0:bound_B],no_of_chunks,chunk_size_B);
 }
 
 

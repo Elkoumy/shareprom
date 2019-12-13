@@ -146,8 +146,8 @@ D T[[1]] myRowSums (D T[[2]] A) {
 
 //finds the sum of each column of matrix A
 template <domain D : shared3p, type T>
-D T[[1]] myColSums (D T[[2]] _A) {
-    D T [[2]] A = myTranspose(_A);
+D T[[1]] _ColSums (D T[[2]] _A) {
+    D T [[2]] A = _Transpose(_A);
     uint m = shape(A)[0];
     uint n = shape(A)[1];
     D T [[1]] b (m);
@@ -410,7 +410,7 @@ D T[[2]] myGetProj(D T[[3]] X, T1 _i, T2 _k) {
         lb3 = i; ub3 = i + 1;
     }
     D T [[3]] Z = mySlice(X, lb1, ub1, lb2, ub2, lb3, ub3);
-    D T [[2]] Y = myReshape(Z,m,n);
+    D T [[2]] Y = _Reshape(Z,m,n);
     return Y;
 }
 
@@ -436,7 +436,7 @@ D T[[1]] myGetProj(D T[[2]] X, T1 _i, T2 _k) {
     }
 
     D T [[2]] Z = mySlice(X, lb1, ub1, lb2, ub2);
-    D T [[1]] Y = myReshape(Z,m);
+    D T [[1]] Y = _Reshape(Z,m);
     return Y;
 }
 
@@ -473,7 +473,7 @@ D T[[3]] mySetProj(D T[[N]] X, D T [[3]] Y, T1 _i, T2 _k) {
         o = 1;
         lb3 = i; ub3 = i + 1;
     }
-    D T [[3]] Z = myReshape(X,m,n,o);
+    D T [[3]] Z = _Reshape(X,m,n,o);
     Y = mySetSlice(Z, Y, lb1, ub1, lb2, ub2, lb3, ub3);
     return Y;
 }
@@ -501,7 +501,7 @@ D T[[2]] mySetProj(D T[[N]] X, D T [[2]] Y, T1 _i, T2 _k) {
         lb2 = i; ub2 = i + 1;
     }
 
-    D T [[2]] Z = myReshape(X,m,n);
+    D T [[2]] Z = _Reshape(X,m,n);
     Y = mySetSlice(Z, Y, lb1, ub1, lb2, ub2);
     return Y;
 }
@@ -509,28 +509,28 @@ D T[[2]] mySetProj(D T[[N]] X, D T [[2]] Y, T1 _i, T2 _k) {
 
 //equivalent of stdlib 'reshape'
 template <domain D, type T, type T1, dim N>
-D T[[1]] myReshape (D T[[N]] X, T1 _m){
+D T[[1]] _Reshape (D T[[N]] X, T1 _m){
     uint m = (uint)(_m);
     assert(size(X) == m);
     return partialReshape(X, m);
 }
 
 template <domain D, type T, type T1, type T2, dim N>
-D T[[2]] myReshape (D T[[N]] X, T1 _m, T2 _n){
+D T[[2]] _Reshape (D T[[N]] X, T1 _m, T2 _n){
     uint m = (uint)(_m); uint n = (uint)(_n);
     assert(size(X) == m * n);
     return partialReshape(X, m, n);
 }
 
 template <domain D, type T, type T1, type T2, type T3, dim N>
-D T[[3]] myReshape (D T[[N]] X, T1 _m, T2 _n, T3 _o){
+D T[[3]] _Reshape (D T[[N]] X, T1 _m, T2 _n, T3 _o){
     uint m = (uint)(_m); uint n = (uint)(_n); uint o = (uint)(_o);
     assert(size(X) == m * n * o);
     return partialReshape(X, m, n, o);
 }
 
 template <domain D, type T, type T1, type T2, type T3, type T4, dim N>
-D T[[4]] myReshape (D T[[N]] X, T1 _m, T2 _n, T3 _o, T4 _p){
+D T[[4]] _Reshape (D T[[N]] X, T1 _m, T2 _n, T3 _o, T4 _p){
     uint m = (uint)(_m); uint n = (uint)(_n); uint o = (uint)(_o); uint p = (uint)(_p);
     assert(size(X) == m * n * o * p);
     return partialReshape(X, m, n, o, p);
@@ -729,7 +729,7 @@ T [[1]] myReplicate(T [[1]] a, uint [[1]] ms, uint [[1]] ns){
 
 //equivalent of matrix.sc 'transpose'
 template <domain D, type T>
-D T[[2]] myTranspose(D T[[2]] X) {
+D T[[2]] _Transpose(D T[[2]] X) {
     uint[[1]] s = shape(X);
 
     uint [[1]] source (size(X));
@@ -748,7 +748,7 @@ D T[[2]] myTranspose(D T[[2]] X) {
 
 //this swaps the 2nd and the 3rd coordinates (transposes in parallel)
 template <domain D, type T>
-D T[[3]] myTransposePar(D T[[3]] X) {
+D T[[3]] _TransposePar(D T[[3]] X) {
     uint [[1]] s = shape(X);
 
     uint [[1]] source (size(X));
@@ -1006,7 +1006,7 @@ D uint32 [[1]] boundedRadixSortPermutation(D T [[1]] key, uint [[1]] is) {
     //bit decomposition
     uint n = shape(key)[0];
     D bool [[1]] allBits = bit_extract_all_types(key);
-    D bool [[2]] keyBits = myReshape(allBits, n, size(allBits) / n);
+    D bool [[2]] keyBits = _Reshape(allBits, n, size(allBits) / n);
 
     //we start from the identity permutation
     uint32 [[1]] ident = (uint32)iota(n);
@@ -1049,7 +1049,7 @@ D uint32 [[2]] boundedRadixSortPermutationPar(D T[[2]] key, uint [[1]] is) {
     if (m == 0 || n == 0) return pi;
 
     D bool [[1]] allBits = bit_extract_all_types(key);
-    D bool [[3]] keyBits = myReshape(allBits, m, n, size(allBits) / m / n);
+    D bool [[3]] keyBits = _Reshape(allBits, m, n, size(allBits) / m / n);
 
     //now sort sequentially k times by each bit
     for (uint k = 0; k < size(is); k++){
@@ -1578,7 +1578,7 @@ D S [[2]] quickSortPermutationPar (D T[[2]] idx) {
     __syscall("shared3p::stable_sort_$T\_vec", __domainid(D), idx_flat, dummy, ascend, __cref blocks, __ref sigma);
 
     val_flat = applyPermutation(val_flat, sigma);
-    val = myReshape(val_flat, m, n);
+    val = _Reshape(val_flat, m, n);
 
     return val;
 }
@@ -1603,7 +1603,7 @@ D T[[3]] quickSortPar (D T[[3]] matrices, uint column) {
     dummy = shufflePar(dummy,key);
 
     D T [[1]] idx_flat = myFlatten(idx);
-    D T [[2]] val_flat = myTranspose(myReshape(val,m * n, o));
+    D T [[2]] val_flat = _Transpose(_Reshape(val,m * n, o));
     uint64 [[1]] blocks = iota(m + 1) * n;
     uint64 [[1]] sigma  = iota(m * n);
 
@@ -1611,7 +1611,7 @@ D T[[3]] quickSortPar (D T[[3]] matrices, uint column) {
     __syscall("shared3p::stable_sort_$T\_vec", __domainid(D), idx_flat, dummy, ascend, __cref blocks, __ref sigma);
 
     val_flat = applyPublicPermutationCols(val_flat, sigma);
-    val = myReshape(myTranspose(myReshape(val_flat, o, m * n)), m, n, o);
+    val = _Reshape(_Transpose(_Reshape(val_flat, o, m * n)), m, n, o);
 
     return val;
 }
@@ -2105,8 +2105,8 @@ D T [[2]] applyPrivatePermutationCols (D T [[2]] data, D U [[1]] pi){
     key = randomize(key);
 
     uint [[1]] tau = (uint)declassify(shuffle(pi, key));
-    data = applyPublicPermutationRows(myTranspose(data), tau);
-    return myTranspose(inverseShuffleRows(data, key));
+    data = applyPublicPermutationRows(_Transpose(data), tau);
+    return _Transpose(inverseShuffleRows(data, key));
 }
 
 template <domain D, type T, type U>
@@ -2126,9 +2126,9 @@ D T [[2]] unapplyPrivatePermutationCols (D T [[2]] data, D U [[1]] pi){
     pd_shared3p uint8 [[1]] key(32);
     key = randomize(key);
 
-    data = shuffleRows(myTranspose(data), key);                                                 
+    data = shuffleRows(_Transpose(data), key);                                                 
     uint [[1]] tau = (uint)declassify(shuffle(pi, key));
-    return myTranspose(applyPublicPermutationRows(data, inversePermutation(tau)));
+    return _Transpose(applyPublicPermutationRows(data, inversePermutation(tau)));
 }
 
 template <domain D, type T>
@@ -2155,7 +2155,7 @@ D T [[2]] applyPrivatePermutationPar (D T [[2]] data, D U [[2]] pi){
         indices[i*n : (i+1)*n] = i * n;
     }
     D U [[1]] offsets = (U)indices;
-    return myReshape(applyPrivatePermutation(myFlatten(data), myFlatten(pi) + offsets), m, n);
+    return _Reshape(applyPrivatePermutation(myFlatten(data), myFlatten(pi) + offsets), m, n);
 }
 
 
@@ -2169,7 +2169,7 @@ D T [[2]] unapplyPrivatePermutationPar (D T [[2]] data, D U [[2]] pi){
         indices[i*n : (i+1)*n] = i * n;
     }
     D U [[1]] offsets = (U)indices;
-    return myReshape(unapplyPrivatePermutation(myFlatten(data), myFlatten(pi) + offsets), m, n);
+    return _Reshape(unapplyPrivatePermutation(myFlatten(data), myFlatten(pi) + offsets), m, n);
 }
 
 template <domain D, type T, type U>
@@ -2183,7 +2183,7 @@ D T [[3]] applyPrivatePermutationPar (D T [[3]] data, D U [[2]] pi){
         indices[i*n : (i+1)*n] = i * n;
     }
     D U [[1]] offsets = (U)indices;
-    return myReshape(applyPrivatePermutationRows(myReshape(data ,m * n, l), myFlatten(pi) + offsets), m, n, l);
+    return _Reshape(applyPrivatePermutationRows(_Reshape(data ,m * n, l), myFlatten(pi) + offsets), m, n, l);
 }
 
 //TODO something could be wrong here
@@ -2198,7 +2198,7 @@ D T [[3]] unapplyPrivatePermutation (D T [[3]] data, D U [[2]] pi){
         indices[i*n : (i+1)*n] = i * n;
     }
     D U [[1]] offsets = (U)indices;
-    return myReshape(unapplyPrivatePermutationRows(myReshape(data, m * n, l), myFlatten(pi) + offsets), m, n, l);
+    return _Reshape(unapplyPrivatePermutationRows(_Reshape(data, m * n, l), myFlatten(pi) + offsets), m, n, l);
 }
 
 template <domain D, type T>
@@ -2211,7 +2211,7 @@ D T [[2]] privatePermutationInversePar (D T [[2]] pi){
         indices[i*n : (i+1)*n] = i * n;
     }
     D uint [[1]] offsets = indices;
-    return myReshape(privatePermutationInverse(myFlatten(pi) + offsets), m, n);
+    return _Reshape(privatePermutationInverse(myFlatten(pi) + offsets), m, n);
 }
 
 template <domain D, type T>
@@ -2234,7 +2234,7 @@ D T [[2]] shufflePar (D T [[2]] vectors, D uint8 [[1]] key){
 
     D T [[1]] data = myFlatten(vectors);
     data = shuffleBlocks(data, indices, counts, key);
-    vectors = myReshape(data, m, n);
+    vectors = _Reshape(data, m, n);
     return vectors;
 }
 
@@ -2249,7 +2249,7 @@ D T [[2]] inverseShufflePar (D T [[2]] vectors, D uint8 [[1]] key){
 
     D T [[1]] data = myFlatten(vectors);
     data = inverseShuffleBlocks(data, indices, counts, key);
-    vectors = myReshape(data, m, n);
+    vectors = _Reshape(data, m, n);
     return vectors;
 
 }
@@ -2272,7 +2272,7 @@ D T [[3]] shuffleRowsPar (D T [[3]] matrices, D uint8 [[1]] key){
     uint mn = m * n;
     uint nl = n * l;
 
-    D T [[2]] data = myReshape(matrices, mn, l);
+    D T [[2]] data = _Reshape(matrices, mn, l);
     data = shuffleRows(data, key);
     D uint [[1]] indices = (uint)iota(m);
     D uint [[1]] privateIndices = myReplicate(indices, n);
@@ -2284,7 +2284,7 @@ D T [[3]] shuffleRowsPar (D T [[3]] matrices, D uint8 [[1]] key){
         permutedIndices[i] = tags[i] * n + counters[tags[i]];
         counters[tags[i]]++;
     }
-    matrices = myReshape(unapplyPublicPermutationRows(data, permutedIndices), m, n, l);
+    matrices = _Reshape(unapplyPublicPermutationRows(data, permutedIndices), m, n, l);
     return matrices;
 
 }
@@ -2518,9 +2518,9 @@ D xor_uint8 [[2]] charVecPar(D T [[1]] X, uint logm,  uint m){
     Y = partialRearrange(X,Y);
     uint k = size_in_bits(Y);
 
-    D bool [[2]] W = myTranspose(myReshape(bit_extract(Y),8 :: uint, n * k));
+    D bool [[2]] W = _Transpose(_Reshape(bit_extract(Y),8 :: uint, n * k));
     D xor_uint8 [[1]] Z = bool_to_xor(W);
-    D xor_uint8 [[2]] XX = mySlice(myReshape(Z, n, k), 0 :: uint, n, 0 :: uint, logm);
+    D xor_uint8 [[2]] XX = mySlice(_Reshape(Z, n, k), 0 :: uint, n, 0 :: uint, logm);
     D xor_uint8 [[2]] YY = charVecRec(XX);
     return mySlice(YY, 0 :: uint, n, 0 :: uint, m);
 }
