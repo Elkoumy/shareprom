@@ -32,7 +32,7 @@ uint32 id_prep = startSection(section_prep,1::uint64);
 //    uint event_per_case_A = 27;
 //    uint event_per_case_B = 12;
     string tbl = argument("TBL"); // Table name
- pd_shared3p   uint ini_no_of_chunks= argument("CHUNKS");
+    uint ini_no_of_chunks= argument("CHUNKS");
     pd_shared3p uint event_per_case_A = argument("EVENTA");
 pd_shared3p    uint event_per_case_B = argument("EVENTB");
 
@@ -67,7 +67,7 @@ uint size_A=size(case_A);
 uint size_B=size(case_B);
 
 uint column_count= 2+unique_events; // 2 (trace, completeTime) columns + 7 bits (event)
-uint64 no_of_cases= size_A/event_per_case_A;
+uint64 no_of_cases= declassify(size_A/event_per_case_A);
 
 
 
@@ -82,9 +82,10 @@ if (no_of_cases % ini_no_of_chunks==0){
    }
 
 
-uint64 bound = no_of_cases/no_of_chunks*no_of_chunks;
-uint64 bound_A = bound*event_per_case_A;
-uint64 bound_B = bound*event_per_case_B;
+pd_shared3p uint64 result =no_of_cases/no_of_chunks*no_of_chunks;
+uint64 bound = declassify(result);
+uint64 bound_A = declassify(bound*event_per_case_A);
+uint64 bound_B =declassify( bound*event_per_case_B);
 
 
 
