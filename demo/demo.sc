@@ -5,10 +5,7 @@ import table_database;
 import shared3p_matrix;
 
 import profiling;
-// **** importing scripts from Alisa ****
 import rearrange;
-import sorts;
-import bitextr;
 import aux_sorting;
 import DFG;
 import demo_party_A_data;

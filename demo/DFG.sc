@@ -7,12 +7,12 @@ import shared3p_matrix;
 import profiling;
 // **** importing scripts from Alisa ****
 import rearrange;
-import sorts;
-import bitextr;
+//import sorts;
+//import bitextr;
 import aux_sorting;
 // *********************
+domain pd_shared3p shared3p;
 
-//domain pd_shared3p shared3p;
 
 
 void print_DFG(uint64 [[3]] DFG_matrix){

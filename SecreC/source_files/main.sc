@@ -5,13 +5,9 @@ import table_database;
 import shared3p_matrix;
 
 import profiling;
-// **** importing scripts from Alisa ****
-import rearrange;
-import sorts;
-import bitextr;
 import aux_sorting;
 import DFG;
-// *********************
+
 
 
 
@@ -27,10 +23,6 @@ uint32 id_prep = startSection(section_prep,1::uint64);
     string ds = "DS1"; // Data source name
 //reading arguments
 
-//    string tbl = "BPI13"; // Table name
-//    uint ini_no_of_chunks= 8;
-//    uint event_per_case_A = 27;
-//    uint event_per_case_B = 12;
     string tbl = argument("TBL"); // Table name
     uint ini_no_of_chunks= argument("CHUNKS");
     pd_shared3p uint event_per_case_A = argument("EVENTA");
@@ -62,7 +54,7 @@ Based on our assumption the followig values are shared between the 2 parties:
 
 
 
-uint event_per_case = event_per_case_A+event_per_case_B;
+pd_shared3p uint event_per_case = event_per_case_A+event_per_case_B;
 uint size_A=size(case_A);
 uint size_B=size(case_B);
 
