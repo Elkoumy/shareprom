@@ -5,10 +5,6 @@
     <target name="case" type="uint32"/>
   </column>
   <column key="false" type="primitive">
-    <source name="event" type="uint64"/>
-    <target name="event" type="uint64"/>
-  </column>
-  <column key="false" type="primitive">
     <source name="completeTime" type="uint32"/>
     <target name="completeTime" type="uint32"/>
   </column>

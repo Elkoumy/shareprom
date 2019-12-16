@@ -8,10 +8,7 @@
     <source name="completeTime" type="uint32"/>
     <target name="completeTime" type="uint32"/>
   </column>
-  <column key="false" type="primitive">
-    <source name="event" type="uint64"/>
-    <target name="event" type="uint64"/>
-  </column>
+
  <!--binry representation columns -->
  <column key="false" type="primitive">
     <source name="b0" type="uint8"/>
