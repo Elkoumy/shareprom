@@ -13,12 +13,6 @@ import DFG;
 
 void main() {
 
-uint32 section = newSectionType("full_run");
-uint32 id_full = startSection(section,1::uint64);
-
-
-uint32 section_prep = newSectionType("preprocessing");
-uint32 id_prep = startSection(section_prep,1::uint64);
 
     string ds = "DS1"; // Data source name
 //reading arguments
@@ -31,6 +25,12 @@ pd_shared3p    uint event_per_case_B = argument("EVENTB");
     string tbl_party_A=tbl+"_party_A";
     string tbl_party_B=tbl+"_party_B";
 
+uint32 section = newSectionType("full_run_"+tbl+"_"+tostring(ini_no_of_chunks));
+uint32 id_full = startSection(section,1::uint64);
+
+
+uint32 section_prep = newSectionType("preprocessing_"+tbl+"_"+tostring(ini_no_of_chunks));
+uint32 id_prep = startSection(section_prep,1::uint64);
     // Open database before running operations on it
     tdbOpenConnection(ds);
 
@@ -149,8 +149,8 @@ data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,i+2] =(uint
 
 
 endSection(id_prep);
-
-pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count);
+string log_string="_"+tbl+"_"+tostring(ini_no_of_chunks);
+pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count,log_string);
 
 endSection(id_full);
 

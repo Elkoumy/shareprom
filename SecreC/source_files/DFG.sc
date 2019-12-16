@@ -26,13 +26,13 @@ for(uint i=0; i<shape(DFG_matrix)[0]; i++){
 }
 
 
-pd_shared3p uint64 [[3]]  DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count){
+pd_shared3p uint64 [[3]]  DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count, string log_string){
 
 //void DFG_calculation( pd_shared3p uint64[[3]] data_chunk, uint total_count,uint column_count){
 print("************ DFG_calculation **************");
 
 
-uint32 section_chunk = newSectionType("per_chunk_sort");
+uint32 section_chunk = newSectionType("per_chunk_sort"+log_string);
 uint32 id_chunk = startSection(section_chunk,1::uint64);
 
 print("************ before sorting **************");
@@ -44,7 +44,7 @@ print("************ after sorting **************");
 endSection(id_chunk);
 
 
-uint32 section_reshaping = newSectionType("reshaping");
+uint32 section_reshaping = newSectionType("reshaping"+log_string);
 uint32 id_reshaping = startSection(section_reshaping,2::uint64);
 pd_shared3p uint64[[2]] data(total_count,column_count);
 data=_Reshape(data_chunk, shape(data)[0], shape(data)[1]);
@@ -52,7 +52,7 @@ uint data_size_1= size(data[:,0]);
 endSection(id_reshaping);
 print("************* after reshaping ***********");
 
-uint32 section_shifting = newSectionType("shifting_and_subtraction");
+uint32 section_shifting = newSectionType("shifting_and_subtraction"+log_string);
 uint32 id_shifting = startSection(section_shifting,1::uint64);
 // copy the data to another shifted version
 pd_shared3p uint [[2]] shifted=data[1:,:];
@@ -72,14 +72,14 @@ uint data_size = size(subtraction);
 pd_shared3p uint64 [[2]] result_time(shape(event)[1], shape(event)[1])=0;
 pd_shared3p uint64 [[2]] result_freq(shape(event)[1], shape(event)[1])=0;
 
-uint32 section_boolean = newSectionType("boolean_comparison");
+uint32 section_boolean = newSectionType("boolean_comparison"+log_string);
 uint32 id_boolean = startSection(section_boolean,1::uint64);
 pd_shared3p bool [[1]] b = (tid == tid2);
 endSection(id_boolean);
 
 print("************  transpose bb **************");
 
-uint32 section_transpose = newSectionType("transpose");
+uint32 section_transpose = newSectionType("transpose"+log_string);
 uint32 id_traspose = startSection(section_transpose,1::uint64);
 pd_shared3p uint64 [[2]] bb=  _Transpose(_Reshape(copyBlock((uint)b,shape(event)[1]),shape(event)[1], shape(event)[0]  ));
 endSection(id_traspose);
@@ -90,19 +90,19 @@ pd_shared3p uint64 [[2]] subtractionCopies=  _Transpose(_Reshape(copyBlock((uint
 endSection(id_traspose);
 
 print("************ outerProduct**************");
-uint32 section_outerProduct = newSectionType("outerProduct");
+uint32 section_outerProduct = newSectionType("outerProduct"+log_string);
 uint32 id_outer = startSection(section_outerProduct,1::uint64);
 pd_shared3p uint64[[2]] M = outerProduct(event * bb, event2);
 endSection(id_outer);
 
 print("************ matrix multiplication **************");
-uint32 section_mat = newSectionType("matrixMultiplication");
+uint32 section_mat = newSectionType("matrixMultiplication"+log_string);
 uint32 id_mat = startSection(section_mat,1::uint64);
 pd_shared3p uint64 [[2]]temp_time = M* subtractionCopies;
 endSection(id_mat);
 
 print("************ first colSums **************");
-uint32 section_colSums = newSectionType("colSums");
+uint32 section_colSums = newSectionType("colSums"+log_string);
 uint32 id_colSums = startSection(section_colSums,1::uint64);
 pd_shared3p uint64 [[1]] time_sum =  _ColSums(temp_time);
 endSection(id_colSums);
@@ -112,7 +112,7 @@ pd_shared3p uint64 [[1]] freq_sum = _ColSums(M);
 endSection(id_colSums);
 
 
-uint32 section_combine= newSectionType("combine");
+uint32 section_combine= newSectionType("combine"+log_string);
 uint32 id_combine= startSection(section_combine,1::uint64);
 
 print("************ Final Reshaping**************");
