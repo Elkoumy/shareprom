@@ -48,7 +48,7 @@ import pandas as pd
 #
 
 #
-#data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CCC19.csv")
+#data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CCC19.csv")b
 #
 #output=pd.DataFrame()
 #output['case']=data1['case:concept:name']
@@ -58,11 +58,11 @@ import pandas as pd
 #output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\CCC19_3_columns.csv",index=0)
 
 
-data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\BPI_2013.csv")
+data1= pd.read_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\Sepsis Cases - Event Log.csv")
 
 output=pd.DataFrame()
 output['case']=data1['case:concept:name']
-output['event']=data1['lifecycle:transition']
+output['event']=data1['concept:name']
 output['completeTime']=data1['time:timestamp']
 
-output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\BPI_2013_3_columns.csv",index=0)
+output.to_csv(r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets\SEPSIS_3_columns.csv",index=0)
