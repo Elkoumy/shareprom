@@ -38,7 +38,7 @@ for f in files:
     
     command+=c
     
-    
+command+="done"    
 text_file = open(os.path.join(experiment_dir,"run_experiment.sh"), "w")
 text_file.write(command)
 text_file.close()   

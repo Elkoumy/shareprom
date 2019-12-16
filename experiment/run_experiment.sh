@@ -109,3 +109,4 @@ sudo sharemind-runscript main.sb --str=TBL --str= --str=string --file=tbl_name -
 sudo pkill -f nethogs
     ssh debian@SharemindServer2 sudo pkill -f nethogs
     ssh debian@SharemindServer3 sudo pkill -f nethogs
+done
