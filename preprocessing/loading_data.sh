@@ -80,21 +80,21 @@
 #sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_5_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_5_model_party_B.xml
 
 
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_4_MPC.csv--model /home/debian/shareprom/shareprom/models/BPI15_4_model.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_4_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_4_model_party_A.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_4_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_4_model_party_B.xml
+echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_4_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_4_model.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_4_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_4_model_party_A.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_4_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_4_model_party_B.xml
 
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_3_MPC.csv--model /home/debian/shareprom/shareprom/models/BPI15_3_model.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_3_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_3_model_party_A.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_3_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_3_model_party_B.xml
+echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_3_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_3_model.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_3_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_3_model_party_A.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_3_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_3_model_party_B.xml
 
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_2_MPC.csv--model /home/debian/shareprom/shareprom/models/BPI15_2_model.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_2_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_2_model_party_A.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_2_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_2_model_party_B.xml
+echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_2_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_2_model.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_2_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_2_model_party_A.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_2_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_2_model_party_B.xml
 
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_1_MPC.csv--model /home/debian/shareprom/shareprom/models/BPI15_1_model.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_1_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_1_model_party_A.xml
-echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_1_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_1_model_party_B.xml
+echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/BPI15_1_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_1_model.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_A_BPI15_1_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_1_model_party_A.xml
+#echo y | sudo sharemind-csv-importer --conf /etc/sharemind/client.conf --mode overwrite --csv /home/debian/shareprom/data/party_B_BPI15_1_MPC.csv --model /home/debian/shareprom/shareprom/models/BPI15_1_model_party_B.xml
 
 
 
