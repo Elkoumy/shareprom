@@ -15,7 +15,7 @@ experiment_dir=os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', '
 
 command = "#!/bin/bash\n \
 chunks=\"100\" \n \
-for i in $iterations; do \n"
+for i in $chunks; do \n"
 
 for f in files:
     party_a= "party_A_"+f+"_MPC.csv"
@@ -38,8 +38,7 @@ for f in files:
     
     command+=c
     
-command+="done"    
+command+="done\n"    
 text_file = open(os.path.join(experiment_dir,"run_experiment.sh"), "w")
 text_file.write(command)
 text_file.close()   
-    

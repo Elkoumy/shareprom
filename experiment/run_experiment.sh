@@ -1,6 +1,6 @@
 #!/bin/bash
  chunks="100" 
- for i in $iterations; do 
+ for i in $chunks; do 
 echo "BPI13_$i"
      sudo nohup nethogs -t |tee  /home/debian/shareprom/shareprom/experiment/logs/server1/BPI13_$i>temp &
     ssh debian@SharemindServer2 sudo nohup nethogs -t |tee  /home/debian/shareprom/shareprom/experiment/logs/server2/BPI13_$i>temp &
