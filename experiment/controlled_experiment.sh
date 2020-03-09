@@ -40,7 +40,17 @@ do
 for index in ${!dataset[*]}; do 
   echo "***********************************************************"
   echo "Current Dataset is ${dataset[$index]}"
+  sudo nohup nethogs -t |tee  /home/debian/shareprom/shareprom/experiment/logs/server1/${dataset[$index]}_$chunk>temp &
+    ssh debian@SharemindServer2 sudo nohup nethogs -t |tee  /home/debian/shareprom/shareprom/experiment/logs/server2/${dataset[$index]}_$chunk>temp &
+    ssh debian@SharemindServer3 sudo nohup nethogs -t |tee  /home/debian/shareprom/shareprom/experiment/logs/server3/${dataset[$index]}_$chunk>temp &
+
 sudo sharemind-runscript main.sb --str=TBL --str= --str=string --str="${dataset[$index]}" --str=CHUNKS --str="" --str=uint64 --size=8 --uint64=$chunk --str=EVENTA --str pd_shared3p --str=uint64 --size=8 --uint64=${eventA[$index]} --str=EVENTB --str pd_shared3p --str=uint64 --size=8 --uint64=${eventB[$index]}
+
+    sudo pkill -f nethogs
+    ssh debian@SharemindServer2 sudo pkill -f nethogs
+    ssh debian@SharemindServer3 sudo pkill -f nethogs
+
+
 done
 
 done

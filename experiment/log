@@ -1,0 +1,372 @@
+BPI13_100
+./run_experiment.sh: line 5: temp: Permission denied
+./run_experiment.sh: line 6: temp: Permission denied
+./run_experiment.sh: line 7: temp: Permission denied
+2019.12.17 09:16:24 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 09:16:24 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 09:16:24 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 09:16:24 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 09:16:24 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 09:16:24 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 09:16:24 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 09:16:24 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 09:16:42 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:16:42 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:16:42 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:16:42 INFO    [Controller] Stopping the network...
+2019.12.17 09:16:42 FATAL   Multiple exceptions caught:
+2019.12.17 09:16:42 FATAL     Exception from server 0:
+2019.12.17 09:16:42 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:16:42 FATAL     Exception from server 1:
+2019.12.17 09:16:42 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:16:42 FATAL     Exception from server 2:
+2019.12.17 09:16:42 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+SEPSIS_100
+./run_experiment.sh: line 14: temp: Permission denied
+./run_experiment.sh: line 15: temp: Permission denied
+./run_experiment.sh: line 16: temp: Permission denied
+2019.12.17 09:16:42 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 09:16:42 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 09:16:42 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 09:16:42 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 09:16:42 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 09:16:42 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 09:16:42 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 09:16:42 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 09:18:41 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:18:41 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:18:41 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:18:41 INFO    [Controller] Stopping the network...
+2019.12.17 09:18:41 FATAL   Multiple exceptions caught:
+2019.12.17 09:18:41 FATAL     Exception from server 0:
+2019.12.17 09:18:41 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:18:41 FATAL     Exception from server 1:
+2019.12.17 09:18:41 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:18:41 FATAL     Exception from server 2:
+2019.12.17 09:18:41 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+WABO1_100
+./run_experiment.sh: line 23: temp: Permission denied
+./run_experiment.sh: line 24: temp: Permission denied
+./run_experiment.sh: line 25: temp: Permission denied
+2019.12.17 09:18:41 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 09:18:41 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 09:18:41 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 09:18:41 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 09:18:41 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 09:18:41 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 09:18:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 09:18:41 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 09:34:30 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:34:30 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:34:30 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:34:30 INFO    [Controller] Stopping the network...
+2019.12.17 09:34:30 FATAL   Multiple exceptions caught:
+2019.12.17 09:34:30 FATAL     Exception from server 0:
+2019.12.17 09:34:30 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:34:30 FATAL     Exception from server 1:
+2019.12.17 09:34:30 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:34:30 FATAL     Exception from server 2:
+2019.12.17 09:34:30 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+WABO2_100
+./run_experiment.sh: line 32: temp: Permission denied
+./run_experiment.sh: line 33: temp: Permission denied
+./run_experiment.sh: line 34: temp: Permission denied
+2019.12.17 09:34:30 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 09:34:30 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 09:34:30 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 09:34:30 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 09:34:30 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 09:34:30 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 09:34:30 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 09:34:30 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 09:53:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:53:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:53:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 09:53:03 INFO    [Controller] Stopping the network...
+2019.12.17 09:53:03 FATAL   Multiple exceptions caught:
+2019.12.17 09:53:03 FATAL     Exception from server 0:
+2019.12.17 09:53:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:53:03 FATAL     Exception from server 1:
+2019.12.17 09:53:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 09:53:03 FATAL     Exception from server 2:
+2019.12.17 09:53:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+WABO3_100
+./run_experiment.sh: line 41: temp: Permission denied
+./run_experiment.sh: line 42: temp: Permission denied
+./run_experiment.sh: line 43: temp: Permission denied
+2019.12.17 09:53:03 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 09:53:03 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 09:53:03 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 09:53:03 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 09:53:04 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 09:53:04 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 09:53:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 09:53:04 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 10:32:12 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:32:12 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:32:12 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:32:12 INFO    [Controller] Stopping the network...
+2019.12.17 10:32:12 FATAL   Multiple exceptions caught:
+2019.12.17 10:32:12 FATAL     Exception from server 0:
+2019.12.17 10:32:12 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 10:32:12 FATAL     Exception from server 1:
+2019.12.17 10:32:12 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 10:32:12 FATAL     Exception from server 2:
+2019.12.17 10:32:12 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+WABO4_100
+./run_experiment.sh: line 50: temp: Permission denied
+./run_experiment.sh: line 52: temp: Permission denied
+./run_experiment.sh: line 51: temp: Permission denied
+2019.12.17 10:32:13 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 10:32:13 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 10:32:13 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 10:32:13 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 10:32:13 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 10:32:13 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 10:32:13 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 10:32:13 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 10:46:54 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:46:54 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:46:54 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 10:46:54 INFO    [Controller] Stopping the network...
+2019.12.17 10:46:54 FATAL   Multiple exceptions caught:
+2019.12.17 10:46:54 FATAL     Exception from server 0:
+2019.12.17 10:46:54 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 10:46:54 FATAL     Exception from server 1:
+2019.12.17 10:46:54 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 10:46:54 FATAL     Exception from server 2:
+2019.12.17 10:46:54 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+WABO5_100
+./run_experiment.sh: line 59: temp: Permission denied
+./run_experiment.sh: line 60: temp: Permission denied
+./run_experiment.sh: line 61: temp: Permission denied
+2019.12.17 10:46:55 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 10:46:55 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 10:46:55 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 10:46:55 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 10:46:55 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 10:46:55 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 10:46:55 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 10:46:55 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 11:08:18 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:08:18 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:08:18 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:08:18 INFO    [Controller] Stopping the network...
+2019.12.17 11:08:18 FATAL   Multiple exceptions caught:
+2019.12.17 11:08:18 FATAL     Exception from server 0:
+2019.12.17 11:08:18 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:08:18 FATAL     Exception from server 1:
+2019.12.17 11:08:18 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:08:18 FATAL     Exception from server 2:
+2019.12.17 11:08:18 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+BPI15_1_100
+./run_experiment.sh: line 68: temp: Permission denied
+./run_experiment.sh: line 69: temp: Permission denied
+./run_experiment.sh: line 70: temp: Permission denied
+2019.12.17 11:08:18 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 11:08:18 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 11:08:18 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 11:08:18 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 11:08:18 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 11:08:18 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 11:08:18 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 11:08:18 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 11:37:15 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:37:15 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:37:15 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:37:15 INFO    [Controller] Stopping the network...
+2019.12.17 11:37:15 FATAL   Multiple exceptions caught:
+2019.12.17 11:37:15 FATAL     Exception from server 0:
+2019.12.17 11:37:15 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:37:15 FATAL     Exception from server 1:
+2019.12.17 11:37:15 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:37:15 FATAL     Exception from server 2:
+2019.12.17 11:37:15 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+BPI15_2_100
+./run_experiment.sh: line 77: temp: Permission denied
+./run_experiment.sh: line 78: temp: Permission denied
+./run_experiment.sh: line 79: temp: Permission denied
+2019.12.17 11:37:16 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 11:37:16 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 11:37:16 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 11:37:16 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 11:37:16 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 11:37:16 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 11:37:16 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 11:37:16 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 11:59:13 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:59:13 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:59:13 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 11:59:13 INFO    [Controller] Stopping the network...
+2019.12.17 11:59:13 FATAL   Multiple exceptions caught:
+2019.12.17 11:59:13 FATAL     Exception from server 0:
+2019.12.17 11:59:13 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:59:13 FATAL     Exception from server 1:
+2019.12.17 11:59:13 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 11:59:13 FATAL     Exception from server 2:
+2019.12.17 11:59:13 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+BPI15_3_100
+./run_experiment.sh: line 86: temp: Permission denied
+./run_experiment.sh: line 87: temp: Permission denied
+./run_experiment.sh: line 88: temp: Permission denied
+2019.12.17 11:59:14 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 11:59:14 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 11:59:14 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 11:59:14 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 11:59:14 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 11:59:14 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 11:59:14 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 11:59:14 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 12:44:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 12:44:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 12:44:03 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 12:44:03 INFO    [Controller] Stopping the network...
+2019.12.17 12:44:03 FATAL   Multiple exceptions caught:
+2019.12.17 12:44:03 FATAL     Exception from server 0:
+2019.12.17 12:44:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 12:44:03 FATAL     Exception from server 1:
+2019.12.17 12:44:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 12:44:03 FATAL     Exception from server 2:
+2019.12.17 12:44:03 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+BPI15_4_100
+./run_experiment.sh: line 95: temp: Permission denied
+./run_experiment.sh: line 96: temp: Permission denied
+./run_experiment.sh: line 97: temp: Permission denied
+2019.12.17 12:44:04 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 12:44:04 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 12:44:04 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 12:44:04 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 12:44:04 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 12:44:04 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 12:44:04 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 12:44:04 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 13:00:14 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:00:14 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:00:14 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:00:14 INFO    [Controller] Stopping the network...
+2019.12.17 13:00:14 FATAL   Multiple exceptions caught:
+2019.12.17 13:00:14 FATAL     Exception from server 0:
+2019.12.17 13:00:14 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 13:00:14 FATAL     Exception from server 1:
+2019.12.17 13:00:14 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 13:00:14 FATAL     Exception from server 2:
+2019.12.17 13:00:14 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+BPI15_5_100
+./run_experiment.sh: line 104: temp: Permission denied
+./run_experiment.sh: line 105: temp: Permission denied
+./run_experiment.sh: line 106: temp: Permission denied
+2019.12.17 13:00:15 INFO    Server map for UUID namespace "TestInstance":
+2019.12.17 13:00:15 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2019.12.17 13:00:15 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2019.12.17 13:00:15 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2019.12.17 13:00:15 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
+2019.12.17 13:00:15 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
+2019.12.17 13:00:15 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
+2019.12.17 13:00:15 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
+2019.12.17 13:24:11 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:24:11 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:24:11 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
+2019.12.17 13:24:11 INFO    [Controller] Stopping the network...
+2019.12.17 13:24:11 FATAL   Multiple exceptions caught:
+2019.12.17 13:24:11 FATAL     Exception from server 0:
+2019.12.17 13:24:11 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 13:24:11 FATAL     Exception from server 1:
+2019.12.17 13:24:11 FATAL         * Exception 1 of 1: Server failed to run bytecode!
+2019.12.17 13:24:11 FATAL     Exception from server 2:
+2019.12.17 13:24:11 FATAL         * Exception 1 of 1: Server failed to run bytecode!
