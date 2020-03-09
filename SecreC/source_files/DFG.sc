@@ -75,6 +75,16 @@ pd_shared3p uint64 [[2]] result_freq(shape(event)[1], shape(event)[1])=0;
 uint32 section_boolean = newSectionType("boolean_comparison"+log_string);
 uint32 id_boolean = startSection(section_boolean,1::uint64);
 pd_shared3p bool [[1]] b = (tid == tid2);
+
+
+for(uint i=0; i<shape(event)[0]; i++){
+    for(uint j =0; j < shape(event)[1] ; j++){
+    print("event= ", declassify(event[i,j]));
+}
+}
+
+//print("B= ", declassify(b));
+
 endSection(id_boolean);
 
 print("************  transpose bb **************");
@@ -82,6 +92,8 @@ print("************  transpose bb **************");
 uint32 section_transpose = newSectionType("transpose"+log_string);
 uint32 id_traspose = startSection(section_transpose,1::uint64);
 pd_shared3p uint64 [[2]] bb=  _Transpose(_Reshape(copyBlock((uint)b,shape(event)[1]),shape(event)[1], shape(event)[0]  ));
+
+//print("bb= ", declassify(bb));
 endSection(id_traspose);
 
 print("************  transpose  subtractionCopies**************");

@@ -17,13 +17,13 @@ void main() {
 
 
     string ds = "DS1"; // Data source name
-    string tbl = "CCC19"; // Table name
+    string tbl = "run"; // Table name
     string tbl_party_A=tbl+"_party_A";
     string tbl_party_B=tbl+"_party_B";
 
-   uint ini_no_of_chunks= 20;
-   pd_shared3p uint event_per_case_A = 58;
-   pd_shared3p uint event_per_case_B = 60;
+   uint ini_no_of_chunks= 2;
+   pd_shared3p uint event_per_case_A = 2;
+   pd_shared3p uint event_per_case_B = 2;
 
 
    uint32 section = newSectionType("full_run_"+tbl+"_"+tostring(ini_no_of_chunks));
@@ -35,7 +35,7 @@ void main() {
     // Open database before running operations on it
     tdbOpenConnection(ds);
 
-    uint unique_events= (tdbGetColumnCount(ds, tbl_party_A)+1)/2-2;
+    uint unique_events= (tdbGetColumnCount(ds, tbl_party_A)+1)/2-2; //division by 2 as there is a flag column after each column
     print("************ Reading the events **************");
 
 // reading party A columns
@@ -78,6 +78,7 @@ pd_shared3p uint64 result =no_of_cases/no_of_chunks*no_of_chunks;
 uint64 bound = declassify(result);
 uint64 bound_A = declassify(bound*event_per_case_A);
 uint64 bound_B =declassify( bound*event_per_case_B);
+
 
 
 
