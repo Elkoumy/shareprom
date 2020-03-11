@@ -52,6 +52,7 @@ uint data_size_1= size(data[:,0]);
 endSection(id_reshaping);
 print("************* after reshaping ***********");
 
+
 uint32 section_shifting = newSectionType("shifting_and_subtraction"+log_string);
 uint32 id_shifting = startSection(section_shifting,1::uint64);
 // copy the data to another shifted version
@@ -63,7 +64,7 @@ pd_shared3p uint64[[1]]tid =data[:data_size_1-1,0];
 pd_shared3p uint64[[1]]tid2=shifted[:,0];
 pd_shared3p uint64[[2]]event =data[:data_size_1-1,2:];
 pd_shared3p uint64[[2]]event2 =shifted[:,2:];
-pd_shared3p uint64 [[1]] subtraction=data[:data_size_1-1,1]-shifted[:,1];
+pd_shared3p uint64 [[1]] subtraction=shifted[:,1]-data[:data_size_1-1,1];
 
 endSection(id_shifting);
 
@@ -77,13 +78,6 @@ uint32 id_boolean = startSection(section_boolean,1::uint64);
 pd_shared3p bool [[1]] b = (tid == tid2);
 
 
-for(uint i=0; i<shape(event)[0]; i++){
-    for(uint j =0; j < shape(event)[1] ; j++){
-    print("event= ", declassify(event[i,j]));
-}
-}
-
-//print("B= ", declassify(b));
 
 endSection(id_boolean);
 
