@@ -1,272 +1,67 @@
-***********************************************************
-chunks equal to 100
-***********************************************************
-Current Dataset is cases_10000
-./controlled_experiment.sh: line 43: temp: Permission denied
-./controlled_experiment.sh: line 44: temp: Permission denied
-./controlled_experiment.sh: line 45: temp: Permission denied
-2020.03.06 17:20:57 INFO    Server map for UUID namespace "TestInstance":
-2020.03.06 17:20:57 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
-2020.03.06 17:20:57 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
-2020.03.06 17:20:57 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
-2020.03.06 17:20:57 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
-2020.03.06 17:20:57 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-2020.03.06 17:20:57 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-2020.03.06 17:20:57 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
-2020.03.06 17:27:45 INFO    Bytecode published 0 results.
-2020.03.06 17:27:45 INFO    Bytecode: 'main.sb' Total time: 408442 ms
-2020.03.06 17:27:45 INFO    [Controller] Stopping the network...
-******************************************************2020.03.06 17:51:29 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 17:51:29 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-2020.03.06 17:51:29 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-2020.03.06 17:51:29 INFO    [Controller] Stopping the network...
-2020.03.06 17:51:29 FATAL   Multiple exceptions caught:
-2020.03.06 17:51:29 FATAL     Exception from server 0:
-2020.03.06 17:51:29 FATAL         * Exception 2 of 2: Server timed out!
-2020.03.06 17:51:29 FATAL         * Exception 1 of 2: Failed to negotiate process!
-2020.03.06 17:51:29 FATAL     Exception from server 1:
-2020.03.06 17:51:29 FATAL         * Exception 2 of 2: Server timed out!
-2020.03.06 17:51:29 FATAL         * Exception 1 of 2: Failed to negotiate process!
-2020.03.06 17:51:29 FATAL     Exception from server 2:
-2020.03@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_Permission denied, please try again.
-Permission denied, please try again.
-Permission denied (publickey,password).
-*********************************************************2020.03.06 19:16:40 INFO    Bytecode published 0 results.
-2020.03.06 19:16:40 INFO    Bytecode: 'main.sb' Total time: 6534604 ms
-2020.03.06 19:16:40 INFO    [Controller] Stopping the network...
-***********************************************************
-Current Dataset is cases_1000000
-./controlled_experiment.sh: line 43: temp: Permission denied
-./controlled_experiment.sh: line 44: temp: Permission denied
-./controlled_experiment.sh: line 45: temp: Permission denied
-2020.03.06 19:16:41 INFO    Server map for UUID namespace "TestInstance":
-2020.03.06 19:16:41 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
-2020.03.06 19:16:41 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
-2020.03.06 19:16:41 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
-2020.03.06 19:16:41 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
-2020.03.06 19:16:41 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 19:16:41 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-2020.03.06 19:16:41 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
-2020.03.06 19:34:01 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 19:34:07 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 19:34:24 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 19:34:24 INFO    [Controller] Stopping the network...
-2020.03.06 19:34:24 FATAL   Multiple exceptions caught:
-2020.03.06 19:34:24 FATAL     Exception from server 0:
-2020.03.06 19:34:24 FATAL   2020.03.06 19:58:02 INFO    Bytecode published 0 results.
-2020.03.06 19:58:02 INFO    Bytecode: 'main.sb' Total time: 7593643 ms
-2020.03.06 19:58:02 INFO    [Controller] Stopping the network...
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_hosts" -R sharemindserver2
-ECDSA host key for sharemindserver2 has changed and you have requested strict checking.
-Host key verification failed.
-Permission denied, please try again.
-Permission denied, please try again.
-Permission denied (publickey,password).
-***********************************************************
-Current Dataset is cases_1000000
-2020.03.06 19:58:03 INFO    Server map for UUID namespace "TestInstance":
-2020.03.06 19:58:03 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
-2020.03.06 19:58:03 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
-2020.03.06 19:58:03 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
-2020.03.06 19:58:03 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_hosts" -R sharemindserver2
-ECDSA host key for sharemindserver2 has changed and you have requested strict checking.
-Host key verification failed.
-2020.03.06 19:58:03 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-Permission denied, please try again.
-Permission denied, please try again.
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-Permission denied (publickey,password).
-2020.03.06 19:58:03 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 19:58:03 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
-2020.03.07 02:01:06 ERROR   [Controller][Server SharemindServer1] Fatal error on connection to server:
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 5 of 5: TCP connection closed by remote peer!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 4 of 5: Failed TCP read!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 3 of 5: Error in the pull function.
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 2 of 5: ::gnutls_record_recv failed!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 1 of 5: Failed to receive data!
-TAL         * Exception 1 of 1: Server failed to run bytecode!
-2020.03.06 20:35:31 FATAL     Exception from server 1:
-2020.03.06 20:35:31 FATAL         * Exception 1 of 1: Server failed to run bytecode!
-2020.03.06 20:35:31 FATAL     Exception from server 2:
-2020.03.06 20:35:31 FATAL         * Exception 1 of 1: Server failed to run bytecode!
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone2020.03.07 02:01:06 ERROR   [Controller][Server SharemindServer1] Fatal error on connection to server:
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 5 of 5: TCP connection closed by remote peer!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 4 of 5: Failed TCP read!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 3 of 5: Error in the pull function.
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 2 of 5: ::gnutls_record_recv failed!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 1 of 5: Failed to receive data!
-gain.
-Permission denied (publickey,password).
-***********************************************************
-Current Dataset is activities_10
-2020.03.06 20:35:31 INFO    Server map for UUID namespace "TestInstance":
-2020.03.06 20:35:31 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
-2020.03.06 20:35:31 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
-2020.03.06 20:35:31 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_hosts" -R sharemindserver2
-ECDSA host key for sharemindserver2 has changed and you have requested strict checking.
-Host key verification failed.
-2020.03.06 20:35:31 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
-2020.03.06 20:35:31 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
-Permission denied, please try again.
-Permission denied, please try again.
-Permission denied (publickey,password).
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 20:35:31 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-2020.03.06 20:35:31 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
-2020.03.06 20:44:00 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 20:44:00 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 20:44:01 ERROR   [Controller][PID 0] Failed to run bytecode. Reason: Process finished unexpectedly!
-2020.03.06 20:44:01 INFO    [Controller] Stopping the network...
-2020.03.06 20:44:01 FATAL   Multiple exceptions caught:
-2020.03.06 20:44:01 FATAL     Exception from server 0:
-2020.03.06 20:44:01 FATAL         * Exception 1 of 1: Server failed to run bytecode!
-2020.03.06 20:44:01 FATAL     Exception from server 1:
-2020.03.06 20:44:01 FATAL         * Exception 1 of 1: Server failed to run bytecode!
-2020.03.06 20:44:01 FATAL     Exception from server 2:
-2020.03.06 20:44:01 FATAL         * Exception 1 of 1: Server failed to run bytecode!
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_hosts" -R sharemindserver2
-ECDSA host key for sharemindserver2 has changed and you have requested strict checking.
-Host key verification failed.
-Permission denied, please try again.
-Permission denied, please try again.
-Permission denied (publickey,password).
-***********************************************************
-Current Dataset is activities_50
-2020.03.06 20:44:01 INFO    Server map for UUID namespace "TestInstance":
-2020.03.06 20:44:01 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
-2020.03.06 20:44:01 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
-2020.03.06 20:44:01 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
-2020.03.06 20:44:01 INFO    [Controller] Loaded controller module 'shared3p' (15 data types, 1 PDKs) from '/usr/lib/libsharemind_mod_shared3p_dev_ctrl.so' using API version 1.
-2020.03.06 20:44:01 INFO    [Controller][PdService] Started protection domain 'pd_shared3p' of kind 'shared3p'.
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:NJg5f2aw5k5BNqEOMSaP/ZvyEKT5T8yQgx7xckRMV6s.
-Please contact your system administrator.
-Add correct host key in /root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /root/.ssh/known_hosts:3
-  remove with:
-  ssh-keygen -f "/root/.ssh/known_hosts" -R sharemindserver2
-ECDSA host key for sharemindserver2 has changed and you have requested strict checking.
-Host key verification failed.
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connecting...
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connecting...
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connecting...
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Connected. Authenticating...
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Connected. Authenticating...
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Connected. Authenticating...
-Permission denied, please try again.
-Permission denied, please try again.
-Permission denied (publickey,password).
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer1] To SharemindServer1:30000: Authenticated.
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer2] To SharemindServer2:30000: Authenticated.
-2020.03.06 20:44:01 INFO    [Controller][Server SharemindServer3] To SharemindServer3:30000: Authenticated.
-2020.03.06 20:44:01 INFO    [Controller] Process negotiation successful, running bytecode 'main.sb'.
-2020.03.07 02:01:06 ERROR   [Controller][Server SharemindServer1] Fatal error on connection to server:
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 5 of 5: TCP connection closed by remote peer!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 4 of 5: Failed TCP read!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 3 of 5: Error in the pull function.
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 2 of 5: ::gnutls_record_recv failed!
-2020.03.07 02:01:06 FATAL   [Controller][Server SharemindServer1]   * Exception 1 of 5: Failed to receive data!
+Sharemind Application Server
+Copyright (C) Cybernetica AS
+
+2020.03.09 17:53:15 DEBUG   Logging to stderr/stdout.
+2020.03.09 17:53:15 DEBUG   Trying to open configuration file: /etc/sharemind/server.conf
+2020.03.09 17:53:15 INFO    Loaded configuration file: /etc/sharemind/server.conf
+2020.03.09 17:53:15 INFO    Server map for UUID namespace "TestInstance":
+2020.03.09 17:53:15 INFO    0: SharemindServer1 [1534a83d-3261-54cc-82e1-814bcd75fb2a]
+2020.03.09 17:53:15 INFO    1: SharemindServer2 [1703233e-b132-5c07-b3be-8c18d973db04]
+2020.03.09 17:53:15 INFO    2: SharemindServer3 [f0e0f2af-95aa-57fe-9621-fc2e38e3401e]
+2020.03.09 17:53:15 INFO    License issued to Tartu University
+2020.03.09 17:53:15 INFO    License allows 4 parallel processes.
+2020.03.09 17:53:15 INFO    Loaded module "algorithms" (28 syscalls, 0 PDKs) from "libsharemind_mod_algorithms.so" using API version 1.
+2020.03.09 17:53:15 INFO    Loaded module "shared3p" (1024 syscalls, 1 PDKs) from "libsharemind_mod_shared3p_dev.so" using API version 1.
+2020.03.09 17:53:15 INFO    [TdbModule] Loaded database module "tabledb_hdf5" (16 syscalls) from "libsharemind_mod_tabledb_hdf5.so" using API version 1.
+2020.03.09 17:53:15 INFO    Loaded module "tabledb" (55 syscalls, 0 PDKs) from "libsharemind_mod_tabledb.so" using API version 1.
+2020.03.09 17:53:15 INFO    Loaded protection domain 'pd_shared3p' of kind 'shared3p'.
+2020.03.09 17:53:15 INFO    [Server 0.0.0.0:30000] Started listening
+2020.03.09 17:53:15 INFO    Now accepting connections.
+2020.03.09 17:53:15 INFO    To SharemindServer3:30000: Connecting...
+2020.03.09 17:53:15 INFO    To SharemindServer3:30000: Connected. Authenticating...
+2020.03.09 17:53:16 INFO    To SharemindServer3:30000: Authenticated.
+2020.03.09 17:53:16 INFO    To SharemindServer3:30000: HMAC keys exchanged with server "SharemindServer3".
+2020.03.09 17:53:16 INFO    Run 0: Miners online: 2 of 3: S.*
+2020.03.09 17:53:16 INFO    [Server 0.0.0.0:30000] From 172.17.77.40:34754: New incoming connection
+2020.03.09 17:53:16 INFO    From 172.17.77.40:34754: Accepted connection from server "SharemindServer2".
+2020.03.09 17:53:16 INFO    From 172.17.77.40:34754: HMAC keys exchanged with server "SharemindServer2".
+2020.03.09 17:53:16 INFO    Run 0: Miners online: 3 of 3: S*+
+2020.03.09 17:55:16 INFO    [Server 0.0.0.0:30000] From 172.17.77.55:39076: New incoming connection
+2020.03.09 17:55:16 INFO    [user:TestUser][From 172.17.77.55:39076] Accepted incoming client connection (key TestUser).
+2020.03.09 18:02:56 ERROR   [user:TestUser][From 172.17.77.55:39076] Client connection failure:
+2020.03.09 18:02:56 ERROR   [user:TestUser][From 172.17.77.55:39076]   * Exception 4 of 4: TCP connection closed by remote peer!
+2020.03.09 18:02:56 ERROR   [user:TestUser][From 172.17.77.55:39076]   * Exception 3 of 4: Failed TCP read!
+2020.03.09 18:02:56 ERROR   [user:TestUser][From 172.17.77.55:39076]   * Exception 2 of 4: Error in the pull function.
+2020.03.09 18:02:56 ERROR   [user:TestUser][From 172.17.77.55:39076]   * Exception 1 of 4: ::gnutls_record_recv failed!
+2020.03.09 18:02:56 INFO    [user:TestUser][From 172.17.77.55:39076] Closing client connection.
+2020.03.09 18:02:57 INFO    [Server 0.0.0.0:30000] From 172.17.77.55:39090: New incoming connection
+2020.03.09 18:02:57 INFO    [user:TestUser][From 172.17.77.55:39090] Accepted incoming client connection (key TestUser).
+2020.03.09 18:02:57 INFO    [user:TestUser][From 172.17.77.55:39090] Starting process 1:17322116726893682131 executing "main.sb" (hash 605e9976c0f896e64f7dc64afada1250e814397a50b2113f24f24d984b09685c)
+2020.03.09 18:02:57 INFO    [PID 1]> ************ Reading the events **************
+2020.03.09 19:02:36 INFO    [PID 1]> ************ DFG_calculation **************
+2020.03.09 19:02:36 INFO    [PID 1]> ************ before sorting **************
+2020.03.09 20:00:31 INFO    [PID 1]> ************ 2nd step sorting **************
+2020.03.09 20:31:43 INFO    [Server 0.0.0.0:30000] From 172.17.77.55:39100: New incoming connection
+2020.03.09 20:31:44 INFO    [user:TestUser][From 172.17.77.55:39100] Accepted incoming client connection (key TestUser).
+2020.03.09 20:31:44 INFO    [user:TestUser][From 172.17.77.55:39100] Starting process 2:1548267435893492875 executing "main.sb" (hash 605e9976c0f896e64f7dc64afada1250e814397a50b2113f24f24d984b09685c)
+2020.03.09 20:31:44 INFO    [PID 2]> ************ Reading the events **************
+2020.03.09 20:39:37 ERROR   [PID 2] Process exited with runtime exception:
+2020.03.09 20:39:37 ERROR   [PID 2]   * Exception 1 of 1: User-defined exception with the message "Index out of bounds at main.sc:(125,62)(125,79)." thrown!
+2020.03.09 20:39:37 ERROR   [PID 2] At section 0, block 0x318c.
+2020.03.09 20:39:38 ERROR   [user:TestUser][From 172.17.77.55:39100] Client connection failure:
+2020.03.09 20:39:38 ERROR   [user:TestUser][From 172.17.77.55:39100]   * Exception 1 of 1: TLS connection was closed by the remote end!
+2020.03.09 20:39:38 INFO    [user:TestUser][From 172.17.77.55:39100] Closing client connection.
+2020.03.09 20:39:39 INFO    [Server 0.0.0.0:30000] From 172.17.77.55:39112: New incoming connection
+2020.03.09 20:39:39 INFO    [user:TestUser][From 172.17.77.55:39112] Accepted incoming client connection (key TestUser).
+2020.03.09 20:39:39 INFO    [user:TestUser][From 172.17.77.55:39112] Starting process 3:12017305979236327461 executing "main.sb" (hash 605e9976c0f896e64f7dc64afada1250e814397a50b2113f24f24d984b09685c)
+2020.03.09 20:39:39 INFO    [PID 3]> ************ Reading the events **************
+2020.03.09 21:02:03 INFO    [PID 1]> ************ after sorting **************
+2020.03.09 21:04:14 INFO    [PID 1]> ************* after reshaping ***********
+2020.03.09 21:51:41 INFO    [PID 3]> ************ DFG_calculation **************
+2020.03.09 21:51:41 INFO    [PID 3]> ************ before sorting **************
+2020.03.09 22:10:04 INFO    [PID 1]> ************ Building final matrix**************
+2020.03.09 22:13:01 INFO    [PID 1]> ************  transpose bb **************
+2020.03.09 22:19:20 INFO    [PID 1]> ************  transpose  subtractionCopies**************
+2020.03.09 22:51:57 INFO    [PID 3]> ************ 2nd step sorting **************
+std::terminate() called with active exception(s):
+1: [St9bad_alloc] std::bad_alloc

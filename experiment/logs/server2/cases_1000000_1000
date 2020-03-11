@@ -1,0 +1,158 @@
+Adding local address: fe80::202:c903:51:65ca
+Linux Cooked Socket link detected
+Adding local address: fe80::202:c903:51:65c9
+Linux Cooked Socket link detected
+Adding local address: 172.17.77.40
+Adding local address: fe80::ea39:35ff:feb6:17e1
+Ethernet link detected
+Adding local address: fe80::ea39:35ff:feb6:17e0
+Ethernet link detected
+
+Refreshing:
+sharemind-server/2057/0	305.747	1.00078
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	16357.5	53.091
+sshd: debian@notty/2182/1000	0	0.0789063
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	39301.2	127.412
+sshd: debian@notty/2182/1000	0	0.118359
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	62270.5	201.797
+sshd: debian@notty/2182/1000	0	0.118359
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	85214.2	276.212
+sshd: debian@notty/2182/1000	0	0.157813
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92004.4	297.979
+sshd: debian@notty/2182/1000	0	0.0789063
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92029.9	297.94
+sshd: debian@notty/2182/1000	0	0.0394531
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	298.082
+sshd: debian@notty/2182/1000	0.188672	0.0941406
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92055.4	297.855
+sshd: debian@notty/2182/1000	0.45625	0.128516
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92042.6	297.945
+sshd: debian@notty/2182/1000	0.499609	0.141406
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92042.6	298.069
+sshd: debian@notty/2182/1000	0.542969	0.154297
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92029.9	297.966
+sshd: debian@notty/2182/1000	0.397656	0.1125
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	91940.7	297.691
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	91940.7	297.678
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	91991.6	297.91
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	91978.9	297.626
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92004.4	297.708
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92055.3	297.914
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92029.9	297.837
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	298.022
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92080.8	298.229
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92042.6	298.182
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	298.169
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	298.293
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	297.863
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92093.6	297.755
+sshd: debian@notty/2182/1000	0.173438	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	297.737
+sshd: debian@notty/2182/1000	0.194922	0.0644531
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92042.6	297.729
+sshd: debian@notty/2182/1000	0.99707	0.9125
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92068.1	298.172
+sshd: debian@notty/2182/1000	1.02012	0.948438
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2057/0	92055.3	298.224
+sshd: debian@notty/2182/1000	1.13145	1.00703
+unknown TCP/0/0	0	0
