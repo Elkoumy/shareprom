@@ -17,13 +17,13 @@ void main() {
 
 
     string ds = "DS1"; // Data source name
-    string tbl = "run"; // Table name
+    string tbl = "activities_10"; // Table name
     string tbl_party_A=tbl+"_party_A";
     string tbl_party_B=tbl+"_party_B";
 
-   uint ini_no_of_chunks= 2;
-   pd_shared3p uint event_per_case_A = 2;
-   pd_shared3p uint event_per_case_B = 2;
+   uint ini_no_of_chunks= 20;
+   pd_shared3p uint event_per_case_A = 23;
+   pd_shared3p uint event_per_case_B = 22;
 
 
    uint32 section = newSectionType("full_run_"+tbl+"_"+tostring(ini_no_of_chunks));
@@ -150,6 +150,8 @@ data_chunk[no_of_chunks,size_A-bound_A:size_A-bound_A+size_B-bound_B,i+2] =(uint
 
 
 endSection(id_prep);
+
+
 string log_string="_"+tbl+"_"+tostring(ini_no_of_chunks);
 pd_shared3p uint64 [[3]] DFG_matrix =DFG_calculation(data_chunk,total_count,column_count,log_string);
 
