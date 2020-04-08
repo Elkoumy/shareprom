@@ -1,0 +1,27 @@
+dataset,chunks,type,time
+bpi,1,Combine Results,1.1317722
+bpi,10,Combine Results,1.288454867
+bpi,100,Combine Results,1.161114083
+credit,1,Combine Results,4.251745917
+credit,10,Combine Results,4.25322625
+credit,100,Combine Results,4.2397598
+credit,1000,Combine Results,4.272501467
+credit,10000,Combine Results,4.3918389
+traffic,1,Combine Results,66.68720433
+traffic,10,Combine Results,66.19011822
+traffic,100,Combine Results,66.62081312
+traffic,1000,Combine Results,66.6212496
+traffic,10000,Combine Results,66.59481948
+bpi,1,Parallel Sort,3.217017833
+bpi,10,Parallel Sort,3.041072533
+bpi,100,Parallel Sort,1.867576233
+credit,1,Parallel Sort,9.135603517
+credit,10,Parallel Sort,7.326129233
+credit,100,Parallel Sort,5.541653583
+credit,1000,Parallel Sort,3.771122767
+credit,10000,Parallel Sort,2.1544994
+traffic,1,Parallel Sort,116.2787355
+traffic,10,Parallel Sort,98.03203415
+traffic,100,Parallel Sort,79.42951598
+traffic,1000,Parallel Sort,60.54146272
+traffic,10000,Parallel Sort,41.98243595

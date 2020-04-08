@@ -12,7 +12,6 @@ colSums_BPI_2013_3_columns_1;11;1;9154926;1
 colSums_BPI_2013_3_columns_1;12;1;9502636;2
 combine_BPI_2013_3_columns_1;13;1;1977;1
 full_run_BPI_2013_3_columns_1;1;0;285761842;1
-Action;SectionID;ParentSectionID;Duration;Complexity
 preprocessing_BPI_2013_3_columns_10;2;1;23650108;1
 per_chunk_sort_BPI_2013_3_columns_9;3;1;182464352;1
 reshaping_BPI_2013_3_columns_9;4;1;1730939;2
@@ -26,7 +25,6 @@ colSums_BPI_2013_3_columns_9;11;1;10513480;1
 colSums_BPI_2013_3_columns_9;12;1;10294336;2
 combine_BPI_2013_3_columns_9;13;1;2079;1
 full_run_BPI_2013_3_columns_10;1;0;284331028;1
-Action;SectionID;ParentSectionID;Duration;Complexity
 preprocessing_BPI_2013_3_columns_100;2;1;23717051;1
 per_chunk_sort_BPI_2013_3_columns_99;3;1;112054574;1
 reshaping_BPI_2013_3_columns_99;4;1;1579394;2
