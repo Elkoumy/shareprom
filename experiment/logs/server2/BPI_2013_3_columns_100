@@ -9,1505 +9,1045 @@ Adding local address: fe80::ea39:35ff:feb6:17e0
 Ethernet link detected
 
 Refreshing:
-sharemind-server/2194/0	107.564	143.527
+sharemind-server/2194/0	58.8314	309.469
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	1736.05	1730.05
-sshd: debian@notty/2394/1000	0.0996094	0.0128906
+sharemind-server/2194/0	62.3893	800.705
+sshd: debian@notty/2516/1000	0.0996094	0.0128906
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	8510.25	6668.79
-sshd: debian@notty/2394/1000	0.142969	0.0257812
+sharemind-server/2194/0	4982.23	5357.72
+sshd: debian@notty/2516/1000	0.142969	0.0257812
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	11818.7	9335.03
-sshd: debian@notty/2394/1000	0.186328	0.0386719
+sharemind-server/2194/0	6277.04	7765.21
+sshd: debian@notty/2516/1000	0.186328	0.0386719
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	14701.2	12328.8
-sshd: debian@notty/2394/1000	0.229687	0.0515625
+sharemind-server/2194/0	11719.1	15498.9
+sshd: debian@notty/2516/1000	0.229687	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	18462.3	17667.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11657.5	14763.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	11849.3	13168.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	14817.4	15827.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	17412	20568.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	14971.3	14895.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12224.3	15480.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	19982.2	20745.2
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	16790.5	22512.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	18498.4	16150.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	13462.9	16754.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	21248.1	18482.4
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	17728.1	20502.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	19533.8	16482.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	16657.6	16432.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	14798.1	11045.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	18487.4	18171.1
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	21390.4	16568.6
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	17106.8	16627.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	15989.6	11742.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12816.5	12943.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	21046.5	16994.7
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	14624.9	15503.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	15008.1	13244.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	15109.2	16048.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	13945.9	11682.7
+sshd: debian@notty/2516/1000	0.130078	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12025.3	11112.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	15078.4	13528.6
+sshd: debian@notty/2516/1000	0.130078	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	15697.2	14607.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	13099.5	11293.9
+sshd: debian@notty/2516/1000	0.130078	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	19333.2	18426.7
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	14891.3	13698.7
+sshd: debian@notty/2516/1000	0.130078	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12139.5	12286.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	17232.2	16114.3
+sshd: debian@notty/2516/1000	0.173438	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12380.2	12425.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11612.1	12077.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	13015.1	13614.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	12838	13531.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	9320.67	14393.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11690.3	12221.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	10384.2	16499.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	9605.37	14109
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	7711.72	19468.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	10874.8	15550.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	4237.16	21414.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	6584.56	14938.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	4855.05	24925.7
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	4012.15	20924.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	1438.08	20185.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	5071.43	19353.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	12267.9	21148
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	1488.4	20158.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	28368.5	28251.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	6755.33	23286
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	43141.5	35509.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	19896.5	28776.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56143.6	40062.3
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	32255.6	37214.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53345	40222
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	44533.1	43208.6
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	49926.8	34367.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45976.9	40319.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50224.8	33040.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	44880.6	33906.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53486.4	38796.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42860.8	35889.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	67199.8	43650.2
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	43574.8	43020.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55367.5	35587.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45622	42527.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52844.8	35141.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42406.2	43920
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54125.2	34444.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	44895.6	41765.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57374.6	40419.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	44002.2	40816.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	65053.8	34111.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	47288.8	43414.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59760.2	32636.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45773.1	43212.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51970.1	28940.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42475.2	40465.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50992.7	32381.7
-sshd: debian@notty/2394/1000	0.194922	0.0644531
+sharemind-server/2194/0	47304.3	43351.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50980.6	38736
-sshd: debian@notty/2394/1000	0.194922	0.0644531
+sharemind-server/2194/0	53935.5	39248.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56441.1	36752.4
-sshd: debian@notty/2394/1000	0.194922	0.0644531
+sharemind-server/2194/0	57434.4	34731.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54191.4	40089.6
-sshd: debian@notty/2394/1000	0.194922	0.0644531
+sharemind-server/2194/0	55913.8	38159.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50727.9	34606.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50205.5	31490
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50132	34480.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	43340.6	38262.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50717.2	40033.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46747.7	46863.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54501.8	35057.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45413.1	42764.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52414.9	38458.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45769.6	41882.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50639.1	37071.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	47313.5	43206.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52006.6	34147.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	47208.9	44117.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56203.5	39043
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	49642.1	42755.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	66949.4	43294.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	48894.1	41790.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51962.8	33915
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48116.3	40662.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	48208.6	34027
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46656.1	38484.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	49765.2	38334.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46305.7	40955.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54701.3	42006.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46309.1	41323.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56429.6	32516.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42786.6	40182.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55113.5	36990.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	41767.8	41077.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51102.2	31753.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	38723	39877.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52091	37453.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	38799.5	43857.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55375.2	42068.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	39530.4	43130.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	68404.7	46928.7
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	35342.8	38632.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53942.5	36834.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	34977.8	43384.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50192.4	30407
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	27540.4	42781.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50678.2	33351.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	25374.2	41299.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53539.2	39792.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	23540.9	44465.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55560.5	32528.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	22085.1	42751.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52704.1	37228.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	24013.1	42606.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51890	35334.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	22026.3	43422.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52459.9	35037.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	27790.1	51580.6
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58149.1	38356.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	16962.9	29446.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	62332.3	31260.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11283.2	22136.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57164.3	32842.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	5822.54	17423.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53732.8	29853.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	100.779	15978
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54062.9	34935.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	169.178	26731.8
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55100.1	38355.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	2659.33	33240.2
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59635.2	33098
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	3180.46	29152.9
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55736.3	35277.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	3172.96	27708.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50837.5	31162.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	4513.75	24877.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52047	37173.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	2029.69	19602.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53426.3	40796.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	1523.46	25226.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58112.6	35247.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11334.7	28138.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55221.9	37174
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	20049	32005.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52058.3	31544.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	29498.4	39850.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53275.7	32881.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	36768.1	41992.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55654.3	37410.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	37129	39935.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	60988.4	32600.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	39322.1	42006.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56458.5	33575.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46249.6	44204.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54592.9	34154.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50745	39195.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55048.8	35127.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50400.8	44449
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57044.4	37378
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50767.9	39429.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	72956.8	40866.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	48497.2	36522.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57036.4	28748
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50167	41551.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56892.6	28662.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48640.8	35425.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56166.6	30831.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	44573.6	35301.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56682.6	36369.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45337.8	36270.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59925.6	32034.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46322.9	39941.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56110.7	30968.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48521.5	42897.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55173.6	31649.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50000.9	45980.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53418.8	33151.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45892.2	41989.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51799.2	32850.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	43908.7	41910.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52349.8	33288.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50132.8	44351.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53494	35322.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50196.1	37703.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53233.8	30894.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50210	36084.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50994.4	33945.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	52522.8	36207.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50033.4	40385.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	49581.8	39061.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50917.6	34855.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	50710	40569.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	44152.3	38286.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48916.2	42572
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50223	45011.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	47954.8	41288.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	48280.4	35094.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48284.9	42055.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	43261.1	43936.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	59319.8	50230.2
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	44982.6	43673
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	48079.1	42079.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	43652.3	40440.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46822.7	42872
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	47626.3	42743.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	46985	42606.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	45819.5	38490
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	45953	41426.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	40479.7	35189.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	47972.9	43220.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	40479.7	35189.8
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	45844.4	42354.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	14497.3	21305.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	41555.9	38797.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	4169.63	16096.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	36840.8	41303.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	80.4275	21928.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	30467.9	44329.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	130.104	35805.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	26331.5	41325.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	3588.56	43986.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	20904.1	42863.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	3563.38	37004
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	22143.1	42910
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	3567.3	28284.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	23415.1	40637.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	4854.45	17108.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	21796.3	42614.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	1409.78	12394.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	23937.7	40093.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	8122.16	18126.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	23937.7	40093.5
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	24767.4	28473.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	11707	23790.9
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	39777.4	36645.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	6572.02	18887.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55992.7	38125.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	102.193	16013.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55950.1	38544.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	169.743	26522.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51333.2	34200.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	190.16	29982.3
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51400	34772.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	224.66	35648.2
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51612.6	40441.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	139.339	22372
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57923.5	36163.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	139.339	22372
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55892.9	38468.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	35.3221	5792.27
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52433.3	35311.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	35.335	5792.28
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52332.2	34472.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sshd: debian@notty/2516/1000	0.216797	0.0644531
+sharemind-server/2194/0	0.0615234	0.046875
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56701.2	39331.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sshd: debian@notty/2516/1000	0.218359	0.0644531
+sharemind-server/2194/0	0.0615234	0.046875
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	64783.5	32594.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	0.317578	48.6832
+sshd: debian@notty/2516/1000	0.176563	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	60336.4	32395.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	0.917578	140.899
+sshd: debian@notty/2516/1000	0.176563	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54374.4	28768.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	4.29023	660.254
+sshd: debian@notty/2516/1000	0.176563	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54245.2	32990.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	36.7371	6864.97
+sshd: debian@notty/2516/1000	0.219922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52458.6	35397.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	36.7629	6865
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59961.1	36462.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	36.7629	6865
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56773.1	35163.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	33.1559	6313.47
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	47832.6	29560.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	33.1688	6313.49
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	49411.5	32936.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	0.304688	48.966
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	49442.8	33979.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.4893	8836.61
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59032.5	39469.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.4635	8836.58
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	61578	33786.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.4635	8836.58
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54456	34384.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.4377	8836.56
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53889.8	33769.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.4377	8836.56
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53197.3	32255.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sshd: debian@notty/2516/1000	0.216797	0.0644531
+sharemind-server/2194/0	0	0
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59508.2	41533.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	0.853125	137.98
+sshd: debian@notty/2516/1000	0.171875	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58836.1	33859.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	1.44023	231.811
+sshd: debian@notty/2516/1000	0.171875	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53667.3	34931.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	2.36641	322.671
+sshd: debian@notty/2516/1000	0.171875	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54791.9	35991.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	719.454	1672.63
+sshd: debian@notty/2516/1000	0.171875	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54241.7	31528.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	763.75	8719.54
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	62679.7	36170.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	778.672	11205.5
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	76499.3	40722.9
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	778.137	11114.3
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58862.5	31134.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	777.469	11022.8
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54222.5	31367.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	91.6471	14145.3
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52361.2	32787.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	33.7764	4813.27
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55786.8	38334.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	92.99	13770.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	71569.4	42842.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
+sharemind-server/2194/0	156.524	23478.6
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56680.7	32880
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	156.524	23478.6
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53457	32045.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	173.366	26806.5
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54304.9	31959.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	169.854	26263.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55036.9	32895.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	132.319	20721.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	65225.9	34194.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	204.246	32306
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	60122.4	30191.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	198.92	31270.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50904.9	28397.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	149.883	23939.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52211.5	32503.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	195.587	31332
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51472.1	31358.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	195.424	31301.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	60105.8	36947.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	226.755	35882.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59299	33381.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	4325.86	47330.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50227.2	31868.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	17220.9	52249.8
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51920	34127.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	32689.4	69180
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50364.6	31701.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	40943.1	59639.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58023.7	37018.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	52792.5	65505.7
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58420.9	32296
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	55353	67962.2
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	49308.6	29865.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	26932.9	36696.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51368.4	30858.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	26948.4	38919.2
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	52091.9	30273.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	18725.6	25506.5
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57848	36112.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	31.3078	4471.21
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	57934.1	33042
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	42.9961	6114.86
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	50547.3	30469.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	56.9074	8528.52
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	51569.9	33938.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	84.3949	12452.1
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	53072.6	33495.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	84.6094	12500.4
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	60296.6	36651.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	117.504	17846.6
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58865.8	37638.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	122.546	18550.7
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	54627.8	33968.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	84.6592	13065
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	55368.3	38197.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	137.276	20943.3
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56330.9	39277.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	137.276	20943.3
+sshd: debian@notty/2516/1000	0.216797	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	63438.5	36856.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	72.9445	11153.2
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58349.2	36171.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	114.268	17487.1
+sshd: debian@notty/2516/1000	0.173438	0.0515625
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58651.4	33461.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	133.132	20923.7
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	58348.2	32817.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	173.375	26776.1
+sshd: debian@notty/2516/1000	0.238281	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	59201.7	37652.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	197.132	30591.5
+sshd: debian@notty/2516/1000	0.216406	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	61188.4	32586.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
+sharemind-server/2194/0	208.451	32718.6
+sshd: debian@notty/2516/1000	0.216406	0.0773437
 unknown TCP/0/0	0	0
 
 Refreshing:
-sharemind-server/2194/0	56101.6	30435.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	56974.3	31419.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	57799.5	30819.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	59817.4	33919.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	59622.2	35317
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	58246.5	36975
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	56975.9	36702.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	52821.8	35279.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	53827.9	38022.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	54706	35871.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	47717.6	31689.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	53140	42098.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	51932.5	36821.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	45848.8	39424.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46979.5	42211.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	44062.4	39375.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	40752.6	42296.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	38000	40521.8
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	40759.3	44474.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	30310.3	37151.5
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	11159.2	22610.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	2901.06	18683.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	103.335	27922.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	132.72	35966
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	157.161	42769.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	127.204	34892.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	102.34	28186.9
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	24.6691	6850.16
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	24.6949	6850.18
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-sharemind-server/2194/0	0.0515625	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	0.0873047	0.0726563
-sshd: debian@notty/2394/1000	0.218359	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	0.288867	49.784
-sshd: debian@notty/2394/1000	0.219922	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	0.708398	137.346
-sshd: debian@notty/2394/1000	0.176563	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	1.02949	227.861
-sshd: debian@notty/2394/1000	0.176563	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	39.1412	11501.5
-sshd: debian@notty/2394/1000	0.219922	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	39.1055	11501.5
-sshd: debian@notty/2394/1000	0.218359	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	39.1055	11501.5
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	38.673	11410.9
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	38.3391	11320.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	0.240234	49.4543
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	38.9801	11756.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46.1566	13884.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46.1566	13884.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46.1309	13884.3
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46.1666	13884.4
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	7.60723	2243.27
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	0.695508	137.655
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	1.15371	230.574
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	1.37988	272.134
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	732.396	1638.06
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	752.734	7114.01
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	765.868	10701.8
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	765.436	10611.2
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	764.969	10520.3
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	45.0117	11691
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	46.7742	12542.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	93.0914	24694.1
-sshd: debian@notty/2394/1000	0.194922	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	124.328	32428.3
-sshd: debian@notty/2394/1000	0.238281	0.0773437
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	92.9279	24438.8
-sshd: debian@notty/2394/1000	0.194922	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	128.211	34050.7
-sshd: debian@notty/2394/1000	0.194922	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	141.134	36943.9
-sshd: debian@notty/2394/1000	0.238281	0.0773437
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	93.8783	25862.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	137.118	37334.8
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	137.082	37334.8
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	92.4164	25670.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	112.085	31471.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	122.447	34549.3
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	13250.7	47850.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	19716.5	55761.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	36532.1	56814.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	43588.8	54563.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	49060.6	58376.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	60906	70454.1
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	37562.1	41772.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	37582.2	46161.7
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	30466.5	33769.2
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	11891.4	16527.6
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	45.5391	10583.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	49.9863	12946.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	66.0152	16490
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	71.2793	17992.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	90.8203	24095.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	97.0805	25497.3
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	87.4582	24139
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	126.544	34068.7
-sshd: debian@notty/2394/1000	0.216797	0.0644531
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	77.2406	20482.9
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	96.6838	26564.1
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	104.488	29038.6
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	109.951	30617.5
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	146.876	39896.2
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	160.411	43864.7
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	160.823	43942.4
-sshd: debian@notty/2394/1000	0.173438	0.0515625
-unknown TCP/0/0	0	0
-
-Refreshing:
-sharemind-server/2194/0	139.32	37689.1
-sshd: debian@notty/2394/1000	0.194922	0.0644531
+sharemind-server/2194/0	171.68	26898
+sshd: debian@notty/2516/1000	0.194922	0.0644531
 unknown TCP/0/0	0	0
