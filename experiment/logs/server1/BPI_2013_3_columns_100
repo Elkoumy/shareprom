@@ -1,0 +1,2112 @@
+Adding local address: fe80::202:c903:51:956a
+Linux Cooked Socket link detected
+Adding local address: fe80::202:c903:51:9569
+Linux Cooked Socket link detected
+Adding local address: 172.17.77.55
+Adding local address: fe80::ea39:35ff:feb6:2739
+Ethernet link detected
+Adding local address: fe80::ea39:35ff:feb6:2738
+Ethernet link detected
+
+Refreshing:
+sharemind-server/2324/0	91.4152	1.41777
+ssh/2954/1000	0.0128906	0
+ssh/2956/1000	0.0128906	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	208.459	55.609
+ssh/2954/1000	0.0128906	0
+ssh/2956/1000	0.0128906	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	3190.69	1312.55
+ssh/2954/1000	0.0386719	0.142969
+ssh/2956/1000	0.0386719	0.142969
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	8469.48	5960.82
+ssh/2954/1000	0.0386719	0.142969
+ssh/2956/1000	0.0386719	0.142969
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	11376.3	9221.42
+ssh/2954/1000	0.0515625	0.186328
+ssh/2956/1000	0.0515625	0.186328
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14580	12944.9
+ssh/2954/1000	0.0515625	0.229687
+ssh/2956/1000	0.0515625	0.229687
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	19125.9	17080.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14509.3	12632.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	22554.3	18008
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16976.4	11914.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	24552.4	17036.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	18316.8	13778.7
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14401.8	13528.9
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	17662.7	17018.1
+ssh/2956/1000	0.0386719	0.130078
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	19809.8	18790
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	18260.9	17678.6
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14160.2	12503.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	17122.5	14116.4
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	17625.2	14751
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	12362.3	10745.2
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16166	14431.7
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20485	18017.3
+ssh/2956/1000	0.0644531	0.216797
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	13690.5	11987.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	13991.2	12456
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	15224.7	13097
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	19440.2	9485.21
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20316.7	11158.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	27173.1	8394.03
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	36131.8	4787.65
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	34454.7	5515.2
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	40296.5	1519.07
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	41106.8	11349.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46872.1	15915.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58192.2	19889.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	68613	22516.9
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61946.7	20508.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51619.1	27098.4
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49872.2	27091.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56238.1	29268.7
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	66165.5	31676.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56269.9	20669.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50169.8	26274.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48325.7	26049.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55080.1	26137.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52812.6	22216.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51902.5	17282.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	43439.2	22454.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47175.7	26587.9
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53363.6	26133.8
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55301.2	24368.2
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60613.3	21783.1
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50411.8	26024.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51035.9	26396.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	59262.2	27554.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56293.7	22907.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	70195.3	33028.3
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53987.1	25533.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49558.6	25406.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57295.2	27711.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53516.2	20039
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56810.8	21400.8
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52306.6	25146.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55166.8	24942.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60156.6	27283.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52982.6	20516
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56847.3	22018.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48087.2	26203
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52746.6	26004.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60701.1	28434
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	71092.5	30847.1
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58311.5	21112.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47573.1	25991.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50027.1	25959.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57923.7	28295
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53845.4	22064.5
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58600.3	22279.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51460.2	26789.5
+ssh/2956/1000	0.0386719	0.130078
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50570.5	26676.2
+ssh/2956/1000	0.0386719	0.130078
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54953.9	28550.7
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50620.7	21217.4
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51360	21173.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44048.4	25846.9
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48905.3	25868
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55144	28038.6
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53564.6	21322.8
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55210.3	21533.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48042.8	25854.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52857.6	25765.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58877.3	27827.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58187	20753.1
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58434.5	20974
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49056.4	24304.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49195.8	24308.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53820.3	26438.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53206	19728.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52500.4	20216.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49507.9	22828.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50144.8	22939.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53416.9	24992.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51655.2	18845.8
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46581.8	18993.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	43853.2	23291.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46610.4	20953
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53559.5	23214.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52997.2	21165.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50019.2	22471
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51598.3	24063.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54740.1	23638.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55425.9	23249.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56654.8	24043.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57559.3	23628.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	71952.5	27145.6
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51815	26174.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	62967.8	20583.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	74237.4	23553.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52639	25345.9
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	65641.8	21439.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51712.1	23031.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61311.2	24711.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0128906	0.0433594
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	63019.2	23052.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0128906	0.0433594
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56651	25448
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60853.2	22139.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53813.4	25034.5
+ssh/2954/1000	0.0386719	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48459.2	21989.3
+ssh/2954/1000	0.0386719	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48459.2	21989.3
+ssh/2954/1000	0.0515625	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	29718	11942.7
+ssh/2954/1000	0.0386719	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	26263.5	4276.87
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	39366.1	145.601
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	62305.7	228.735
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	71537.5	4309.86
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60446.1	4268.65
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46725.7	4229.78
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	27713.5	5518.79
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	24222.2	1460.96
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	28825.3	8531.23
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	41203.8	14099.9
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54789.4	16351.4
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	59551.1	20162.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58669.8	19927.1
+ssh/2956/1000	0.0644531	0.194922
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49263.3	25509.5
+ssh/2956/1000	0.0644531	0.194922
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49412.5	27215.5
+ssh/2956/1000	0.0515625	0.151562
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55921.3	28126.3
+ssh/2956/1000	0.0515625	0.151562
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54307.2	24060.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57839.2	21706
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50378.5	25587.4
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49604	25475.6
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55439.7	26964.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51766.9	21038.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51713.3	17558.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	41561.7	22115.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45843.8	24032.6
+ssh/2954/1000	0.0257812	0.0867188
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49794.6	25735.1
+ssh/2954/1000	0.0257812	0.0867188
+ssh/2956/1000	0.0128906	0.0433594
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55750.6	24767.7
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+ssh/2956/1000	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	59179.6	18371.5
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+ssh/2956/1000	0.0128906	0.0433594
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48147.4	20969.5
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+ssh/2956/1000	0.0128906	0.0433594
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49812.9	26397.9
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50748.4	24091.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57583.5	26025.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55711.2	21390.7
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52343.8	21309.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47186.8	26752.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46282.6	27740.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57196.1	27684
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52981.7	22198.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52212.4	23237.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48916.6	25720.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45227.4	26677
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49909.1	26733.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	59110	29246.7
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48414.5	21427.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44247.6	26612.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47704.5	26516.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54040.5	28586.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52377.1	21830.5
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52681.1	18790.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45775.3	25532.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44843.7	24832
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45843	27032.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51617	24335.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51460.8	16315.8
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45150.7	21380.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48062.5	26237.5
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47586.9	26668.2
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54981.5	26898.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54814.5	22557.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48379.6	21583.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49056.6	26465.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48114.9	27787
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56783.3	25695.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57268.6	21532.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49850.5	20696.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47787.8	26987.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46478.9	28970.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55212.2	27331
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56044.9	24040.9
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49123.5	22351.7
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51676	24415.5
+ssh/2956/1000	0.0386719	0.130078
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49642.4	26320.4
+ssh/2956/1000	0.0386719	0.130078
+ssh/2954/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55683.8	25390.1
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57652.9	22248.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	50237	25149.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53731.2	25161.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53680.8	25160.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54636.3	21616.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52732.1	19230.8
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48023.8	23668.5
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47698.3	21450
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54245.7	23543
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0257812	0.0257812
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53601	21355.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49126.4	23066.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49195	24743.2
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	47584.9	24220.8
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0679687	0.0972656
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	49886.7	23605.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52173	21702.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55202.1	22869.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	56250.2	22370.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51824.2	23205.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58125.2	21443.1
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55051.7	20291.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	45635.6	21906.9
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61422.8	22397.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55241.3	20921.4
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	57533.2	22130.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	62423	23990.4
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58005.5	23861.3
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61039.3	23876.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	58522.5	25936.4
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	63493.4	28580.4
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52442.6	21550
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	33449.3	10007.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	30278	2884.34
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48080.3	182.449
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	67370.1	252.454
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	84565.3	313.048
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	59564.4	215.996
+ssh/2956/1000	0.0644531	0.216797
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	36650.6	131.344
+ssh/2956/1000	0.0644531	0.216797
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	17244.9	60.6973
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	17244.9	60.6973
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+sharemind-server/2324/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+ssh/2954/1000	0.0644531	0.219922
+ssh/2956/1000	0.0515625	0.175
+sharemind-runscript/2960/0	0.0550781	0.084375
+sharemind-server/2324/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+ssh/2954/1000	0.0644531	0.219922
+ssh/2956/1000	0.0644531	0.219922
+sharemind-runscript/2960/0	0.0550781	0.084375
+sharemind-server/2324/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	229.965	0.99375
+ssh/2956/1000	0.0515625	0.178125
+ssh/2954/1000	0.0515625	0.176563
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	412.279	1.78594
+ssh/2956/1000	0.0515625	0.178125
+ssh/2954/1000	0.0515625	0.176563
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14731.4	51.8484
+ssh/2956/1000	0.0644531	0.219922
+ssh/2954/1000	0.0515625	0.175
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14731.4	51.8484
+ssh/2956/1000	0.0644531	0.219922
+ssh/2954/1000	0.0644531	0.218359
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14731.4	51.8484
+ssh/2956/1000	0.0644531	0.218359
+ssh/2954/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14550.5	50.9965
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14369.6	50.1785
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-server/2324/0	46.0477	0.116016
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	14531	49.677
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16451	56.3426
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16451	56.3426
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16451	56.3426
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	16451	56.3426
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.09375	0.123047
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	2085.65	7.24102
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0679687	0.0972656
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	225.144	0.99375
+ssh/2956/1000	0.0515625	0.175
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	411.996	1.8457
+ssh/2956/1000	0.0515625	0.175
+ssh/2954/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	542.905	2.66328
+ssh/2956/1000	0.0644531	0.218359
+ssh/2954/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	2899.7	737.632
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.175
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	13664.2	777.38
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	21329.4	804.997
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	21148.5	804.171
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20967.4	803.212
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	33797.7	129.3
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0128906	0.0128906
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	22105.1	85.1227
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44895.7	172.348
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61401.3	237.165
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	46261.1	176.211
+ssh/2954/1000	0.0515625	0.151562
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0808594	0.110156
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	61163.1	229.063
+ssh/2954/1000	0.0515625	0.151562
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	69295.9	263.193
+ssh/2954/1000	0.0644531	0.194922
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	43815.6	158.466
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	64826.9	237.989
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	43253	162.221
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	43228.5	155.527
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	52420	186.728
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	54161.4	194.064
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	72364	5841.11
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	81634.7	15202.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	73753.3	32594.4
+ssh/2954/1000	0.0257812	0.0867188
+ssh/2956/1000	0.0257812	0.0867188
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	66997.6	40642.4
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	65019.9	54472.3
+ssh/2954/1000	0.0386719	0.130078
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	76826	66419.7
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.09375	0.123047
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44560.8	39717.6
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	53308	39757.5
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20602.6	12173.5
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20602.6	12173.5
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	20916.5	87.7559
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	27687.3	105.169
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	35111.2	139.361
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	37970.8	149.412
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48920.8	186.886
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	51564.9	199.034
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0386719	0.0386719
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	44610	163.814
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	63017.1	237.027
+ssh/2954/1000	0.0644531	0.216797
+ssh/2956/1000	0.0644531	0.216797
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	37454.7	143.337
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0515625	0.0515625
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	48729	179.126
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0550781	0.084375
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	55650.5	201.304
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	60085.3	217.138
+ssh/2954/1000	0.0515625	0.173438
+ssh/2956/1000	0.0515625	0.173438
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	80015.1	295.174
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0.0421875	0.0714844
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	88990.4	325.046
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	88952.2	324.316
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0386719	0.130078
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
+
+Refreshing:
+sharemind-server/2324/0	78881.9	288.312
+ssh/2956/1000	0.0515625	0.173438
+ssh/2954/1000	0.0515625	0.151562
+sharemind-runscript/2960/0	0	0
+unknown TCP/0/0	0	0
