@@ -7,9 +7,11 @@ output_dir=r"/home/sharemind/shareprom/demo/application/data"
 
 dataset_name= "max_10"
 no_of_chunks=1
+event_a=10
+event_b=9
 
 #preprocessing(input_dir, output_dir, dataset_name)
 upload(output_dir,dataset_name)
-submit(no_of_chunks)
+submit(no_of_chunks, dataset_name, event_a, event_b)
 parse_results("")
 
