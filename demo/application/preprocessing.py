@@ -55,7 +55,7 @@ def preprocessing(input_dir,output_dir,file_name):
     bits_column_names=["b"+str(i) for i in range(0,len(unique_events))]
     data.event=data.event.apply(lambda x: event_idx[x])
     temp= data.event.apply(to_list)
-    temp= pd.DataFrame.from_items(zip(temp.index, temp.values)).T
+    temp= pd.DataFrame.from_dict(dict(zip(temp.index, temp.values))).T
     data[bits_column_names]=temp
 
 
