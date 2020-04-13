@@ -1,39 +1,42 @@
 #!/bin/bash
 
 dataset=(
-#  cases_10000
-#  cases_100000
-#  cases_1000000
-#  activities_10
-  activities_50
-  activities_100
+  cases_10000
+  cases_100000
+  cases_1000000
+  activities_10
+  activities_20
+  activities_30
+  max_10
   max_100
-#  max_1000
+  max_500
 )
 eventA=(
-#  5
-#  5
-#  5
-#  73
-  77
-  91
+  5
+  5
+  5
+  20
+  22
+  23
+  10
   74
-#  621
+  315
 )
 
 eventB=(
-#  4
-#  4
-#  4
-#  63
-  69
-  69
+  4
+  4
+  4
+  29
+  26
+  26
+  9
   64
-#  509
+  259
 )
 
 
-for chunk in {100,1000,10000}
+for chunk in {1,100,1000,10000}
 do
  echo "***********************************************************"
  echo "chunks equal to $chunk"
