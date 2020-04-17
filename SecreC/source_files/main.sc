@@ -157,6 +157,7 @@ endSection(id_full);
 
 print_DFG(declassify(DFG_matrix));
 
+publish("DFG_matrix",DFG_matrix);
 
 // closing connection
 print("************************* closing connection *****************************");
