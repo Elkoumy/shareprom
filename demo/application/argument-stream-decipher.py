@@ -1,3 +1,22 @@
+#!/usr/bin/env python
+#
+# Copyright (C) Cybernetica
+#
+# Research/Commercial License Usage
+# Licensees holding a valid Research License or Commercial License
+# for the Software may use this file according to the written
+# agreement between you and Cybernetica.
+#
+# GNU General Public License Usage
+# Alternatively, this file may be used under the terms of the GNU
+# General Public License version 3.0 as published by the Free Software
+# Foundation and appearing in the file LICENSE.GPL included in the
+# packaging of this file.  Please review the following information to
+# ensure the GNU General Public License version 3.0 requirements will be
+# met: http://www.gnu.org/copyleft/gpl-3.0.html.
+#
+# For further information, please contact us at sharemind@cyber.ee.
+#
 
 
 import struct
@@ -9,9 +28,9 @@ class IncompleteInput(Exception):
 def parseArguments(inFile=sys.stdin, sizeTypeFormat='Q', sizeTypeSize=8,
         encoding='utf-8'):
     def readBlock(size):
-        buf = inFile.buffer # if hasattr(inFile, 'buffer') else inFile.read(size)
-        # if len(buf) != size:
-        #     raise IncompleteInput()
+        buf = inFile.buffer.read(size) if hasattr(inFile, 'buffer') else inFile.read(size)
+        if len(buf) != size:
+            raise IncompleteInput()
         return buf
 
     def readString(size):
@@ -65,6 +84,6 @@ def parseArguments(inFile=sys.stdin, sizeTypeFormat='Q', sizeTypeSize=8,
 
 
 if __name__ == "__main__":
-    args = parseArguments(inFile=open(r'C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Shareprom\demo\application\out1.log', "w"))
+    args = parseArguments()
     for arg, val in args.items():
         print('{} = {}'.format(arg, val))
