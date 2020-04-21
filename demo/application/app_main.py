@@ -1,5 +1,5 @@
 from preprocessing_old import preprocessing_partyA
-from preprocessing import read_xes, endcoding_events, padding_log, building_sharemind_model
+from preprocessing import read_xes, endcoding_events, padding_log, building_sharemind_model, preprocessing
 from upload_to_sharemind import upload
 from submit_job_to_sharemind import submit
 from parse_results import parse_results
@@ -16,16 +16,14 @@ no_of_chunks=1
 event_a=23
 event_b=22
 
-# preprocessing_partyB(input_dir, output_dir, dataset_name)
+data, activities_count, event_per_case=read_xes(xes_file)
+# #event_per_case is going to be used when uploading the file to sharemind
+
+#encoding start =0 for party A
+preprocessing(data,activities_count, 0, dataset_name, "party_A", output_dir)
+
 # upload(output_dir,dataset_name)
 # submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
 # parse_results(log_dir)
 
 
-data, activities_count, event_per_case=read_xes(xes_file)
-# #event_per_case is going to be used when uploading the file to sharemind
-encoded_data= endcoding_events(data,activities_count,0)
-padded_data=padding_log(encoded_data,activities_count)
-model= building_sharemind_model(activities_count, dataset_name, "party_A")
-
-print(model)

@@ -28,11 +28,5 @@
   </column> <column key="false" type="primitive">
     <source name="b6" type="uint8"/>
     <target name="b6" type="uint8"/>
-  </column> <column key="false" type="primitive">
-    <source name="b7" type="uint8"/>
-    <target name="b7" type="uint8"/>
-  </column> <column key="false" type="primitive">
-    <source name="b8" type="uint8"/>
-    <target name="b8" type="uint8"/>
   </column>
 </table>

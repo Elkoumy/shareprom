@@ -142,6 +142,20 @@ def building_sharemind_model(bits_size, dataset_name, party):
     return model
 
 # preprocessing
+
+def preprocessing(data,activities_count, encoding_start, dataset_name, party, output_dir):
+    encoded_data = endcoding_events(data, activities_count, encoding_start)
+    padded_data = padding_log(encoded_data, activities_count)
+
+    padded_data = padded_data.drop(['event'], axis=1)
+    padded_data.to_csv(os.path.join(output_dir, party+"_" + dataset_name + "_MPC.csv"), index=0)
+
+    model = building_sharemind_model(activities_count, dataset_name, "party_A")
+    text_file = open(os.path.join(output_dir,dataset_name+ "_model_"+party+".xml"), "w")
+    text_file.write(model)
+    text_file.close()
+
+
 def preprocessing_partyB(input_dir,output_dir,file_name):
     input_file= os.path.join(input_dir,file_name+".csv")
     data = pd.read_csv(input_file)
