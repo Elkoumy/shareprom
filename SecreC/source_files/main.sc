@@ -157,7 +157,8 @@ endSection(id_full);
 
 print_DFG(declassify(DFG_matrix));
 
-publish("DFG_matrix",DFG_matrix);
+publish("DFG_matrix_freq",DFG_matrix);
+//publish("DFG_matrix_time",DFG_matrix[1,,:,:]);
 
 // closing connection
 print("************************* closing connection *****************************");
