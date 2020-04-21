@@ -53,14 +53,17 @@ def read_xes(xes_file):
     data['time:timestamp'] = data['time:timestamp'] - min(data['time:timestamp'])
     # moving event to the last column
     data = data[['case:concept:name','time:timestamp', 'lifecycle:transition']]
+
+    #renaming columns
     data.columns=['case','completeTime','event']
+
+    # mapping cases to ids of cases
     new_case_ids = pd.Index(data['case'].unique())
-    #mapping cases to ids of cases
     data['case'] = data['case'].apply(lambda x: new_case_ids.get_loc(x))
-    print(type(data.completeTime[1]))
-    # data['completeTime'] = data['completeTime'].apply( lambda x: int(x))
-    data.completeTime=data.completeTime.astype('int64')
+
+    data.completeTime=data.completeTime.astype('int64' ) # converting the time difference from time delta to int64
     activities_count = len(list(data.event.unique())) # the number of unique activities in the file
+
     event_per_case= data.groupby("case").count().event
     event_per_case= event_per_case.max()
 
@@ -72,6 +75,7 @@ def endcoding_events(data,activities_count, encoding_start):
     if encoding_start==0:
         ini_binary = "0"*(activities_count-1)+"1"
     else:
+        # for party B to start from where party A end (000000 100000)
         ini_binary = "0" * (activities_count -encoding_start- 1) + "1"+"0"*(encoding_start)
 
     event_idx= {}
@@ -114,7 +118,28 @@ def padding_log (data,activities_count):
     data= data.sort_values(by=['case', 'completeTime'])
     return data
 
+def building_sharemind_model(bits_size, dataset_name, party):
+    ''' generating xml model '''''
+    #models_directory=
 
+
+    s=""
+
+    s+="\" dataSource=\"DS1\" \n handler=\"import-script.sb\"> \n <column key=\"true\" type=\"primitive\">\n    <source name=\"case\" type=\"uint32\"/>\n    <target name=\"case\" type=\"uint32\"/>\n  </column>\n  <column key=\"false\" type=\"primitive\">\n<source name=\"completeTime\" type=\"uint32\"/>\n    <target name=\"completeTime\" type=\"uint32\"/>\n  </column>"
+
+    for i in range(0,bits_size):
+        s+=" <column key=\"false\" type=\"primitive\">\n    <source name=\"b"+str(i)+"\" type=\"uint8\"/>\n    <target name=\"b"+str(i)+"\" type=\"uint8\"/>\n  </column>"
+
+
+    s=s+"\n</table>"
+
+    model = "<table name=\""+dataset_name+"_"+party+s
+    # print(model)
+    # text_file = open(os.path.join(output_dir,dataset_name+ "_model_party_A.xml"), "w")
+    # text_file.write(model)
+    # text_file.close()
+
+    return model
 
 # preprocessing
 def preprocessing_partyB(input_dir,output_dir,file_name):
