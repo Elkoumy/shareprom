@@ -3,6 +3,8 @@ from preprocessing import read_xes, endcoding_events, padding_log, building_shar
 from upload_to_sharemind import upload
 from submit_job_to_sharemind import submit
 from parse_results import parse_results
+from convert_DFG import convert_DFG
+
 input_dir=r"/home/sharemind/shareprom/demo/application/data"
 output_dir=r"/home/sharemind/shareprom/demo/application/data"
 log_dir= r"/DFG_log/DFG.out"
@@ -24,6 +26,9 @@ event_b=22
 
 # upload(output_dir,dataset_name)
 # submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
-parse_results(log_dir)
+# parse_results(log_dir)
 
+
+out_dir = r"DFG_log/DFG.out"
+convert_DFG(out_dir)
 
