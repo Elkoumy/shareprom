@@ -8,10 +8,6 @@ import os
 import pandas as pd
 import time
 from datetime import datetime
-from pm4py.objects.log.importer.xes import factory as xes_import_factory
-from pm4py.objects.conversion.log.versions.to_dataframe import get_dataframe_from_event_stream
-from pm4py.objects.log.exporter.csv import factory as csv_exporter
-
 
 def to_list(s):
     return list(s)
@@ -27,48 +23,8 @@ def generate_rows(s):
 # output_dir=r"C:\Gamal Elkoumy\PhD\OneDrive - Tartu Ülikool\Secure MPC\Business Process Mining SourceCode\Datasets"
 #
 # file_name= "CCC19_3_columns"
-
-
-def read_xes(xes_file):
-    #read the xes file
-    log = xes_import_factory.apply(xes_file)
-    data=get_dataframe_from_event_stream(log)
-
-
-    # input_file = os.path.join(input_dir, file_name + ".csv")
-    # data = pd.read_csv(input_file)
-    # new_case_ids = pd.Index(data['trace'].unique())
-    # data['trace'] = data['trace'].apply(lambda x: new_case_ids.get_loc(x))
-    # df['event'] = pd.util.hash_pandas_object(df['event'],index=False)
-
-    # """ generating relative time"""
-    # try:
-    #     data['time:timestamp'] = data['time:timestamp'].apply(
-    #         lambda x: int(time.mktime(datetime.strptime(x, "%Y-%m-%d %H:%M:%S").timetuple())))
-    # except:
-    #     data['time:timestamp'] = data['time:timestamp'].apply(
-    #         lambda x: int(time.mktime(datetime.strptime(x, "%Y-%m-%d %H:%M:%S%z").timetuple())))
-    #
-
-    data['time:timestamp'] = data['time:timestamp'] - min(data['time:timestamp'])
-    # moving event to the last column
-    data = data[['case:concept:name','time:timestamp', 'lifecycle:transition']]
-    data.columns=['case','completeTime','event']
-    activities_count = len(list(data.event.unique())) # the number of unique activities in the file
-    event_per_case= data.groupby("case").count().event
-    event_per_case= event_per_case.max()
-
-    return data, activities_count, event_per_case
-
-
-
-
-
-
-
-
 # preprocessing
-def preprocessing_partyB(input_dir,output_dir,file_name):
+def preprocessing_partyA(input_dir,output_dir,file_name):
     input_file= os.path.join(input_dir,file_name+".csv")
     data = pd.read_csv(input_file)
     new_case_ids = pd.Index(data['case'].unique())
