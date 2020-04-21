@@ -16,15 +16,15 @@ no_of_chunks=1
 event_a=23
 event_b=22
 
-preprocessing_partyB(input_dir, output_dir, dataset_name)
+# preprocessing_partyB(input_dir, output_dir, dataset_name)
 # upload(output_dir,dataset_name)
 # submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
 # parse_results(log_dir)
 
 
-# data, activities_count, event_per_case=read_xes(xes_file)
+data, activities_count, event_per_case=read_xes(xes_file)
 # #event_per_case is going to be used when uploading the file to sharemind
-# encoded_data= endcoding_events(data,activities_count,0)
-# padded_data=padding_log(encoded_data,activities_count)
+encoded_data= endcoding_events(data,activities_count,0)
+padded_data=padding_log(encoded_data,activities_count)
 #
-# print(padded_data)
+print(padded_data)

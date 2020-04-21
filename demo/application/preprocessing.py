@@ -54,6 +54,12 @@ def read_xes(xes_file):
     # moving event to the last column
     data = data[['case:concept:name','time:timestamp', 'lifecycle:transition']]
     data.columns=['case','completeTime','event']
+    new_case_ids = pd.Index(data['case'].unique())
+    #mapping cases to ids of cases
+    data['case'] = data['case'].apply(lambda x: new_case_ids.get_loc(x))
+    print(type(data.completeTime[1]))
+    # data['completeTime'] = data['completeTime'].apply( lambda x: int(x))
+    data.completeTime=data.completeTime.astype('int64')
     activities_count = len(list(data.event.unique())) # the number of unique activities in the file
     event_per_case= data.groupby("case").count().event
     event_per_case= event_per_case.max()
