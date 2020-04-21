@@ -61,9 +61,52 @@ def read_xes(xes_file):
     return data, activities_count, event_per_case
 
 
+def endcoding_events(data,activities_count, encoding_start):
+    # encoding start to differentiatet events from party A and party B
+    if encoding_start==0:
+        ini_binary = "0"*(activities_count-1)+"1"
+    else:
+        ini_binary = "0" * (activities_count -encoding_start- 1) + "1"+"0"*(encoding_start)
+
+    event_idx= {}
+    unique_events = list(data.event.unique())
+    for  event in unique_events:
+        event_idx[event]= ini_binary
+        ini_binary= ini_binary[1:]+"0"
+
+    bits_column_names=["b"+str(i) for i in range(0,len(unique_events))]
+    data.event=data.event.apply(lambda x: event_idx[x])
+    temp= data.event.apply(to_list)
+    temp= pd.DataFrame.from_dict(dict(zip(temp.index, temp.values))).T
+    data[bits_column_names]=temp
+    return data
 
 
+def padding_log (data,activities_count):
+    counts = data.groupby("case").count().event
+    max_count= counts.max()
 
+
+    need_increase=counts[counts<max_count]
+    difference=max_count-need_increase
+
+    padded_value=[]
+    if len(difference)!=0:
+        for i in difference.index:
+            temp= difference[i] *[[i,0,0]]
+            padded_value=padded_value+temp
+
+        padded_value=pd.DataFrame.from_records(padded_value)
+
+        for i in range(0, activities_count):
+            padded_value['b'+str(i)]=0
+
+        padded_value.columns=data.columns
+
+        data= data.append(padded_value , ignore_index=True)
+
+    data= data.sort_values(by=['case', 'completeTime'])
+    return data
 
 
 
