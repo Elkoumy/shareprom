@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 from math import sqrt
+from collections import Counter
 
 def convert_DFG_to_matrix(out_dir):
     f = open(out_dir, "r")
@@ -28,5 +29,11 @@ def convert_DFG_to_matrix(out_dir):
 
 
 def convert_DFG_to_counter(df):
+    dfg ={}
+    for col in df.columns:
+        for ix,val in enumerate(df[col]):
+            if int(val) !=0:
+                dfg[(str(col),str(df.index.values[ix]))]=float(val)
+                # print("("+str(col) +","+str(df.index.values[ix])+") ="+str(val))
 
-    return null
+    return Counter(dfg)

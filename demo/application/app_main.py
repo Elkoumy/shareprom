@@ -4,6 +4,9 @@ from upload_to_sharemind import upload
 from submit_job_to_sharemind import submit
 from parse_results import parse_results
 from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter
+from draw_DFG import draw_DFG
+
+
 
 input_dir=r"/home/sharemind/shareprom/demo/application/data"
 output_dir=r"/home/sharemind/shareprom/demo/application/data"
@@ -32,6 +35,11 @@ event_b=22
 out_dir = r"DFG_log/DFG.out"
 freq, time= convert_DFG_to_matrix(out_dir)
 
-# apply differential privacy here
-dfg= convert_DFG_to_matrix(freq)
+''' apply differential privacy here  '''
+
+# print(freq.index.values)
+
+dfg= convert_DFG_to_counter(time)
+
+draw_DFG(dfg)
 
