@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from math import sqrt
 
-def convert_DFG(out_dir):
+def convert_DFG_to_matrix(out_dir):
     f = open(out_dir, "r")
     f=f.read()
     f= f.replace("-DFG_matrix = [","")
@@ -24,3 +24,9 @@ def convert_DFG(out_dir):
 
     freq.to_csv(r"DFG_log/freq.out",index=0,header=0)
     time.to_csv(r"DFG_log/time.out", index=0, header=0)
+    return freq,time
+
+
+def convert_DFG_to_counter(df):
+
+    return null
