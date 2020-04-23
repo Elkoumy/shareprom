@@ -25,11 +25,11 @@ data, activities_count, event_per_case=read_xes(xes_file)
 #event_per_case is going to be used when uploading the file to sharemind
 
 #encoding start =0 for party A
-preprocessing(data,activities_count, 0, dataset_name, "party_A", output_dir)
-
-upload(output_dir,dataset_name)
-submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
-parse_results(log_dir)
+event_names=preprocessing(data,activities_count, 0, dataset_name, "party_A", output_dir)
+#
+# upload(output_dir,dataset_name)
+# submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
+# parse_results(log_dir)
 
 
 out_dir = r"DFG_log/DFG.out"

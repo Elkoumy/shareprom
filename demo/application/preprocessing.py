@@ -89,7 +89,7 @@ def endcoding_events(data,activities_count, encoding_start):
     temp= data.event.apply(to_list)
     temp= pd.DataFrame.from_dict(dict(zip(temp.index, temp.values))).T
     data[bits_column_names]=temp
-    return data
+    return data,event_idx
 
 
 def padding_log (data,activities_count):
@@ -144,7 +144,7 @@ def building_sharemind_model(bits_size, dataset_name, party):
 # preprocessing
 
 def preprocessing(data,activities_count, encoding_start, dataset_name, party, output_dir):
-    encoded_data = endcoding_events(data, activities_count, encoding_start)
+    encoded_data, event_idx_map = endcoding_events(data, activities_count, encoding_start)
     padded_data = padding_log(encoded_data, activities_count)
 
     padded_data = padded_data.drop(['event'], axis=1)
@@ -154,3 +154,4 @@ def preprocessing(data,activities_count, encoding_start, dataset_name, party, ou
     text_file = open(os.path.join(output_dir,dataset_name+ "_model_"+party+".xml"), "w")
     text_file.write(model)
     text_file.close()
+    return event_idx_map
