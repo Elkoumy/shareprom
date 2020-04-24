@@ -16,7 +16,7 @@ data =get_dataframe_from_event_stream(log)
 
 data=data[data["lifecycle:transition"].isin(['complete'])]
 
-manufacurer_df = data[data["concept:name"].isin( Manufacturer+supplier_B)]
+manufacurer_df = data[data["concept:name"].isin( Manufacturer)]
 
 supplier_B_df= data[data["concept:name"].isin( supplier_B)]
 
