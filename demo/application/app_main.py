@@ -42,8 +42,8 @@ freq, time= convert_DFG_to_matrix(out_dir)
 
 # print(freq.index.values)
 
-# dfg= convert_DFG_to_counter(time)
-#
-# draw_DFG(dfg)
+dfg= convert_DFG_to_counter(time)
+
+draw_DFG(dfg)
 
 

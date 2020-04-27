@@ -4,7 +4,13 @@ import os
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF, renderPM
 from PIL import Image, ImageTk
-
+from preprocessing_old import preprocessing_partyA
+from preprocessing import read_xes, endcoding_events, padding_log, building_sharemind_model, preprocessing
+from upload_to_sharemind import upload
+from submit_job_to_sharemind import submit
+from parse_results import parse_results
+from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter
+from draw_DFG import draw_DFG
 
 
 root = tk.Tk( ) # the object that contains everything
@@ -13,6 +19,14 @@ root = tk.Tk( ) # the object that contains everything
 root.config( bg="white")
 
 file=[]
+dataset_name= "demo"
+input_dir=r"data/"
+output_dir=r"data/"
+log_dir= r"/DFG_log/DFG.out"
+no_of_chunks = 1
+event_a = 9
+event_b = 3
+
 def add_xes():
     #opening a browse file dialog
     filename= filedialog.askopenfilename(initialdir=r"DFG_log", title="Select File",
@@ -24,8 +38,31 @@ def add_xes():
     list_box.insert(len(file), filename)
 
 
+    total_activities = event_a + event_b
+
+    data, activities_count, event_per_case = read_xes(filename)
+    # event_per_case is going to be used when uploading the file to sharemind
+
+    # encoding start =0 for party A
+    event_names = preprocessing(data, total_activities, 0, dataset_name, "party_A", output_dir)
+
+    upload(output_dir, dataset_name, "party_A")
+
+
 def run_dfg():
     #call the functions here
+
+    log_dir = r"DFG_log/DFG.out"
+    submit(no_of_chunks, dataset_name, event_a, event_b, log_dir)
+
+    parse_results(log_dir)
+
+    #
+    out_dir = r"DFG_log/DFG.log"
+    freq, time = convert_DFG_to_matrix(out_dir)
+    dfg = convert_DFG_to_counter(time)
+    draw_DFG(dfg)
+
     """ view the dfg diagram on the canvas"""
     drawing = svg2rlg("manufacurer.svg")
     renderPM.drawToFile(drawing, "dfg.png", fmt="PNG")

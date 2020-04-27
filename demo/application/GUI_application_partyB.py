@@ -4,7 +4,13 @@ import os
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF, renderPM
 from PIL import Image, ImageTk
-
+from preprocessing_old import preprocessing_partyA
+from preprocessing import read_xes, endcoding_events, padding_log, building_sharemind_model, preprocessing
+from upload_to_sharemind import upload
+from submit_job_to_sharemind import submit
+from parse_results import parse_results
+from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter
+from draw_DFG import draw_DFG
 
 
 root = tk.Tk( ) # the object that contains everything
@@ -13,6 +19,15 @@ root = tk.Tk( ) # the object that contains everything
 root.config( bg="white")
 
 file=[]
+
+dataset_name= "demo"
+input_dir=r"data/"
+output_dir=r"data/"
+log_dir= r"/DFG_log/DFG.out"
+no_of_chunks = 1
+event_a = 9
+event_b = 3
+
 def add_xes():
     #opening a browse file dialog
     filename= filedialog.askopenfilename(initialdir=r"DFG_log", title="Select File",
@@ -22,6 +37,10 @@ def add_xes():
     if list_box.get(0)=="No Files Selected. Please add a file to be processed!":
         list_box.delete(0)
     list_box.insert(len(file), filename)
+    data, activities_count, event_per_case = read_xes(filename)
+    total_activities = event_a + event_b
+    event_names = preprocessing(data, total_activities, event_a - 1, dataset_name, "party_B", output_dir)
+    upload(output_dir, dataset_name, "party_B")
 
 
 def run_dfg():
