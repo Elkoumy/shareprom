@@ -6,7 +6,10 @@ from reportlab.graphics import renderPDF, renderPM
 from PIL import Image, ImageTk
 
 
+
 root = tk.Tk() # the object that contains everything
+# we add a canvas to put components on it and control the size
+canvas = tk.Canvas(root, height= 700, width= 700, bg="#263D42")
 
 file=[]
 def add_xes():
@@ -18,10 +21,24 @@ def add_xes():
 
 def run_dfg():
     #call the functions here
+    """ view the dfg diagram on the canvas"""
+    drawing = svg2rlg("manufacurer.svg")
+    renderPM.drawToFile(drawing, "dfg.png", fmt="PNG")
+    img = Image.open('dfg.png')
+    pimg = ImageTk.PhotoImage(img)
+    size = img.size
+
+    root.title("viewer")
+
+    view = Image(root)
+    view.pack()
+    view.setimage(img)
+    view.config(width=img.size[0], height=img.size[1])
+    canvas.create_image(0, 0, anchor='nw', image=pimg)
+    canvas.pack()
     return
 
-# we add a canvas to put components on it and control the size
-canvas = tk.Canvas(root, height= 700, width= 700, bg="#263D42")
+
 
 #to add a frame inside the canvas
 #frame= tk.Frame(root, bg="white")
@@ -40,16 +57,11 @@ build_dfg = tk.Button(root, text="Build DFG", padx=10, pady=5, fg="white", bg="#
 build_dfg.pack()
 
 
-""" view the dfg diagram on the canvas"""
 
-drawing = svg2rlg("dfg.svg")
-renderPM.drawToFile(drawing, "dfg.png", fmt="PNG")
-canvas.pack()
-img = Image.open('dfg.png')
-pimg = ImageTk.PhotoImage(img)
-size = img.size
 
-canvas.create_image(0,0,anchor='nw',image=pimg)
+
+
+
 
 
 
