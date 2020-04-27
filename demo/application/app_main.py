@@ -31,7 +31,7 @@ event_names=preprocessing(data,total_activities, 0, dataset_name, "party_A", out
 upload(output_dir,dataset_name,"party_A")
 log_dir=r"DFG_log/DFG.out"
 submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
-
+log_dir= r"/DFG_log/DFG.out"
 parse_results(log_dir)
 
 #
