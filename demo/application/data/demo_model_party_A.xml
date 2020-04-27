@@ -34,5 +34,14 @@
   </column> <column key="false" type="primitive">
     <source name="b8" type="uint8"/>
     <target name="b8" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b9" type="uint8"/>
+    <target name="b9" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b10" type="uint8"/>
+    <target name="b10" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b11" type="uint8"/>
+    <target name="b11" type="uint8"/>
   </column>
 </table>
