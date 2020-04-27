@@ -62,7 +62,7 @@ def run_dfg():
                    '"final test"': '000001000000', '"prepare delivery"': '000010000000',
                    '"delivery of product"': '000100000000'}
     log_dir = r"DFG_log/DFG.out"
-    # submit(no_of_chunks, dataset_name, event_a, event_b, log_dir)
+    submit(no_of_chunks, dataset_name, event_a, event_b, log_dir)
 
     parse_results(log_dir)
 
