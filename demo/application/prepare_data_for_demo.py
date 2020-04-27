@@ -22,14 +22,17 @@ manufacurer_df = data[data["concept:name"].isin( Manufacturer)]
 
 supplier_B_df= data[data["concept:name"].isin( supplier_B)]
 
+combined = data[data["concept:name"].isin( Manufacturer+supplier_B)]
 manufacurer_df = manufacurer_df[manufacurer_df['case:concept:name'].isin( supplier_B_df['case:concept:name'])]
-
-
-
+print(manufacurer_df['case:concept:name'].unique())
+supplier_B_df = supplier_B_df[supplier_B_df['case:concept:name'].isin( manufacurer_df['case:concept:name'])]
+print(supplier_B_df['case:concept:name'].unique())
 
 
 xes_exporter.export_log(manufacurer_df, "manufacurer.xes")
 xes_exporter.export_log(supplier_B_df, "supplier_B.xes")
+xes_exporter.export_log(combined, "combined_log.xes")
+
 
 log = xes_import_factory.apply("manufacurer.xes")
 
