@@ -57,7 +57,7 @@ title.pack()
 
 #making buttons (docked to root) the function on click is add_app
 openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images\add_file.png")
+img = tk.PhotoImage(file=r"GUI_images/add_file.png")
 openFile.config(image=img)
 openFile.pack()
 openFile.image=img
@@ -73,7 +73,7 @@ list_box.pack()
 
 #### build dfg button
 build_dfg = tk.Button(root, text="Build DFG", command = run_dfg,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images\calculate_dfg.png")
+img = tk.PhotoImage(file=r"GUI_images/calculate_dfg.png")
 # build_dfg.grid(row=0)
 build_dfg.config(image=img)
 build_dfg.pack()

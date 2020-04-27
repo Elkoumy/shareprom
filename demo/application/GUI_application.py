@@ -73,7 +73,7 @@ list_box.pack()
 
 #### build dfg button
 build_dfg = tk.Button(root, text="Build DFG", command = run_dfg,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images\calculate_dfg.png")
+img = tk.PhotoImage(file=r"GUI_images/calculate_dfg.png")
 # build_dfg.grid(row=0)
 build_dfg.config(image=img)
 build_dfg.pack()
@@ -82,7 +82,7 @@ build_dfg.image=img
 
 ### University of Tartu Logo
 tartu = tk.Label(root, text="", bg="white")
-img = tk.PhotoImage(file=r"GUI_images\tartu.png")
+img = tk.PhotoImage(file=r"GUI_images/tartu.png")
 tartu.config(image=img)
 tartu.image = img
 tartu.pack()
