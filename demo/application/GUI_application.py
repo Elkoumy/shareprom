@@ -26,6 +26,8 @@ log_dir= r"/DFG_log/DFG.out"
 no_of_chunks = 1
 event_a = 9
 event_b = 3
+partyB_event_names={'"order intermediate B"': '001000000000', '"produce intermediate B"': '010000000000', '"Transport intermediate B"': '100000000000'}
+event_names={}
 
 def add_xes():
     #opening a browse file dialog
@@ -60,7 +62,9 @@ def run_dfg():
     #
     out_dir = r"DFG_log/DFG.log"
     freq, time = convert_DFG_to_matrix(out_dir)
-    dfg = convert_DFG_to_counter(time)
+    for key in partyB_event_names.keys():
+        event_names[key] = partyB_event_names[key]
+    dfg = convert_DFG_to_counter(time, event_names)
     draw_DFG(dfg)
 
     """ view the dfg diagram on the canvas"""

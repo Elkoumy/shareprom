@@ -29,12 +29,14 @@ def convert_DFG_to_matrix(out_dir):
     return freq,time
 
 
-def convert_DFG_to_counter(df):
+def convert_DFG_to_counter(df,col_names):
     dfg ={}
+    df.columns=col_names
     for col in df.columns:
         for ix,val in enumerate(df[col]):
             if int(val) !=0:
-                dfg[(str(col),str(df.index.values[ix]))]=float(val)
+                # dfg[(str(col),str(df.index.values[ix]))]=float(val)
+                dfg[(str(col), str(df.columns[ix]))] = float(val)
                 # print("("+str(col) +","+str(df.index.values[ix])+") ="+str(val))
 
     return Counter(dfg)
