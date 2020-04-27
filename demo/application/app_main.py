@@ -19,16 +19,16 @@ output_dir=r"data/"
 
 no_of_chunks=1
 event_a=9
-event_b=22
+event_b=3
+total_activities= event_a+event_b
 
 data, activities_count, event_per_case=read_xes(xes_file)
 #event_per_case is going to be used when uploading the file to sharemind
 
 #encoding start =0 for party A
-event_names=preprocessing(data,activities_count, 0, dataset_name, "party_A", output_dir)
-print(event_names)
-#
-# upload(output_dir,dataset_name)
+event_names=preprocessing(data,total_activities, 0, dataset_name, "party_A", output_dir)
+
+upload(output_dir,dataset_name)
 # submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
 # parse_results(log_dir)
 
