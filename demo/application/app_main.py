@@ -28,13 +28,13 @@ data, activities_count, event_per_case=read_xes(xes_file)
 #encoding start =0 for party A
 event_names=preprocessing(data,total_activities, 0, dataset_name, "party_A", output_dir)
 
-upload(output_dir,dataset_name)
-# submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
-# parse_results(log_dir)
+upload(output_dir,dataset_name,"party_A")
+submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
+parse_results(log_dir)
 
 
-# out_dir = r"DFG_log/DFG.out"
-# freq, time= convert_DFG_to_matrix(out_dir)
+out_dir = r"DFG_log/DFG.out"
+freq, time= convert_DFG_to_matrix(out_dir)
 
 ''' apply differential privacy here  '''
 
