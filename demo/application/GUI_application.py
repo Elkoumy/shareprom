@@ -57,7 +57,7 @@ title.pack()
 
 #making buttons (docked to root) the function on click is add_app
 openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images\add_file.png")
+img = tk.PhotoImage(file=r"GUI_images/add_file.png")
 openFile.config(image=img)
 openFile.pack()
 openFile.image=img

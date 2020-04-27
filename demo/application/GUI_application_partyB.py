@@ -82,7 +82,7 @@ build_dfg.image=img
 
 ### University of Tartu Logo
 tartu = tk.Label(root, text="", bg="white")
-img = tk.PhotoImage(file=r"GUI_images\tartu.png")
+img = tk.PhotoImage(file=r"GUI_images/tartu.png")
 tartu.config(image=img)
 tartu.image = img
 tartu.pack()
