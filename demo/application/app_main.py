@@ -29,6 +29,7 @@ data, activities_count, event_per_case=read_xes(xes_file)
 event_names=preprocessing(data,total_activities, 0, dataset_name, "party_A", output_dir)
 
 upload(output_dir,dataset_name,"party_A")
+log_dir=r"DFG_log/DFG.out"
 submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
 
 parse_results(log_dir)
