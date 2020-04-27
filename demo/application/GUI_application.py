@@ -27,7 +27,7 @@ no_of_chunks = 1
 event_a = 9
 event_b = 3
 partyB_event_names={'"order intermediate B"': '001000000000', '"produce intermediate B"': '010000000000', '"Transport intermediate B"': '100000000000'}
-event_names={}
+event_names={'"order"': '000000000001', '"process order"': '000000000010', '"calculate demand intermediate B"': '000000000100', '"arrival intermediate B"': '000000001000', '"quick test intermediate B"': '000000010000', '"Production"': '000000100000', '"final test"': '000001000000', '"prepare delivery"': '000010000000', '"delivery of product"': '000100000000'}
 
 def add_xes():
     #opening a browse file dialog
@@ -46,7 +46,7 @@ def add_xes():
     # event_per_case is going to be used when uploading the file to sharemind
 
     # encoding start =0 for party A
-    event_names = preprocessing(data, total_activities, 0, dataset_name, "party_A", output_dir)
+    event_names_temp = preprocessing(data, total_activities, 0, dataset_name, "party_A", output_dir)
 
     upload(output_dir, dataset_name, "party_A")
 
@@ -54,8 +54,15 @@ def add_xes():
 def run_dfg():
     #call the functions here
 
+    partyB_event_names = {'"order intermediate B"': '001000000000', '"produce intermediate B"': '010000000000',
+                          '"Transport intermediate B"': '100000000000'}
+    event_names = {'"order"': '000000000001', '"process order"': '000000000010',
+                   '"calculate demand intermediate B"': '000000000100', '"arrival intermediate B"': '000000001000',
+                   '"quick test intermediate B"': '000000010000', '"Production"': '000000100000',
+                   '"final test"': '000001000000', '"prepare delivery"': '000010000000',
+                   '"delivery of product"': '000100000000'}
     log_dir = r"DFG_log/DFG.out"
-    submit(no_of_chunks, dataset_name, event_a, event_b, log_dir)
+    # submit(no_of_chunks, dataset_name, event_a, event_b, log_dir)
 
     parse_results(log_dir)
 
