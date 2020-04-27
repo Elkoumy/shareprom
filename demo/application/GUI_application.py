@@ -64,7 +64,7 @@ def run_dfg():
     draw_DFG(dfg)
 
     """ view the dfg diagram on the canvas"""
-    drawing = svg2rlg("manufacurer.svg")
+    drawing = svg2rlg("dfg.svg")
     renderPM.drawToFile(drawing, "dfg.png", fmt="PNG")
     img = Image.open('dfg.png')
 
