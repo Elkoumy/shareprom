@@ -35,7 +35,7 @@ submit(no_of_chunks, dataset_name, event_a, event_b ,log_dir)
 parse_results(log_dir)
 
 #
-out_dir = r"DFG_log/DFG.out"
+out_dir = r"DFG_log/DFG.log"
 freq, time= convert_DFG_to_matrix(out_dir)
 
 ''' apply differential privacy here  '''
