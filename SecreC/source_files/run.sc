@@ -17,13 +17,13 @@ void main() {
 
 
     string ds = "DS1"; // Data source name
-    string tbl = "activities_10"; // Table name
+    string tbl = "demo"; // Table name
     string tbl_party_A=tbl+"_party_A";
     string tbl_party_B=tbl+"_party_B";
 
-   uint ini_no_of_chunks= 20;
-   pd_shared3p uint event_per_case_A = 23;
-   pd_shared3p uint event_per_case_B = 22;
+   uint ini_no_of_chunks= 1;
+   pd_shared3p uint event_per_case_A = 9;
+   pd_shared3p uint event_per_case_B = 3;
 
 
    uint32 section = newSectionType("full_run_"+tbl+"_"+tostring(ini_no_of_chunks));
@@ -104,7 +104,7 @@ data_chunk[:no_of_chunks,:chunk_size_A,i+2] =_Reshape((uint64)temp[0:bound_A],no
 }
 
 
-
+print(size(bound_A));
 //********************** in case of size is not divisable of chunks
 if (no_of_chunks != ini_no_of_chunks)
 {data_chunk[no_of_chunks,:size_A-bound_A,0] =(uint64) case_A[bound_A:];
