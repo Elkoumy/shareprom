@@ -1,0 +1,38 @@
+<table name="demo_party_A" dataSource="DS1" 
+ handler="import-script.sb"> 
+ <column key="true" type="primitive">
+    <source name="case" type="uint32"/>
+    <target name="case" type="uint32"/>
+  </column>
+  <column key="false" type="primitive">
+<source name="completeTime" type="uint32"/>
+    <target name="completeTime" type="uint32"/>
+  </column> <column key="false" type="primitive">
+    <source name="b0" type="uint8"/>
+    <target name="b0" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b1" type="uint8"/>
+    <target name="b1" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b2" type="uint8"/>
+    <target name="b2" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b3" type="uint8"/>
+    <target name="b3" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b4" type="uint8"/>
+    <target name="b4" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b5" type="uint8"/>
+    <target name="b5" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b6" type="uint8"/>
+    <target name="b6" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b7" type="uint8"/>
+    <target name="b7" type="uint8"/>
+  </column> <column key="false" type="primitive">
+    <source name="b8" type="uint8"/>
+    <target name="b8" type="uint8"/>
+  </column>
+</table>

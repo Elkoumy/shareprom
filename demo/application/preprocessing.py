@@ -52,7 +52,7 @@ def read_xes(xes_file):
 
     data['time:timestamp'] = data['time:timestamp'] - min(data['time:timestamp'])
     # moving event to the last column
-    data = data[['case:concept:name','time:timestamp', 'lifecycle:transition']]
+    data = data[['case:concept:name','time:timestamp', 'concept:name']]
 
     #renaming columns
     data.columns=['case','completeTime','event']
@@ -84,7 +84,7 @@ def endcoding_events(data,activities_count, encoding_start):
         event_idx[event]= ini_binary
         ini_binary= ini_binary[1:]+"0"
 
-    bits_column_names=["b"+str(i) for i in range(0,len(unique_events))]
+    bits_column_names=["b"+str(i) for i in range(0,activities_count)]
     data.event=data.event.apply(lambda x: event_idx[x])
     temp= data.event.apply(to_list)
     temp= pd.DataFrame.from_dict(dict(zip(temp.index, temp.values))).T
@@ -143,14 +143,14 @@ def building_sharemind_model(bits_size, dataset_name, party):
 
 # preprocessing
 
-def preprocessing(data,activities_count, encoding_start, dataset_name, party, output_dir):
-    encoded_data, event_idx_map = endcoding_events(data, activities_count, encoding_start)
-    padded_data = padding_log(encoded_data, activities_count)
+def preprocessing(data,total_activities_count, encoding_start, dataset_name, party, output_dir):
+    encoded_data, event_idx_map = endcoding_events(data, total_activities_count, encoding_start)
+    padded_data = padding_log(encoded_data, total_activities_count)
 
     padded_data = padded_data.drop(['event'], axis=1)
     padded_data.to_csv(os.path.join(output_dir, party+"_" + dataset_name + "_MPC.csv"), index=0)
 
-    model = building_sharemind_model(activities_count, dataset_name, "party_A")
+    model = building_sharemind_model(total_activities_count, dataset_name, party)
     text_file = open(os.path.join(output_dir,dataset_name+ "_model_"+party+".xml"), "w")
     text_file.write(model)
     text_file.close()

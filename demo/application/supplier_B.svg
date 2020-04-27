@@ -8,29 +8,29 @@
  viewBox="0.00 0.00 175.00 218.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 214)">
 <title>%3</title>
-<!-- &#45;6131277252497360317 -->
-<g id="node1" class="node"><title>&#45;6131277252497360317</title>
+<!-- &#45;1867710835946041710 -->
+<g id="node1" class="node"><title>&#45;1867710835946041710</title>
 <polygon fill="none" stroke="black" points="167,-36 0,-36 0,-0 167,-0 167,-36"/>
 <text text-anchor="middle" x="83.5" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">&quot;Transport intermediate B&quot;</text>
 </g>
-<!-- 5052790048069924395 -->
-<g id="node2" class="node"><title>5052790048069924395</title>
+<!-- 2602718344587714279 -->
+<g id="node2" class="node"><title>2602718344587714279</title>
 <polygon fill="none" stroke="black" points="154.5,-210 12.5,-210 12.5,-174 154.5,-174 154.5,-210"/>
 <text text-anchor="middle" x="83.5" y="-188.3" font-family="Times New Roman,serif" font-size="14.00">&quot;order intermediate B&quot;</text>
 </g>
-<!-- 5089318311344533697 -->
-<g id="node3" class="node"><title>5089318311344533697</title>
+<!-- 4568176643763961321 -->
+<g id="node3" class="node"><title>4568176643763961321</title>
 <polygon fill="none" stroke="black" points="162.5,-123 4.5,-123 4.5,-87 162.5,-87 162.5,-123"/>
 <text text-anchor="middle" x="83.5" y="-101.3" font-family="Times New Roman,serif" font-size="14.00">&quot;produce intermediate B&quot;</text>
 </g>
-<!-- 5052790048069924395&#45;&gt;5089318311344533697 -->
-<g id="edge1" class="edge"><title>5052790048069924395&#45;&gt;5089318311344533697</title>
+<!-- 2602718344587714279&#45;&gt;4568176643763961321 -->
+<g id="edge1" class="edge"><title>2602718344587714279&#45;&gt;4568176643763961321</title>
 <path fill="none" stroke="black" d="M83.5,-173.799C83.5,-162.163 83.5,-146.548 83.5,-133.237"/>
 <polygon fill="black" stroke="black" points="87.0001,-133.175 83.5,-123.175 80.0001,-133.175 87.0001,-133.175"/>
 <text text-anchor="middle" x="90" y="-144.8" font-family="Times New Roman,serif" font-size="14.00">5s</text>
 </g>
-<!-- 5089318311344533697&#45;&gt;&#45;6131277252497360317 -->
-<g id="edge2" class="edge"><title>5089318311344533697&#45;&gt;&#45;6131277252497360317</title>
+<!-- 4568176643763961321&#45;&gt;&#45;1867710835946041710 -->
+<g id="edge2" class="edge"><title>4568176643763961321&#45;&gt;&#45;1867710835946041710</title>
 <path fill="none" stroke="black" d="M83.5,-86.799C83.5,-75.1626 83.5,-59.5479 83.5,-46.2368"/>
 <polygon fill="black" stroke="black" points="87.0001,-46.1754 83.5,-36.1754 80.0001,-46.1755 87.0001,-46.1754"/>
 <text text-anchor="middle" x="90" y="-57.8" font-family="Times New Roman,serif" font-size="14.00">5s</text>
