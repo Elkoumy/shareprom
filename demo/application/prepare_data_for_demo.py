@@ -5,6 +5,8 @@ from pm4py.objects.log.importer.csv import factory as csv_importer
 from pm4py.objects.log.exporter.xes import factory as xes_exporter
 from pm4py.algo.discovery.dfg import factory as dfg_factory
 from pm4py.visualization.dfg import factory as dfg_vis_factory
+import pandas as pd
+
 
 Manufacturer=['"order"','"delivery of product"', '"process order"', '"calculate demand intermediate B"','"arrival intermediate B"','"quick test intermediate B"','"Production"','"final test"','"prepare delivery"' ]
 
@@ -20,8 +22,11 @@ manufacurer_df = data[data["concept:name"].isin( Manufacturer)]
 
 supplier_B_df= data[data["concept:name"].isin( supplier_B)]
 
+manufacurer_df = manufacurer_df[manufacurer_df['case:concept:name'].isin( supplier_B_df['case:concept:name'])]
 
-# event_stream = csv_importer.import_event_stream('manufacurer.csv')
+
+
+
 
 xes_exporter.export_log(manufacurer_df, "manufacurer.xes")
 xes_exporter.export_log(supplier_B_df, "supplier_B.xes")
