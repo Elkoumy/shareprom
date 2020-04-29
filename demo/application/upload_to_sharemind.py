@@ -3,7 +3,7 @@ def upload(dir, dataset_name, party):
     print("Uploading to shareind")
     csv_name=dir+"/"+party+"_"+dataset_name+"_MPC.csv"
     model_name=dir+"/"+dataset_name+"_model_"+party+".xml"
-    command =r"printf y\n | sharemind-csv-importer --mode overwrite --csv " +csv_name+ " --model "+model_name+" --separator c"
+    command =r"printf y\n | sudo sharemind-csv-importer --mode overwrite --csv " +csv_name+ " --model "+model_name+" --separator c"
     print(command)
     os.system(command)
 
