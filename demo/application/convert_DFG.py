@@ -17,17 +17,20 @@ def convert_DFG_to_matrix(out_dir):
     time=[]
     for ix, i in enumerate(f):
         if ix%2==0:
-            freq.append(i)
+            freq.append(int(i))
         else:
-            time.append(i)
+            time.append(int(i))
 
+    return freq,time
+
+def convert_DFG_to_dataframe(out_dir,freq,time):
     event_count =int(sqrt(len(freq)))
     freq=pd.DataFrame( np.array(freq).reshape(event_count, event_count))
     time=pd.DataFrame(  np.array(time).reshape(event_count, event_count))
     freq.to_csv(r"DFG_log/freq.out",index=0,header=0)
     time.to_csv(r"DFG_log/time.out", index=0, header=0)
-    return freq,time
 
+    return freq,time
 
 def convert_DFG_to_counter(df,col_names):
     dfg ={}
@@ -40,3 +43,14 @@ def convert_DFG_to_counter(df,col_names):
                 # print("("+str(col) +","+str(df.index.values[ix])+") ="+str(val))
 
     return Counter(dfg)
+
+def convert_conter_to_list(counter, col_names):
+    res=[]
+    c = dict(counter)
+    for i in col_names:
+        for j in col_names:
+            if (i,j) in c.keys():
+                res.append(c[(i,j)])
+            else:
+                res.append(0)
+    return res

@@ -9,8 +9,9 @@ from preprocessing import read_xes, endcoding_events, padding_log, building_shar
 from upload_to_sharemind import upload
 from submit_job_to_sharemind import submit
 from parse_results import parse_results
-from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter
+from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter,convert_DFG_to_dataframe
 from draw_DFG import draw_DFG
+from add_differential_privacy_dfg import  add_noise_to_dfg
 
 
 root = tk.Tk( ) # the object that contains everything
