@@ -138,7 +138,7 @@ title.pack()
 
 '''open file Button'''
 openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 170)
+img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 160)
 openFile.config(image=img)
 openFile.pack(padx=5, pady=10, side=tk.TOP)
 openFile.image=img
