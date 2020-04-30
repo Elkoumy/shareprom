@@ -21,7 +21,7 @@ root = tk.Tk( ) # the object that contains everything
 # canvas = tk.Canvas(root, height= 700, width= 700, bg="#263D42")
 root.config( bg="white")
 root.title("Shareprom")
-ico = tk.PhotoImage(file=r"GUI_images/phoenix_icon.ico")
+ico = tk.PhotoImage(file=r"GUI_images/phoenix_logo.png")
 root.tk.call('wm', 'iconphoto', root._w, ico)
 
 file=[]
