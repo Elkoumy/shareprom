@@ -104,13 +104,13 @@ title.pack()
 
 '''open file Button'''
 openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 150)
+img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 170)
 openFile.config(image=img)
 openFile.pack(padx=5, pady=10, side=tk.TOP)
 openFile.image=img
 
 '''View Model Button'''
-viewModel = tk.Button(root, text = 'Click Me !',    command=view_model,  bg="white",height = 40, width = 150)
+viewModel = tk.Button(root, text = 'Click Me !',    command=view_model,  bg="white",height = 40, width = 170)
 img = tk.PhotoImage(file=r"GUI_images/view_model.png")
 viewModel.config(image=img)
 viewModel.pack()
@@ -119,7 +119,7 @@ viewModel.image=img
 
 
 ### list view for listing the files
-list_label = tk.Label(root, text="Uploaded File", font='Helvetica 10 bold', bg="white")
+list_label = tk.Label(root, text="Imported Files", font='Helvetica 10 bold', bg="white")
 list_box = tk.Listbox(root,width=40, height=10)
 list_box.insert(1,"No Files Selected. Please add a file to be processed!")
 list_label.pack()
