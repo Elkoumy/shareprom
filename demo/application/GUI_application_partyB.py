@@ -21,6 +21,7 @@ root = tk.Tk( ) # the object that contains everything
 # canvas = tk.Canvas(root, height= 700, width= 700, bg="#263D42")
 root.config( bg="white")
 root.title("Shareprom")
+root.iconbitmap(r"GUI_images/phoenix_icon.ico")
 
 file=[]
 
@@ -56,7 +57,7 @@ def run_dfg():
 
     win = tk.Toplevel()
     win.wm_title("Window")
-
+    win.iconbitmap(r"GUI_images/phoenix_icon.ico")
     l = tk.Label(win, text="")
     img = tk.PhotoImage(file="dfg.png")
     l.config(image=img)
@@ -80,7 +81,7 @@ def view_model():
 
     win = tk.Toplevel()
     win.wm_title("Viewing Model of this Party Only")
-
+    win.iconbitmap(r"GUI_images/phoenix_icon.ico")
     l = tk.Label(win, text="")
     img = tk.PhotoImage(file="party_model.png")
     l.config(image=img)
