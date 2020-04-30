@@ -94,7 +94,7 @@ def run_dfg():
 
     win = tk.Toplevel()
     win.wm_title("Window")
-    win.wm_iconbitmap(r"GUI_images/phoenix_icon.ico")
+    win.tk.call('wm', 'iconphoto', root._w, ico)
     l = tk.Label(win, text="")
     img = tk.PhotoImage(file="dfg.png")
     l.config(image=img)
@@ -117,7 +117,7 @@ def view_model():
 
     win = tk.Toplevel()
     win.wm_title("Viewing Model of this Party Only")
-    win.wm_iconbitmap(r"GUI_images/phoenix_icon.ico")
+    win.tk.call('wm', 'iconphoto', root._w, ico)
     l = tk.Label(win, text="")
     img = tk.PhotoImage(file="party_model.png")
     l.config(image=img)
