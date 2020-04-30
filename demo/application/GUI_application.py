@@ -134,11 +134,29 @@ build_dfg.pack()
 build_dfg.image=img
 
 
+
 ### University of Tartu Logo
 tartu = tk.Label(root, text="", bg="white")
 img = tk.PhotoImage(file=r"GUI_images/tartu.png")
+img = img.subsample(2)
 tartu.config(image=img)
 tartu.image = img
-tartu.pack()
+tartu.pack(padx=5, pady=10, side=tk.LEFT)
+
+### Huberlin Logo
+huberlin = tk.Label(root, text="", bg="white")
+img = tk.PhotoImage(file=r"GUI_images/Huberlin-logo.png")
+img = img.subsample(6)
+huberlin.config(image=img)
+huberlin.image = img
+huberlin.pack(padx=5, pady=20, side=tk.LEFT)
+
+### Cyber Logo
+cyber = tk.Label(root, text="", bg="white")
+img = tk.PhotoImage(file=r"GUI_images/cybernetica.png")
+img = img.subsample(2)
+cyber.config(image=img)
+cyber.image = img
+cyber.pack(padx=5, pady=30, side=tk.LEFT)
 #start the application GUI
 root.mainloop()
