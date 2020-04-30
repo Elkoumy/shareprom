@@ -12,14 +12,20 @@ from parse_results import parse_results
 from convert_DFG import convert_DFG_to_matrix,convert_DFG_to_counter,convert_DFG_to_dataframe
 from draw_DFG import draw_DFG
 from add_differential_privacy_dfg import  add_noise_to_dfg
-
+from pm4py.objects.log.importer.xes import factory as xes_import_factory
+from pm4py.visualization.dfg import factory as dfg_vis_factory
+from pm4py.algo.discovery.dfg import factory as dfg_factory
 
 root = tk.Tk( ) # the object that contains everything
 # we add a canvas to put components on it and control the size
 # canvas = tk.Canvas(root, height= 700, width= 700, bg="#263D42")
 root.config( bg="white")
+root.title("Shareprom")
+
 
 file=[]
+
+
 dataset_name= "demo"
 input_dir=r"data/"
 output_dir=r"data/"
@@ -96,6 +102,27 @@ def run_dfg():
 
     return
 
+def view_model():
+    file=list_box.get(list_box.curselection())
+
+    log = xes_import_factory.apply(file)
+    parameters = {"format": "svg"}
+    dfg = dfg_factory.apply(log)
+    gviz = dfg_vis_factory.apply(dfg,log,  variant="performance", parameters=parameters)
+    dfg_vis_factory.save(gviz, "party_model.svg")
+
+    drawing = svg2rlg("party_model.svg")
+    renderPM.drawToFile(drawing, "party_model.png", fmt="PNG")
+
+    win = tk.Toplevel()
+    win.wm_title("Viewing Model of this Party Only")
+
+    l = tk.Label(win, text="")
+    img = tk.PhotoImage(file="party_model.png")
+    l.config(image=img)
+    l.image = img
+    l.grid(row=0, column=0)
+    return
 
 
 
@@ -105,28 +132,37 @@ def run_dfg():
 
 
 #the shareprom title
-title= tk.Label(root, text="Shareprom-  a Secure Multi-party computation system for Inter-organizational Process Mining", font='Helvetica 14 bold', bg="white")
+title= tk.Label(root, text="Shareprom-  a Secure Multi-party computation system\n for Inter-organizational Process Mining", font='Helvetica 14 bold', bg="white")
 title.pack()
 
-
-#making buttons (docked to root) the function on click is add_app
+'''open file Button'''
 openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images/add_file.png")
+img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 150)
 openFile.config(image=img)
-openFile.pack()
+openFile.pack(padx=5, pady=10, side=tk.TOP)
 openFile.image=img
+
+'''View Model Button'''
+viewModel = tk.Button(root, text = 'Click Me !',    command=view_model,  bg="white",height = 40, width = 150)
+img = tk.PhotoImage(file=r"GUI_images/view_model.png")
+viewModel.config(image=img)
+viewModel.pack()
+viewModel.image=img
+
 
 
 ### list view for listing the files
 list_label = tk.Label(root, text="Uploaded File", font='Helvetica 10 bold', bg="white")
-list_box = tk.Listbox(root,width=50, height=20)
+list_box = tk.Listbox(root,width=40, height=10 )
 list_box.insert(1,"No Files Selected. Please add a file to be processed!")
 list_label.pack()
 list_box.pack()
 
 
+
+
 #### build dfg button
-build_dfg = tk.Button(root, text="Build DFG", command = run_dfg,  bg="white")
+build_dfg = tk.Button(root, text="Build DFG", command = run_dfg,  bg="white",height = 40, width = 170)
 img = tk.PhotoImage(file=r"GUI_images/calculate_dfg.png")
 # build_dfg.grid(row=0)
 build_dfg.config(image=img)
