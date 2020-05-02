@@ -37,26 +37,6 @@ event_b = 3
 partyB_event_names={'"order intermediate B"': '001000000000', '"produce intermediate B"': '010000000000', '"Transport intermediate B"': '100000000000'}
 event_names={'"order"': '000000000001', '"process order"': '000000000010', '"calculate demand intermediate B"': '000000000100', '"arrival intermediate B"': '000000001000', '"quick test intermediate B"': '000000010000', '"Production"': '000000100000', '"final test"': '000001000000', '"prepare delivery"': '000010000000', '"delivery of product"': '000100000000'}
 
-def add_xes():
-    #opening a browse file dialog
-    filename= filedialog.askopenfilename(initialdir=r"DFG_log", title="Select File",
-                                         filetypes=(("XES","*.xes"), ("all files", "*.*")))
-    file.append(filename)
-
-    if list_box.get(0)=="No Files Selected. Please add a file to be processed!":
-        list_box.delete(0)
-    list_box.insert(len(file), filename)
-
-
-    total_activities = event_a + event_b
-
-    data, activities_count, event_per_case = read_xes(filename)
-    # event_per_case is going to be used when uploading the file to sharemind
-
-    # encoding start =0 for party A
-    event_names_temp = preprocessing(data, total_activities, 0, dataset_name, "party_A", output_dir)
-
-    upload(output_dir, dataset_name, "party_A")
 
 
 def run_dfg():
@@ -103,29 +83,6 @@ def run_dfg():
 
     return
 
-def view_model():
-    file=list_box.get(list_box.curselection())
-
-    log = xes_import_factory.apply(file)
-    parameters = {"format": "svg"}
-    dfg = dfg_factory.apply(log)
-    gviz = dfg_vis_factory.apply(dfg,log,  variant="performance", parameters=parameters)
-    dfg_vis_factory.save(gviz, "party_model.svg")
-
-    drawing = svg2rlg("party_model.svg")
-    renderPM.drawToFile(drawing, "party_model.png", fmt="PNG")
-
-    win = tk.Toplevel()
-    win.wm_title("Viewing Model of this Party Only")
-    win.tk.call('wm', 'iconphoto', root._w, ico)
-    l = tk.Label(win, text="")
-    img = tk.PhotoImage(file="party_model.png")
-    l.config(image=img)
-    l.image = img
-    l.grid(row=0, column=0)
-    return
-
-
 
 #to add a frame inside the canvas
 #frame= tk.Frame(root, bg="white")
@@ -136,28 +93,28 @@ def view_model():
 title= tk.Label(root, text="Shareprom-  a Secure Multi-party computation system\n for Inter-organizational Process Mining", font='Helvetica 14 bold', bg="white")
 title.pack()
 
-'''open file Button'''
-openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
-img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 150)
-openFile.config(image=img)
-openFile.pack(padx=5, pady=10, side=tk.TOP)
-openFile.image=img
+# '''open file Button'''
+# openFile = tk.Button(root, text = 'Click Me !',    command=add_xes,  bg="white")
+# img = tk.PhotoImage(file=r"GUI_images/add_file.png",height = 40, width = 150)
+# openFile.config(image=img)
+# openFile.pack(padx=5, pady=10, side=tk.TOP)
+# openFile.image=img
 
-'''View Model Button'''
-viewModel = tk.Button(root, text = 'Click Me !',    command=view_model,  bg="white",height = 40, width = 170)
-img = tk.PhotoImage(file=r"GUI_images/view_model.png")
-viewModel.config(image=img)
-viewModel.pack()
-viewModel.image=img
+# '''View Model Button'''
+# viewModel = tk.Button(root, text = 'Click Me !',    command=view_model,  bg="white",height = 40, width = 170)
+# img = tk.PhotoImage(file=r"GUI_images/view_model.png")
+# viewModel.config(image=img)
+# viewModel.pack()
+# viewModel.image=img
 
 
 
-### list view for listing the files
-list_label = tk.Label(root, text="Imported Files", font='Helvetica 10 bold', bg="white")
-list_box = tk.Listbox(root,width=40, height=10 )
-list_box.insert(1,"No Files Selected. Please add a file to be processed!")
-list_label.pack()
-list_box.pack()
+# ### list view for listing the files
+# list_label = tk.Label(root, text="Imported Files", font='Helvetica 10 bold', bg="white")
+# list_box = tk.Listbox(root,width=40, height=10 )
+# list_box.insert(1,"No Files Selected. Please add a file to be processed!")
+# list_label.pack()
+# list_box.pack()
 
 
 
