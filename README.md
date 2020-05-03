@@ -5,14 +5,14 @@ This repository contains scripts for the implementation of Shareprom and for per
 
 To cite the project, you can use the following form:
 ```
-@misc{elkoumy2019secure,
-    title={Secure Multi-Party Computation for Inter-Organizational Process Mining},
-    author={Gamal Elkoumy and Stephan A. Fahrenkrog-Petersen and Marlon Dumas and Peeter Laud and Alisa Pankova and Matthias Weildich},
-    year={2019},
-    eprint={1912.01855},
-    archivePrefix={arXiv},
-    primaryClass={cs.CR}
+@inproceedings{elkoumy2020,
+	author = {Elkoumy, Gamal and Fahrenkrog-Petersen, Stephan A. and Dumas, Marlon and Laud, Peeter and Pankova, Alisa and Weidlich,Matthias},
+	title = {Secure Multi-Party Computation for Inter-Organizational Process Mining},
+	booktitle = {Proceedings of the {BPMDS} 2020 and {EMMSAD} 2020 Working Conferences},
+	publisher = {Springer},
+	year      = {2020}
 }
+
 ```
 ## System Requirement
 The implementation of the system is in SecreC [2], a C++ like language that runs on top of Sharemind. The following are the required environmental setup for running the system:
