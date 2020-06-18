@@ -1,19 +1,9 @@
 # ShareProm
 This repository contains the source code of ShareProm, a Secure Multi-party computation system for Inter-organizational Process Mining. The system is still under development. A research publication is pending for the system by [Gamal Elkoumy](https://scholar.google.com/citations?user=Y1ze0vQAAAAJ&hl=en&oi=ao), [Stephan A. Fahrenkrog-Peterson](https://scholar.google.com/citations?user=Le-1B90AAAAJ&hl=en&oi=sra), [Marlon Dumas](https://scholar.google.com/citations?user=9lIttRkAAAAJ&hl=en&oi=ao) , [Peeter Laud](https://scholar.google.com/citations?user=3hc5DR8AAAAJ&hl=en&oi=ao), [Alisa Pankova](https://scholar.google.com/citations?user=KG2eH5sAAAAJ&hl=en&oi=ao) and [Matthias Weldich](https://scholar.google.com/citations?user=P_9a7I0AAAAJ&hl=en).
 
-This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. The system architecture and evaluation experiments are presented in the [paper](https://arxiv.org/abs/1912.01855). A demonstration video of the tool could be found from [here](https://youtu.be/uz2mrYz-y-w).
+This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. The system architecture and evaluation experiments are presented in [3](https://link.springer.com/chapter/10.1007/978-3-030-49418-6_11). A demonstration video of the tool could be found from [here](https://youtu.be/uz2mrYz-y-w).
 
-To cite the project, you can use the following form:
-```
-@inproceedings{elkoumy2020,
-	author = {Elkoumy, Gamal and Fahrenkrog-Petersen, Stephan A. and Dumas, Marlon and Laud, Peeter and Pankova, Alisa and Weidlich,Matthias},
-	title = {Secure Multi-Party Computation for Inter-Organizational Process Mining},
-	booktitle = {Proceedings of the {BPMDS} 2020 and {EMMSAD} 2020 Working Conferences},
-	publisher = {Springer},
-	year      = {2020}
-}
 
-```
 ## System Requirement
 The implementation of the system is in SecreC [2], a C++ like language that runs on top of Sharemind. The following are the required environmental setup for running the system:
 * The installation of sharemind servers on 3 servers and the key authentication between the servers so they can communicate securely.
@@ -71,3 +61,4 @@ As mentioned above, to run the full system, you need to have Academic license. T
 [1] Archer, David W., et al. "From Keys to Databases—Real-World Applications of Secure Multi-Party Computation." The Computer Journal 61.12 (2018): 1749-1771.
 
 [2] Bogdanov, Dan, Peeter Laud, and Jaak Randmets. "Domain-polymorphic language for privacy-preserving applications." Proceedings of the First ACM workshop on Language support for privacy-enhancing technologies. ACM, 2013.
+[3] Elkoumy, Gamal, et al. "Secure Multi-party Computation for Inter-organizational Process Mining." Enterprise, Business-Process and Information Systems Modeling. Springer, Cham, 2020. 166-181.
