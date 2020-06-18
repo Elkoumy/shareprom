@@ -57,28 +57,34 @@ shareprom/data_and_preprocessing/
 In the current release of Shareprom, you don't need to perform the transformation. You can import the XES files using the client applications installed on both party A and party B.
 
 ## Running The System
-The system runs as a client application on top of sharemind. You can submit your job using the following command:
+* Start the 3 sharemind servers.
+* Start the sharemind service on the 3 servers using the command:
 ```
-sudo sharemind-runscript job_name.sb
+sudo sharemind-server
+```
+* Once the sharemind servers are running, you can start running the application on the 3 servers. We assume one server for party A, one server for party B, and one server for the Analysis firm.
+
+* On the 3 servers, move to the directory
+```
+cd shareprom/demo
+```
+* To run the application on party A
+```
+python ./GUI_application_partyA.py
+```
+* To run the application on party B
+```
+python ./GUI_application_partyB.py
+```
+* To run the application on the data analysis firm
+```
+python ./GUI_application_analysis_firm.py
 ```
 
-## Experiment Setup
-To be able to run the experiment, you need to make sure that profiling is enabled "Profiler=on", and install the package [nethogs](https://github.com/raboof/nethogs)
+You can use both the GUI of party A and party B to import the XES files. You can find a sample data on the same directory. The file ```manufacurer.xes``` for party A and the file ```supplier_B.xes``` for party B.
 
-To run the experiment, use the shell script file:
-```
-shareprom/SecreC_implementation/experiment/experiment.sh
-```
+To get the result, on the data analysis firm, you can use the application to view the process model after applying the differential privacy.
 
-## Running Demo on Open VM
-As mentioned above, to run the full system, you need to have Academic license. To make it easier for the reader, we prepared a demo that presents our work and could run on the Sharemind's open VM.
-
-#### Instructions to open the demo on the Open sharemind VM:
-* Get and install the virtual machine from [sharemind's website](https://sharemind.cyber.ee/)
-* Run the Virtual Machine, download our GitHub repository to your VM, and Open the QT Creator
-* You need to run the 3 computing servers on the machine. You can do that from `QT Creator > Tools > External > Sharemind SDK > start Sharemind`
-* Now, you need to open the demo file in your editor. You can do that from `QT Creator > File > Open File or Project > Redirect to the demo folder > select demo.sc`
-* To run the script, from `QT Creator > Tools > External > Sharemind SDK > Run SecreC`.
 
 ## References
 [1] Archer, David W., et al. "From Keys to Databases—Real-World Applications of Secure Multi-Party Computation." The Computer Journal 61.12 (2018): 1749-1771.
