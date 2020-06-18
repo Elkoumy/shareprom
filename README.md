@@ -10,6 +10,8 @@ The implementation of the system is in SecreC [2], a C++ like language that runs
 * Installation of sharemind client, that could be either on one of the 3 servers or a separate machine. Also, we need to share the key of the client on the 3 servers so they can trust the client applications.
 * All the importing process of the CSV files should be performed using sharemind csv-importer. The CSV importer is only available for Academic and industrial licenses and we use our Academic license.
 * The installation of linux package apt-transport-https
+* The application implementation is using python
+* Below is the required python packages.
 
 You can download a pre-installed sharemind virtual machine for free from sharemind's [website](https://sharemind.cyber.ee/).
 
@@ -22,6 +24,26 @@ And on the client's machine to enabling running the script using clients:
 ```
 sudo apt-get install sharemind-runscript
 ```
+
+### Python Packages installation
+
+Installation of pm4py library for the support of XES files.
+```
+pip install pm4py
+```
+Installation of svglib
+```
+sudo apt-get install graphviz
+```
+The installation directory should be included in the $PATH variable
+```
+pip install svglib
+```
+You can install the differential privacy library
+```
+pip install diffprivlib
+```
+
 ## Data Format
 The proposed approach assume the following:
 * The data of partyA and partyB are loaded to the servers separately, each event log is in a separate file.
@@ -32,6 +54,7 @@ Also, you can find preprocessing and data examples in python in the following di
 ```
 shareprom/data_and_preprocessing/
 ```
+In the current release of Shareprom, you don't need to perform the transformation. You can import the XES files using the client applications installed on both party A and party B.
 
 ## Running The System
 The system runs as a client application on top of sharemind. You can submit your job using the following command:
