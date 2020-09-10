@@ -3,8 +3,9 @@ This repository contains the source code of ShareProm, a Secure Multi-party comp
 
 This repository contains scripts for the implementation of Shareprom and for performing the experimental evaluation of the system. The system is implemented on top of Sharemind [1], a secure multi-party computation engine. The system architecture and evaluation experiments are presented in [[2](https://link.springer.com/chapter/10.1007/978-3-030-49418-6_11)]. A demonstration video of the tool could be found on [YouTube](https://youtu.be/uz2mrYz-y-w).
 
+<p align="center">
 [![Shareprom](https://img.youtube.com/vi/uz2mrYz-y-w/0.jpg)](https://youtu.be/uz2mrYz-y-w )
-
+</p>
 ## System Requirement
 The implementation of the system is in SecreC [3], a C++ like language that runs on top of Sharemind. The following are the required environmental setup for running the system:
 * The installation of sharemind servers on 3 servers and the key authentication between the servers so they can communicate securely.
